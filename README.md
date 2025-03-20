@@ -1,4 +1,5 @@
 # Fooder
+Google docx: https://docs.google.com/document/d/1ABWhm2OhT9I7Lvmj5ywiixzJ1Q-OoBKHlVcCEJa_Irs/edit?tab=t.0
 
 # User story
 
