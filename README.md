@@ -2,6 +2,7 @@
 
 ## Enviroment
 node.js v23.10.0
+
 npm 10.9.2
 
 ## Setup
@@ -10,6 +11,7 @@ set your app
 npx create-expo-app@latest app_name
 ```
 delete all the directory except node_modules
+
 install packages
 ```bash
 cd app_name
