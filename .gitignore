@@ -1,0 +1,17 @@
+.env
+
+# Virtual Environment
+venv/
+.env/
+food/
+
+# VS Code
+.vscode/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+.DS_Store
+Thumbs.db
