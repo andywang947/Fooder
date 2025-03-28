@@ -4,14 +4,10 @@ import google.generativeai as genai
 
 load_dotenv()
 google_api_key = os.getenv("GOOGLE_API_KEY")
-
 genai.configure(api_key=google_api_key)
 model = genai.GenerativeModel('gemini-1.5-pro')
 
-# 讀取圖片
-
 def describe_food_image(img_path):
-    img_path = 'food_photo/1.jpg'
     with open(img_path, "rb") as f:
         image_data = f.read()
 
