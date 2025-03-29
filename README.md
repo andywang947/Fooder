@@ -7,7 +7,7 @@
 ## Example
 input:
 
-<img src="https://github.com/andywang947/Fooder/blob/VLM_food_description/food_photo/3.jpg?raw=true" width="300"/>
+<img src="https://github.com/andywang947/Fooder/blob/testing-branch/food_photo/3.jpg?raw=true" width="300"/>
 
 output:
 ```
