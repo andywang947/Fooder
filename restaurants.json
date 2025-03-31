@@ -1,0 +1,160 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 24.9984807,
+        "lng": 121.5704915
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9997684302915,
+          "lng": 121.5718073302915
+        },
+        "southwest": {
+          "lat": 24.9970704697085,
+          "lng": 121.5691093697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Taiwan Player Bistro 2",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103728390737120615711\">Chun-Ming Chang</a>"
+        ],
+        "photo_reference": "AUy1YQ1xBzIXfusQYtSHleczqPdMNdfasJCMFUL6qrAQdL78jb87INfPQf44K6l4pM3BMazRuSX23RUTzfiN_0WDXkvIZU27ZiFdb8P39Pb4nFgsZrG8W0TBBuXn4tgQyvC29z2HValHWyxSQd2ZHOEIFWX59JS8KInRrBJixqF9O8c6sdCEeGxwzXRWsYDKznl5GAmaTXNdr-GNWM-J732wGQ3NwnId-ql1NdL4D-VRXRIJdSc7bup5bIy1pS0UNDFI9DBKPAixgxhd11G3Ot1S3lGpuRRUfdi0ETj17sNkiccQ8XNyZHSbr99WRKqYoIzQXszdxPTp7dMJxDTiAUwveGJVYLCB1vEcweSV8w39bWf2yA-m9ZCdHLVak4dA6BNue8ae801fHIQoIHG5HyduXc7vy5l94tdtY_15bCsgyjIbhTeq9Tjv2HYbpuUD6MuUbz5QZAU6t1eiiwnkANYg3vb3LzVA1irx_QQTd3LKroAVnVPFZnH-C9T7M6c13Ztbh99Bu0-lS-Azr4zrNj7kqlbso5Gyods9In1FABHhxC0Rjzu89fA5FpQO-zEBIiH8-UxHY6ejc9Q0cngMHn3DvqVLHekw3oZWNurD4FIuEI9n21nbphwbMY7OKbSuU6ZJ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ78KtsmiqQjQRQAFTAhWCTJk",
+    "plus_code": {
+      "compound_code": "XHXC+95 Taiwan, 台北市文山區萬芳里",
+      "global_code": "7QP3XHXC+95"
+    },
+    "price_level": 2,
+    "rating": 4.8,
+    "reference": "ChIJ78KtsmiqQjQRQAFTAhWCTJk",
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2511,
+    "vicinity": "No. 9-1, Wanfang Road, Wenshan District"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 24.99154529999999,
+        "lng": 121.5737539
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.99292498029151,
+          "lng": 121.5750904802915
+        },
+        "southwest": {
+          "lat": 24.9902270197085,
+          "lng": 121.5723925197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "捲毛蜜汁燒烤",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110452211329687281566\">Tracy</a>"
+        ],
+        "photo_reference": "AUy1YQ0LPedHiuphvSpn6LzrZc849lRAcxLrv-GCpVu0oED-AC_s_zPYbLH3ASb2nxQw6CbaAo-hEqc3EnqBrrzLX4z8qOecQKg088CYIKbLRdHhdgZ3N1dXgcr--7_aH_8-l7ByqoXkyo6M82-4zlZU0cmHY69G9ow0kS16QX9Jk3IVQtsG_4E-bCy4W1Xh_DPYtikDVTrYp1W07JWm7zhS544Yzy89K-5JZp67CWuq8g0jQDbpRE8iXfECzLUTYGDGSs2c-KrLVP0eu3dNuUUE5n-FdTctHU34bqdBLuOonsisd5NQxVTeTu4J8vvtTVhJxR6T2EWui8hoD9pDPfsi4qU7mXBK7vtJ-Pow-u_KTaBJa_LdCPsoY9J-hsiAW4B8CTxQx-LWh236LHpinSWhnMZIbVJqazJzksFRkFPlGnmPURTN3QswmBe4mKtmcjhuvKvtHau-TJUz5nAmDxe_u2QXck-FEk4CXIJhoxxsPOEC-qkeB5_zZj8iXeqs5vWnH5rDYzG_iquEpGpcrikmsCF19YRFkrkP9L_Ks0NakbCdWhNLl_CecBDmxo4AV6Cy6TZbrfBd5xY4To_9G-SH-XWf2kilCR4qhCB5THtSOkcfspua6KisQvIZG5eN6qzW",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJk8EYwGarQjQR_NMPCFNVYAU",
+    "plus_code": {
+      "compound_code": "XHRF+JG Taiwan, 台北市文山區萬興里",
+      "global_code": "7QP3XHRF+JG"
+    },
+    "rating": 4.6,
+    "reference": "ChIJk8EYwGarQjQR_NMPCFNVYAU",
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 28,
+    "vicinity": "6之1號, Section 2, Xiuming Road, Wenshan District"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 24.9913252,
+        "lng": 121.5737935
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9926731802915,
+          "lng": 121.5750870302915
+        },
+        "southwest": {
+          "lat": 24.9899752197085,
+          "lng": 121.5723890697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "三媽臭臭鍋（新光店）",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108427399635309145456\">李雨儒</a>"
+        ],
+        "photo_reference": "AUy1YQ37XuITIZh3jjm-gD1eVh72L-mUiO0rxEgJ0-KP3DWb8eiLFAnYjDjPseM_VN2Zkf2ZyeJcAI4d_5rKKm_I4uoZB5mGfDF73CTj8bEB8_u5-4iF0_S88AfOM4ddpG4_DDp-q1v69brJNkECpmqW0IGhKd7IXTDVY8qvedWqcXsSGF0SXZQd80ntEiWBSu7Ucsrrnl6WIeVAatf3jgpf5tEvLRWtJL5ytvM_EitqKiIL-FH94pl-tQBl84S4uxf8JQBBjzwOe33VOMwPdG7FjpMb4NZkjGmEElV8uo8HOEQy9zX7w6vluaWwWuGXjCjJo3qCorY6YYf6w_J-OHZksbCFIJEGWL_UiIHLkXgi-EAJE8OshPx_Hy3m3fqNa-630gFqfR4JGwNEgKAjHPyLh76EKmz6ZAfGBhKvTebMLebmV-kn0hKNlHojKrhtL7X51IjuMkSdNv6idX9p1qhfTsu6MJyOwgOOE06Lt0ayp5WTS6575XTht25V0mph7rfOmAQISyFfQmNBJUs65J4vhBeaYEuOHtcLZZvga4X2OG2K0SikEG-8goPpU3KkMHf9CUbjkXwExgwrCSMRvCFFw0knxiZIwFKMmFYsPPDqNmQwGBFaNd4our8KqXIoMJmrTjQ0cKpS",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ1woym8qrQjQRxmzeCy7vWP4",
+    "plus_code": {
+      "compound_code": "XHRF+GG Taiwan, 台北市文山區萬興里",
+      "global_code": "7QP3XHRF+GG"
+    },
+    "rating": 3.4,
+    "reference": "ChIJ1woym8qrQjQRxmzeCy7vWP4",
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 330,
+    "vicinity": "No. 117號, Section 1, Xinguang Road, Wenshan District"
+  }
+]
