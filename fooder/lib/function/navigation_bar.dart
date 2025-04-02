@@ -13,9 +13,9 @@ class BottomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomNavigationBar(
       items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
-        BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Meals"),
+        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Like"),
+        BottomNavigationBarItem(icon: Icon(Icons.add_card), label: "抽卡")
       ],
       currentIndex: selectedIndex,
       selectedItemColor: Colors.blue,

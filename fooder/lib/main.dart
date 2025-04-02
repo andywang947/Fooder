@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'pages/retro.dart';
 import 'pages/tinder.dart';
-import 'pages/roulette/home.dart';
-import 'components/navigation_bar.dart'; // Import the bottom navigation component
+import 'pages/gachaScreen.dart';
+import 'function/navigation_bar.dart'; // Import the bottom navigation component
 
 void main() {
   runApp(MyApp());
@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _pages = [
     Retro(),
     Tinder(),
-    Roulette(),
+    GachaScreen(),
   ];
 
   void _onItemTapped(int index) {

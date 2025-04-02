@@ -5,7 +5,7 @@ import 'card.dart';
 class SwipeableCardStack extends StatelessWidget {
   final List<FullScreenCard> cards = [
     FullScreenCard(
-      imagePath: "lib/assets/photos/1.jpg",
+      imagePath: "lib/assets/meal_photos/1.jpg",
       name: "Sunset Beach",
       type: "Tourist Spot",
       distance: "5 km away",
@@ -13,7 +13,7 @@ class SwipeableCardStack extends StatelessWidget {
       description: "A beautiful place to enjoy the sunset.",
     ),
     FullScreenCard(
-      imagePath: "lib/assets/photos/2.jpg",
+      imagePath: "lib/assets/meal_photos/2.jpg",
       name: "Sunset Beach",
       type: "Tourist Spot",
       distance: "5 km away",
@@ -21,7 +21,7 @@ class SwipeableCardStack extends StatelessWidget {
       description: "A beautiful place to enjoy the sunset.",
     ),
     FullScreenCard(
-      imagePath: "lib/assets/photos/3.jpg",
+      imagePath: "lib/assets/meal_photos/3.jpg",
       name: "Sunset Beach",
       type: "Tourist Spot",
       distance: "5 km away",
@@ -29,7 +29,7 @@ class SwipeableCardStack extends StatelessWidget {
       description: "A beautiful place to enjoy the sunset.",
     ),
     FullScreenCard(
-      imagePath: "lib/assets/photos/4.jpg",
+      imagePath: "lib/assets/meal_photos/4.jpg",
       name: "Sunset Beach",
       type: "Tourist Spot",
       distance: "5 km away",
