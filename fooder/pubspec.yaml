@@ -19,5 +19,6 @@ dev_dependencies:
 
 flutter:
   assets:
-    - lib/assets/photos/
+    - lib/assets/meal_photos/
+    - lib/assets/json/
   uses-material-design: true

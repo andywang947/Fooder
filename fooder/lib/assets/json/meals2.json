@@ -1,0 +1,82 @@
+[
+    {
+        "id": 4,
+        "timestamp": "2025-03-23 19:30:15",
+        "latitude": 25.0338,
+        "longitude": 121.5645,
+        "image_file": "lib/assets/meal_photos/4.jpg",
+        "type": "羹麵",
+        "description": "一碗羹麵，湯底勾芡濃稠，配料有炸物、蔬菜和米粉。炸物外表金黃酥脆，蔬菜種類包括紅蘿蔔、白菜等，米粉份量適中。湯中還添加了少許辣椒醬。",
+        "calorie_estimation": 450,
+        "calorie_level": "中",
+        "tags": [
+          "台式料理",
+          "羹類",
+          "炸物",
+          "米粉",
+          "小吃"
+        ],
+        "suggestion": "羹類食物勾芡較多，屬於精緻澱粉，建議減少攝取頻率，並搭配蔬菜水果以均衡營養。"
+      },
+      {
+        "id": 5,
+        "timestamp": "2025-03-25 17:00:15",
+        "latitude": 25.0338,
+        "longitude": 121.5645,
+        "image_file": "lib/assets/meal_photos/5.jpg",
+        "type": "油雞便當",
+        "description": "圖片中的餐點是油雞便當，主菜是油雞腿，配菜有滷蛋和燙青菜。油雞外皮油亮，顏色呈現金黃色，看起來很入味。燙青菜是高麗菜，顏色翠綠，看起來很新鮮。滷蛋顏色呈現金黃色，看起來很入味。",
+        "calorie_estimation": 650,
+        "calorie_level": "中高",
+        "tags": [
+          "台式料理",
+          "便當",
+          "油雞",
+          "滷蛋",
+          "燙青菜",
+          "高麗菜"
+        ],
+        "suggestion": "油雞的皮含有較高脂肪，建議去皮食用以減少熱量攝取，並搭配更多蔬菜以增加膳食纖維攝取。"
+      },
+      {
+        "id": 6,
+        "timestamp": "2025-03-27 19:30:15",
+        "latitude": 25.0338,
+        "longitude": 121.5645,
+        "image_file": "lib/assets/meal_photos/6.jpg",
+        "type": "義大利麵",
+        "description": "海鮮義大利麵，配料有蝦子、蛤蜊、花枝等，搭配炸薯條。",
+        "calorie_estimation": 750,
+        "calorie_level": "中高",
+        "tags": [
+          "義式料理",
+          "海鮮",
+          "義大利麵",
+          "薯條",
+          "蝦子",
+          "蛤蜊",
+          "花枝"
+        ],
+        "suggestion": "這份餐點的蛋白質含量豐富，但澱粉比例稍高，建議減少薯條的攝取，或是將部分薯條替換成蔬菜，以達到營養均衡。"
+      },
+      {
+        "id": 7,
+        "timestamp": "2025-03-28 19:30:15",
+        "latitude": 25.0338,
+        "longitude": 121.5645,
+        "image_file": "lib/assets/meal_photos/7.jpg",
+        "type": "牛肉麵",
+        "description": "一碗牛肉麵，麵條看起來是寬麵，湯汁顏色較深，上面鋪了幾塊燉牛肉，並撒上蔥花。",
+        "calorie_estimation": 600,
+        "calorie_level": "中高",
+        "tags": [
+          "台式料理",
+          "麵食",
+          "牛肉",
+          "紅燒",
+          "蔥花",
+          "寬麵"
+        ],
+        "suggestion": "紅燒牛肉麵的鈉含量普遍偏高，建議適量攝取湯汁，並搭配蔬菜水果均衡飲食，以獲得更完整的營養。"
+      }
+]

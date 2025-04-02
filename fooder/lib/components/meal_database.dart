@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'photo_list.dart'; // Import the horizontal photo list component
+import 'package:fooder/function/define_meal.dart';
+import 'meal_list.dart'; // Import the horizontal photo list component
 
 class PhotoDatabase extends StatelessWidget {
   final String title;
-  final List<String> imagePaths;
+  final List<Meal> meals;
 
-  PhotoDatabase({required this.title, required this.imagePaths});
+  PhotoDatabase({required this.title, required this.meals});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class PhotoDatabase extends StatelessWidget {
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         SizedBox(height: 10),
-        HorizontalPhotoList(imagePaths: imagePaths),
+        HorizontalPhotoList(meals: meals),
         SizedBox(height: 20),
       ],
     );

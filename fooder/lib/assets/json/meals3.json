@@ -1,0 +1,64 @@
+[
+  {
+    "id": 8,
+    "timestamp": "2025-03-30 18:30:15",
+    "latitude": 25.0338,
+    "longitude": 121.5645,
+    "image_file": "lib/assets/meal_photos/8.jpg",
+    "type": "漢堡",
+    "description": "黑麥麵包牛肉起司漢堡，搭配薯條、番茄片、洋蔥圈與酸黃瓜。漢堡肉排上鋪了起司、鳳梨片與炒蘑菇，並以竹籤固定。",
+    "calorie_estimation": 750,
+    "calorie_level": "高",
+    "tags": [
+      "美式料理",
+      "漢堡",
+      "牛肉",
+      "起司",
+      "薯條",
+      "黑麥麵包",
+      "鳳梨",
+      "蘑菇"
+    ],
+    "suggestion": "漢堡薯條屬於高熱量速食，建議減少攝取頻率，並搭配蔬菜水果一起食用，以均衡營養。如有額外添加起司或醬料，熱量會更高，需多加留意。"
+  },
+  {
+    "id": 9,
+    "timestamp": "2025-03-31 19:30:15",
+    "latitude": 25.0338,
+    "longitude": 121.5645,
+    "image_file": "lib/assets/meal_photos/9.jpg",
+    "type": "咖哩飯",
+    "description": "炸雞塊咖哩飯，配菜有白飯、綠色蔬菜，淋上咖哩醬汁。",
+    "calorie_estimation": 700,
+    "calorie_level": "中高",
+    "tags": [
+      "台式料理",
+      "咖哩飯",
+      "炸雞",
+      "蔬菜",
+      "白飯"
+    ],
+    "suggestion": "這份餐點的炸物比例偏高，建議減少炸雞塊的量，或以其他蛋白質來源取代，例如：滷雞腿或烤魚。蔬菜量略顯不足，可以增加蔬菜攝取量，讓營養更均衡。"
+  },
+  {
+    "id": 10,
+    "timestamp": "2025-03-10 19:30:15",
+    "latitude": 25.0338,
+    "longitude": 121.5645,
+    "image_file": "lib/assets/meal_photos/10.jpg",
+    "type": "提拉米蘇",
+    "description": "一份淋上可可粉的提拉米蘇，旁邊搭配一杯檸檬氣泡飲。",
+    "calorie_estimation": 450,
+    "calorie_level": "高",
+    "tags": [
+      "甜點",
+      "義式甜點",
+      "提拉米蘇",
+      "咖啡",
+      "馬斯卡彭起司",
+      "手指餅乾",
+      "可可粉"
+    ],
+    "suggestion": "提拉米蘇屬於高熱量甜點，建議淺嚐即可，並搭配無糖飲品，同時減少其他精緻糖的攝取，以維持均衡飲食。"
+  }
+]
