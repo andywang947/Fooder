@@ -33,30 +33,17 @@ def extract_place_details(input_json_string):
         else:
             extracted_item["weekday_text"] = []
         
-        # 處理photos - 提取photo references
-        if "photos" in item:
-            extracted_item["photos"] = [
-                {
-                    "photo_reference": photo.get("photo_reference", ""),
-                    "width": photo.get("width", 0),
-                    "height": photo.get("height", 0)
-                }
-                for photo in item["photos"]
-            ]
-        else:
-            extracted_item["photos"] = []
-        
         results.append(extracted_item)
     
     return results
 
 # 主程式
 if __name__ == "__main__":
-    # input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/recommend_restaurants.json"  # 修改為您的JSON檔案名稱
-    # output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_recommend_restaurants.json"
+    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/recommend_restaurants.json"  # 修改為您的JSON檔案名稱
+    output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_recommend_restaurants.json"
     
-    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/unknown_restaurants.json"  # 修改為您的JSON檔案名稱
-    output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_unknown_restaurants.json"
+    # input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/unknown_restaurants.json"  # 修改為您的JSON檔案名稱
+    # output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_unknown_restaurants.json"
 
     try:
         # 讀取輸入JSON檔案
