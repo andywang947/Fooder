@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fooder/function/define_restaurant.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
 import 'card.dart';
+import 'package:fooder/constants.dart';
 
 class SwipeableCardStack extends StatelessWidget {
   final List<Restaurant> restaurants;
@@ -14,33 +15,77 @@ class SwipeableCardStack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.secondBackgroundColor, // 整體背景色
       body: Container(
         height: MediaQuery.of(context).size.height,
         child: restaurants.isEmpty
             ? Center(
                 child: Text(
                   "目前沒有餐廳可以選擇",
-                  style: TextStyle(fontSize: 18, color: Colors.grey),
+                  style: TextStyle(
+                    fontSize: 18, 
+                    color: AppColors.textColor, // 文字顏色改為白色
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               )
             : CardSwiper(
                 cardsCount: restaurants.length,
                 numberOfCardsDisplayed: restaurants.length < 3 ? restaurants.length : 3, // 限制顯示卡片數量
-                padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                 cardBuilder: (context, index, percentThresholdX, percentThresholdY) =>
-                    FullScreenCard(restaurant: restaurants[index]),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: AppColors.secondBackgroundColor, // 卡片背景色
+                        borderRadius: BorderRadius.circular(2),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 5,
+                            offset: Offset(2, 4),
+                          ),
+                        ],
+                      ),
+                      child: FullScreenCard(restaurant: restaurants[index]),
+                    ),
                 onSwipe: (previousIndex, currentIndex, direction) {
+                  String actionText = "";
+                  Color actionColor = Colors.white;
                   if (direction == CardSwiperDirection.left) {
-                    print("Swiped Left (Dislike) for ${restaurants[previousIndex].name}");
+                    actionText = "不喜歡 👎";
+                    actionColor = Colors.red;
                   } else if (direction == CardSwiperDirection.right) {
-                    print("Swiped Right (Like) for ${restaurants[previousIndex].name}");
+                    actionText = "喜歡 ❤️";
+                    actionColor = Colors.green;
                   } else if (direction == CardSwiperDirection.top) {
-                    print("Swiped Up (More Info) for ${restaurants[previousIndex].name}");
+                    actionText = "🎉 超級喜歡 🎉";
+                    actionColor = Colors.blue;
+                  } else {
                   }
+                  
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(
+                        "$actionText: ${restaurants[previousIndex].name}",
+                        style: TextStyle(fontSize: 16, color: AppColors.linkTextColor),
+                      ),
+                      backgroundColor: actionColor,
+                      duration: Duration(milliseconds: 800),
+                    ),
+                  );
                   return true; // 確認滑動行為
                 },
                 onUndo: (previousIndex, currentIndex, direction) {
-                  print("Undo swipe from $direction for ${restaurants[currentIndex].name}");
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(
+                        "撤銷滑動: ${restaurants[currentIndex].name}",
+                        style: TextStyle(fontSize: 16, color: AppColors.textColor),
+                      ),
+                      backgroundColor: AppColors.dialogBackgroundColor,
+                      duration: Duration(milliseconds: 800),
+                    ),
+                  );
                   return true;
                 },
               ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fooder/function/define_restaurant.dart';
 import 'photo_container.dart'; // Import the PhotoContainer component
+import 'package:fooder/constants.dart';
 
 class FullScreenCard extends StatelessWidget {
   final Restaurant restaurant;
@@ -13,29 +14,30 @@ class FullScreenCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center( // 確保卡片在畫面中央
+      backgroundColor: AppColors.backgroundColor, // 設定背景顏色
+      body: Center(
         child: Card(
-          elevation: 5, // 添加陰影效果
+          color: AppColors.cardBackground, // 設定卡片背景顏色
+          elevation: 5,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12), // 讓卡片圓角更滑順
-            side: BorderSide(color: Colors.blueAccent, width: 5), // 設定外框
+            borderRadius: BorderRadius.circular(12),
           ),
           child: Container(
-            width: MediaQuery.of(context).size.width, // 控制卡片寬度
-            height: MediaQuery.of(context).size.height, // 控制卡片高度
-            padding: EdgeInsets.all(10), // 內邊距
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            padding: EdgeInsets.all(0),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start, // 讓整個 Column 內元素靠左
               children: [
-                // 圖片部分（使用PageView進行圖片切換）
                 Expanded(
                   flex: 4,
                   child: ClipRRect(
-                    borderRadius: BorderRadius.vertical(top: Radius.circular(12)), // 圓角
+                    borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
                     child: PageView.builder(
-                      itemCount: restaurant.photoUrls.length, // 使用photoUrls的長度
+                      itemCount: restaurant.photoUrls.length,
                       itemBuilder: (context, index) {
                         return PhotoContainer(
-                          imagePath: restaurant.photoUrls[index], // 顯示每個URL的圖片
+                          imagePath: restaurant.photoUrls[index],
                           width: double.infinity,
                           height: double.infinity,
                           fit: BoxFit.cover,
@@ -44,30 +46,32 @@ class FullScreenCard extends StatelessWidget {
                     ),
                   ),
                 ),
-
-                // 固定顯示的標題區塊（不會滾動）
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // 餐廳名稱
                       Text(
                         restaurant.name,
-                        style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                        textAlign: TextAlign.left, // 文字靠左對齊
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                          color: AppColors.textColor, // 設定標題顏色
+                        ),
                       ),
                       SizedBox(height: 8),
-
-                      // 餐廳類型
                       Text(
                         restaurant.types.isNotEmpty ? restaurant.types.first : '',
-                        style: TextStyle(fontSize: 20, color: Colors.grey[700]),
+                        textAlign: TextAlign.left, // 文字靠左對齊
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: AppColors.secondaryTextColor, // 設定副標題顏色
+                        ),
                       ),
                     ],
                   ),
                 ),
-
-                // 內容部分 (可滾動)
                 Expanded(
                   flex: 3,
                   child: SingleChildScrollView(
@@ -76,81 +80,95 @@ class FullScreenCard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // 地址
                           Row(
                             children: [
-                              Icon(Icons.location_on, color: Colors.red),
+                              Icon(Icons.location_on, color: AppColors.locationColor),
                               SizedBox(width: 5),
                               Expanded(
                                 child: Text(
                                   restaurant.formattedAddress,
-                                  style: TextStyle(fontSize: 18),
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: AppColors.textColor,
+                                  ),
                                 ),
                               ),
                             ],
                           ),
                           SizedBox(height: 12),
-
-                          // 評分
                           if (restaurant.rating != null)
                             Row(
                               children: [
-                                Icon(Icons.star, color: Colors.amber),
+                                Icon(Icons.star, color: AppColors.ratingColor),
                                 SizedBox(width: 5),
                                 Text(
                                   '${restaurant.rating} (${restaurant.userRatingsTotal} reviews)',
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: AppColors.textColor,
+                                  ),
                                 ),
                               ],
                             ),
                           SizedBox(height: 16),
-
-                          // 標籤
                           if (restaurant.types.isNotEmpty)
                             Wrap(
                               spacing: 8,
                               children: restaurant.types.map((type) {
                                 return Chip(
-                                  label: Text(type),
-                                  backgroundColor: Colors.blue[100],
+                                  label: Text(
+                                    type,
+                                    style: TextStyle(color: AppColors.chipTextColor),
+                                  ),
+                                  backgroundColor: AppColors.chipBackgroundColor,
                                 );
                               }).toList(),
                             ),
                           SizedBox(height: 12),
-
-                          // 電話號碼
                           if (restaurant.formattedPhoneNumber.isNotEmpty)
                             Row(
                               children: [
-                                Icon(Icons.phone, color: Colors.green),
+                                Icon(Icons.phone, color: AppColors.phoneColor),
                                 SizedBox(width: 5),
                                 Text(
                                   restaurant.formattedPhoneNumber,
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: AppColors.textColor,
+                                  ),
                                 ),
                               ],
                             ),
                           SizedBox(height: 16),
-
-                          // 營業時間
                           if (restaurant.weekdayText.isNotEmpty)
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   'Hours:',
-                                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: AppColors.textColor,
+                                  ),
                                 ),
                                 Text(
                                   restaurant.weekdayText.first,
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: AppColors.secondaryTextColor,
+                                  ),
                                 ),
                                 TextButton(
                                   onPressed: () {
                                     showDialog(
                                       context: context,
                                       builder: (context) => AlertDialog(
-                                        title: Text('Opening Hours'),
+                                        backgroundColor: AppColors.dialogBackgroundColor,
+                                        title: Text(
+                                          'Opening Hours',
+                                          style: TextStyle(color: AppColors.textColor),
+                                        ),
                                         content: SingleChildScrollView(
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -158,7 +176,10 @@ class FullScreenCard extends StatelessWidget {
                                             children: restaurant.weekdayText
                                                 .map((day) => Padding(
                                                       padding: const EdgeInsets.symmetric(vertical: 4.0),
-                                                      child: Text(day),
+                                                      child: Text(
+                                                        day,
+                                                        style: TextStyle(color: AppColors.textColor),
+                                                      ),
                                                     ))
                                                 .toList(),
                                           ),
@@ -166,17 +187,23 @@ class FullScreenCard extends StatelessWidget {
                                         actions: [
                                           TextButton(
                                             onPressed: () => Navigator.of(context).pop(),
-                                            child: Text('Close'),
+                                            child: Text(
+                                              'Close',
+                                              style: TextStyle(color: AppColors.buttonTextColor),
+                                            ),
                                           ),
                                         ],
                                       ),
                                     );
                                   },
-                                  child: Text('See all hours'),
+                                  child: Text(
+                                    'See all hours',
+                                    style: TextStyle(color: AppColors.linkTextColor),
+                                  ),
                                 ),
                               ],
                             ),
-                          SizedBox(height: 20), // 增加底部間距，避免滾動到最底部時內容緊貼
+                          SizedBox(height: 20),
                         ],
                       ),
                     ),
