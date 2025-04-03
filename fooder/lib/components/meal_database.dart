@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fooder/function/define_meal.dart';
 import 'meal_list.dart'; // Import the horizontal photo list component
+import 'package:fooder/constants.dart'; // Import the colors definition
 
 class PhotoDatabase extends StatelessWidget {
   final String title;
@@ -13,13 +14,21 @@ class PhotoDatabase extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
+        SizedBox(height: 12),
         Text(
           title,
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: AppColors.secondaryTextColor, // Set title text color
+          ),
         ),
         SizedBox(height: 10),
-        HorizontalPhotoList(meals: meals),
-        SizedBox(height: 20),
+        Container(
+          color: AppColors.cardBackground, // Set the background color for the horizontal photo list container
+          child: HorizontalPhotoList(meals: meals),
+        ),
+        SizedBox(height: 10),
       ],
     );
   }

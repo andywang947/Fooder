@@ -2,8 +2,6 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primaryColor = Color(0xFF6200EE);  // 紫色
-  static const Color secondaryColor = Color(0xFF03DAC6);  // 藍綠色
   static const Color textColor = Color(0xFFF5F5F5);  //
   static const Color backgroundColor = Color.fromARGB(255, 208, 179, 255);  //
   static const Color secondBackgroundColor = Color.fromARGB(255, 235, 226, 252);
@@ -17,4 +15,8 @@ class AppColors {
   static const Color ratingColor = Colors.amber;
   static const Color phoneColor = Colors.green;
   static const Color cardBackground = Color.fromARGB(255, 0, 0, 0);
+  static const Color loadingColor = Color.fromARGB(255, 180, 180, 180);
+  static const Color dividerColor = Color.fromARGB(255, 166, 101, 226);
+  static const Color uploadButtonIconColor = Color.fromARGB(255, 165, 165, 165);
+  static const Color uploadButtonBorder = Color.fromARGB(255, 71, 71, 71);
 }

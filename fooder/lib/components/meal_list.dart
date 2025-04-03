@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart'; // Import image picker
 import 'package:fooder/function/define_meal.dart';
 import 'meal_container.dart'; // Import the PhotoContainer component
+import 'package:fooder/constants.dart'; // Import the colors definition
 
 class HorizontalPhotoList extends StatefulWidget {
   final List<Meal> meals;
@@ -112,26 +113,26 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
                         height: 175,
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 255, 255, 255),
+                          color: AppColors.cardBackground, // Set background color for the upload button
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(
-                            color: const Color.fromARGB(50, 0, 0, 0),
+                            color: AppColors.uploadButtonBorder, // Set border color for the upload button
                             width: 1,
                           ),
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.add_a_photo,
                               size: 40,
-                              color: Color.fromARGB(137, 180, 180, 180),
+                              color: AppColors.uploadButtonIconColor, // Set icon color
                             ),
                             SizedBox(height: 8),
                             Text(
                               'Add Photo',
                               style: TextStyle(
-                                color: Color.fromARGB(137, 120, 120, 120),
+                                color: AppColors.uploadButtonIconColor, // Set text color
                               ),
                             ),
                           ],
