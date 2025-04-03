@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:fooder/constants.dart';
 import 'package:fooder/function/define_meal.dart';
 
 class MealContainer extends StatelessWidget {
@@ -31,7 +32,7 @@ class MealContainer extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('食物詳情'),
+          title: Text('食物詳情', style: TextStyle(fontSize: 20),),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
@@ -42,21 +43,84 @@ class MealContainer extends StatelessWidget {
                 child: Image(
                   image: imageProvider,
                   width: 300, // 設定寬度
-                  height: 400, // 設定高度
+                  height: 300, // 設定高度
                   fit: BoxFit.cover, // 確保圖片填滿框架
                   errorBuilder: (context, error, stackTrace) {
-                    print('圖片載入錯誤: $error');
+                    print('圖片載入錯誤：$error');
                     return Icon(Icons.broken_image, size: 100, color: Colors.grey);
                   },
                 ),
               ),
               SizedBox(height: 10), // 加點間距
-              Text('類型: ${meal.type}'),
-              Text('敘述: ${meal.description}'),
-              Text('預測卡路里: ${meal.calorieEstimation} 大卡'),
-              Text('卡路里等級: ${meal.calorieLevel}'),
-              Text('營養建議: ${meal.suggestion}'),
-              Text('標籤: ${meal.tags.join(', ')}'),
+              // 類型
+              Text(
+                meal.type,
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 5),
+              // 敘述
+              Text(
+                meal.description,
+                style: TextStyle(fontSize: 14),
+              ),
+              SizedBox(height: 5),
+              Row(
+                children: [
+                  // 卡路里等級 (Chip)
+                  Text(
+                    '卡路里等級：',
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  ),
+                  Chip(
+                    label: Text(meal.calorieLevel),
+                    backgroundColor: _getCalorieLevelColor(meal.calorieLevel),
+                    labelStyle: TextStyle(fontSize: 12, color: AppColors.chipTextColor),
+                    labelPadding: EdgeInsets.symmetric(horizontal: 2, vertical: 2), // 縮小內邊距
+                    visualDensity: VisualDensity(horizontal: -2, vertical: -2), // 調整緊湊度
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap, // 讓 Chip 更小
+                  ),
+                  SizedBox(width: 20,),
+                  // 預測卡路里
+                  Text(
+                    '預測卡路里：${meal.calorieEstimation}',
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    '大卡',
+                    style: TextStyle(fontSize: 12,),
+                  ),
+                ],
+              ),
+              SizedBox(height: 8),
+              // 營養建議
+              Text(
+                '營養建議：',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+              ),
+              Container(
+                padding: EdgeInsets.all(5),
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: AppColors.secondaryTextColor,
+                  borderRadius: BorderRadius.circular(8), // 圓角設為 8
+                ),
+                child: Text(meal.suggestion, style: TextStyle(fontSize: 13, color: AppColors.dividerColor),),
+              ),
+              SizedBox(height: 10),
+              // 標籤 (Tags)
+              Wrap(
+                spacing: 1,
+                runSpacing: 1,
+                children: meal.tags.map((tag) {
+                  return Chip(
+                    label: Text(tag, style: TextStyle(fontSize: 12, color: AppColors.chipTextColor),),
+                    backgroundColor: AppColors.chipBackgroundColor,
+                    labelPadding: EdgeInsets.symmetric(horizontal: 2, vertical: 2), // 縮小內邊距
+                    visualDensity: VisualDensity(horizontal: -2, vertical: -2), // 調整緊湊度
+                    materialTapTargetSize: MaterialTapTargetSize.shrinkWrap, // 讓 Chip 更小
+                  );
+                }).toList(),
+              ),
             ],
           ),
           actions: [
@@ -104,5 +168,25 @@ class MealContainer extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+// 這是用來取得不同卡路里等級對應顏色的函式
+Color _getCalorieLevelColor(String level) {
+  switch (level) {
+    case '低':
+      return Colors.green;
+    case '中低':
+      return Colors.lightGreen;
+    case '中':
+      return const Color.fromARGB(255, 255, 196, 0);
+    case '中高':
+      return const Color.fromARGB(255, 255, 136, 0);
+    case '高':
+      return Colors.red;
+    case '超高':
+      return const Color.fromARGB(255, 146, 0, 175);
+    default:
+      return Colors.grey;
   }
 }
