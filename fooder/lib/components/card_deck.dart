@@ -22,7 +22,7 @@ class CardDeck extends StatelessWidget {
         color: AppColors.cardDeck,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.5),
+            color: AppColors.cardDeckTop,
             spreadRadius: 2,
             blurRadius: 5,
             offset: Offset(0, -3),
