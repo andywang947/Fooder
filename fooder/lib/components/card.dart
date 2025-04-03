@@ -101,7 +101,7 @@ class FullScreenCard extends StatelessWidget {
                                 Icon(Icons.star, color: AppColors.ratingColor),
                                 SizedBox(width: 5),
                                 Text(
-                                  '${restaurant.rating} (${restaurant.userRatingsTotal} reviews)',
+                                  '${restaurant.rating} ( ${restaurant.userRatingsTotal} 則評論 )',
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: AppColors.textColor,
@@ -144,7 +144,7 @@ class FullScreenCard extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Hours:',
+                                  '營業時間：',
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
@@ -165,7 +165,7 @@ class FullScreenCard extends StatelessWidget {
                                       builder: (context) => AlertDialog(
                                         backgroundColor: AppColors.dialogBackgroundColor,
                                         title: Text(
-                                          'Opening Hours',
+                                          '營業時間',
                                           style: TextStyle(color: AppColors.textColor),
                                         ),
                                         content: SingleChildScrollView(
@@ -187,7 +187,7 @@ class FullScreenCard extends StatelessWidget {
                                           TextButton(
                                             onPressed: () => Navigator.of(context).pop(),
                                             child: Text(
-                                              'Close',
+                                              '關閉',
                                               style: TextStyle(color: AppColors.buttonTextColor),
                                             ),
                                           ),
@@ -196,7 +196,7 @@ class FullScreenCard extends StatelessWidget {
                                     );
                                   },
                                   child: Text(
-                                    'See all hours',
+                                    '查看詳細',
                                     style: TextStyle(color: AppColors.linkTextColor),
                                   ),
                                 ),
