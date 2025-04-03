@@ -6,7 +6,7 @@ class AppColors {
   static const Color secondaryColor = Color(0xFF03DAC6);  // 藍綠色
   static const Color textColor = Color(0xFFF5F5F5);  //
   static const Color backgroundColor = Color.fromARGB(255, 208, 179, 255);  //
-  static const Color secondBackgroundColor = Color.fromARGB(255, 225, 209, 252);
+  static const Color secondBackgroundColor = Color.fromARGB(255, 235, 226, 252);
   static const Color chipBackgroundColor = Color(0xFF03DAC6);
   static const Color secondaryTextColor = Color.fromARGB(255, 255, 255, 255);
   static const Color dialogBackgroundColor = Color.fromARGB(255, 202, 157, 196);

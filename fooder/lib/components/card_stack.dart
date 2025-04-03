@@ -67,7 +67,7 @@ class SwipeableCardStack extends StatelessWidget {
                     SnackBar(
                       content: Text(
                         "$actionText: ${restaurants[previousIndex].name}",
-                        style: TextStyle(fontSize: 16, color: AppColors.linkTextColor),
+                        style: TextStyle(fontSize: 16, color: AppColors.textColor),
                       ),
                       backgroundColor: actionColor,
                       duration: Duration(milliseconds: 800),
