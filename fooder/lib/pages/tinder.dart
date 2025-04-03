@@ -15,10 +15,10 @@ class _TinderState extends State<Tinder> {
   @override
   void initState() {
     super.initState();
-    _loadMeals();
+    _loadRestaurants();
   }
 
-  Future<void> _loadMeals() async {
+  Future<void> _loadRestaurants() async {
     try {
       // 加載三個 JSON 文件的內容
       restaurants = await _loadRestaurantsFromAsset('lib/assets/json/extracted_unknown_restaurants.json');

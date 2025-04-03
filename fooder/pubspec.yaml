@@ -22,4 +22,5 @@ flutter:
   assets:
     - lib/assets/meal_photos/
     - lib/assets/json/
+    - lib/assets/show.jpg
   uses-material-design: true
