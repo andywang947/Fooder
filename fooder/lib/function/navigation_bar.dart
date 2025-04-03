@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fooder/constants.dart';
 
 class BottomNavBar extends StatelessWidget {
   final int selectedIndex;
@@ -11,15 +12,36 @@ class BottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar(
-      items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Meals"),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Like"),
-        BottomNavigationBarItem(icon: Icon(Icons.add_card), label: "抽卡")
-      ],
-      currentIndex: selectedIndex,
-      selectedItemColor: Colors.blue,
-      onTap: onItemTapped,
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [AppColors.backgroundColor, AppColors.buttonTextColor], // 漸變色
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
+      ),
+      child: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.local_dining),
+            label: "吃過的",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.favorite_border),
+            label: "喜歡的",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.restaurant),
+            label: "想吃的",
+          ),
+        ],
+        currentIndex: selectedIndex,
+        selectedItemColor: AppColors.textColor, // 選中的項目顏色
+        unselectedItemColor: AppColors.loadingColor, // 未選中的項目顏色
+        backgroundColor: Colors.transparent, // 讓背景透明，使用容器背景
+        onTap: onItemTapped,
+        type: BottomNavigationBarType.fixed, // 固定類型
+      ),
     );
   }
 }

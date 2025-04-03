@@ -15,7 +15,7 @@ class AppColors {
   static const Color ratingColor = Colors.amber;
   static const Color phoneColor = Colors.green;
   static const Color cardBackground = Color.fromARGB(255, 0, 0, 0);
-  static const Color loadingColor = Color.fromARGB(255, 180, 180, 180);
+  static const Color loadingColor = Color.fromARGB(255, 145, 145, 145);
   static const Color dividerColor = Color.fromARGB(255, 166, 101, 226);
   static const Color uploadButtonIconColor = Color.fromARGB(255, 165, 165, 165);
   static const Color uploadButtonBorder = Color.fromARGB(255, 71, 71, 71);
