@@ -5,10 +5,12 @@ import 'meal_container.dart'; // Import the PhotoContainer component
 
 class HorizontalPhotoList extends StatefulWidget {
   final List<Meal> meals;
+  final Function(Meal)? onMealAdded; // Add callback for parent component
 
   const HorizontalPhotoList({
     Key? key,
     required this.meals,
+    this.onMealAdded,
   }) : super(key: key);
 
   @override
@@ -16,7 +18,8 @@ class HorizontalPhotoList extends StatefulWidget {
 }
 
 class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
-  List<Meal> meals = [];
+  late List<Meal> meals;
+  final ImagePicker _picker = ImagePicker();
 
   @override
   void initState() {
@@ -24,45 +27,72 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
     meals = List.from(widget.meals); // Copy the initial list
   }
 
-  Future<void> _pickImage() async {
-    final picker = ImagePicker();
-    final XFile? pickedFile = await picker.pickImage(source: ImageSource.gallery);
+  @override
+  void didUpdateWidget(HorizontalPhotoList oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Update meals list if the parent widget sends new data
+    if (widget.meals != oldWidget.meals) {
+      setState(() {
+        meals = List.from(widget.meals);
+      });
+    }
+  }
 
-    if (pickedFile != null) {
-      // Simulate meal data for the new meal
-      final newMeal = Meal(
-        id: DateTime.now().millisecondsSinceEpoch,  // Generate unique ID
-        timestamp: DateTime.now(),
-        latitude: 0.0,  // You may want to fetch the actual location
-        longitude: 0.0,  // You may want to fetch the actual location
-        imageFile: pickedFile.path,
-        type: 'New Meal', // Customize as per your requirement
-        description: 'A new meal added from the gallery', // Customize
-        calorieEstimation: 500,  // Example estimation
-        calorieLevel: 'Medium',  // Example level
-        tags: ['New', 'Gallery', 'Image'],  // Example tags
-        suggestion: 'Enjoy your meal!',
+  Future<void> _pickImage() async {
+    try {
+      final XFile? pickedFile = await _picker.pickImage(
+        source: ImageSource.gallery,
+        imageQuality: 80, // Compress image quality for better performance
       );
 
-      setState(() {
-        meals.add(newMeal); // Add the new meal to the list
-      });
+      if (pickedFile != null) {
+        // Create a new meal object with the picked image
+        final newMeal = Meal(
+          id: DateTime.now().millisecondsSinceEpoch,  // Generate unique ID
+          timestamp: DateTime.now(),
+          latitude: 0.0,  // You may want to fetch the actual location
+          longitude: 0.0,  // You may want to fetch the actual location
+          imageFile: pickedFile.path,
+          type: 'New Meal', // Customize as per your requirement
+          description: 'A new meal added from the gallery', // Customize
+          calorieEstimation: 500,  // Example estimation
+          calorieLevel: 'Medium',  // Example level
+          tags: ['New', 'Gallery', 'Image'],  // Example tags
+          suggestion: 'Enjoy your meal!',
+        );
+
+        // Update the state to trigger a rebuild and display the new image
+        setState(() {
+          meals.add(newMeal);
+        });
+
+        // Notify parent widget if callback provided
+        if (widget.onMealAdded != null) {
+          widget.onMealAdded!(newMeal);
+        }
+      }
+    } catch (e) {
+      // Show error message
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Error picking image: $e')),
+      );
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 5.0, right: 5.0), // Add left & right margin
+      padding: const EdgeInsets.only(left: 5.0, right: 5.0),
       child: Column(
         children: [
           SizedBox(
-            height: 175, // Adjust the height as needed
+            height: 175,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: meals.length + 1, // +1 for the upload button
               itemBuilder: (context, index) {
                 if (index < meals.length) {
+                  // Display meal
                   return Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: MealContainer(
@@ -73,24 +103,47 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
                   );
                 } else {
                   // Upload Button
-                  return GestureDetector(
-                    onTap: _pickImage,
-                    child: Container(
-                      width: 115,
-                      height: 175,
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 255, 255, 255),
-                        borderRadius: BorderRadius.circular(10),
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: GestureDetector(
+                      onTap: _pickImage,
+                      child: Container(
+                        width: 115,
+                        height: 175,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 255, 255, 255),
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(
+                            color: const Color.fromARGB(50, 0, 0, 0),
+                            width: 1,
+                          ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Icon(
+                              Icons.add_a_photo,
+                              size: 40,
+                              color: Color.fromARGB(137, 180, 180, 180),
+                            ),
+                            SizedBox(height: 8),
+                            Text(
+                              'Add Photo',
+                              style: TextStyle(
+                                color: Color.fromARGB(137, 120, 120, 120),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-                      child: Icon(Icons.add_a_photo, size: 40, color: const Color.fromARGB(137, 230, 230, 230)),
                     ),
                   );
                 }
               },
             ),
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
         ],
       ),
     );

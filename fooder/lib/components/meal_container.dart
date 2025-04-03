@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:fooder/function/define_meal.dart';
 
@@ -15,7 +16,17 @@ class MealContainer extends StatelessWidget {
     this.fit = BoxFit.cover,
   }) : super(key: key);
 
+  /// 顯示餐點資訊的彈窗
   void _showMealInfo(BuildContext context, Meal meal) {
+    ImageProvider imageProvider;
+    
+    // 判斷圖片來源 (assets 或 本機路徑)
+    if (meal.imageFile.startsWith('lib/assets/')) {
+      imageProvider = AssetImage(meal.imageFile);
+    } else {
+      imageProvider = FileImage(File(meal.imageFile));
+    }
+
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -28,13 +39,13 @@ class MealContainer extends StatelessWidget {
               // 圖片顯示
               ClipRRect(
                 borderRadius: BorderRadius.circular(10), // 圓角
-                child: Image.asset(
-                  meal.imageFile, // 加載本地圖片
+                child: Image(
+                  image: imageProvider,
                   width: 300, // 設定寬度
                   height: 400, // 設定高度
                   fit: BoxFit.cover, // 確保圖片填滿框架
                   errorBuilder: (context, error, stackTrace) {
-                    print('$error');
+                    print('圖片載入錯誤: $error');
                     return Icon(Icons.broken_image, size: 100, color: Colors.grey);
                   },
                 ),
@@ -63,6 +74,15 @@ class MealContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ImageProvider imageProvider;
+    
+    // 判斷圖片來源 (assets 或 本機路徑)
+    if (meal.imageFile.startsWith('lib/assets/')) {
+      imageProvider = AssetImage(meal.imageFile);
+    } else {
+      imageProvider = FileImage(File(meal.imageFile));
+    }
+
     return GestureDetector(
       onTap: () => _showMealInfo(context, meal),
       child: Container(
@@ -78,8 +98,8 @@ class MealContainer extends StatelessWidget {
             ),
           ],
           image: DecorationImage(
-            image: AssetImage(meal.imageFile),
-            fit: BoxFit.cover,
+            image: imageProvider, // 動態選擇圖片來源
+            fit: fit,
           ),
         ),
       ),
