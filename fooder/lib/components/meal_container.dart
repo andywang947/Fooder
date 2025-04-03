@@ -31,7 +31,7 @@ class MealContainer extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Meal Information'),
+          title: Text('食物詳情'),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
@@ -64,7 +64,7 @@ class MealContainer extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Close'),
+              child: Text('關閉'),
             ),
           ],
         );
