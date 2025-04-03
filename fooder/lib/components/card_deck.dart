@@ -1,6 +1,7 @@
 // card_deck.dart
 import 'package:flutter/material.dart';
 import 'card_back.dart';
+import 'package:fooder/constants.dart';
 
 class CardDeck extends StatelessWidget {
   final VoidCallback onDrawCard;
@@ -15,10 +16,10 @@ class CardDeck extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 160,
+      height: 200,
       width: double.infinity,
       decoration: BoxDecoration(
-        color: Colors.brown[800],
+        color: AppColors.cardDeck,
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.5),
@@ -31,13 +32,13 @@ class CardDeck extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: 30,
-            color: Colors.brown[600],
+            height: 40,
+            color: AppColors.cardDeckTop,
             child: Center(
               child: Text(
                 "神秘卡匣",
                 style: TextStyle(
-                  color: Colors.amber,
+                  color: AppColors.textColor,
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                 ),
@@ -61,7 +62,7 @@ class CardDeck extends StatelessWidget {
                 ElevatedButton(
                   onPressed: isDrawing ? null : onDrawCard,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.amber,
+                    backgroundColor: AppColors.cardBorder,
                     padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(25),
@@ -69,7 +70,7 @@ class CardDeck extends StatelessWidget {
                   ),
                   child: Text(
                     "推薦！",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: AppColors.buttonTextColor),
                   ),
                 ),
               ],

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:fooder/constants.dart';
 import 'package:fooder/function/define_restaurant.dart';  // 假設 Restaurant 類型定義在這個檔案中
 import '../components/card_back.dart';  // 導入卡背設計
 import '../components/card_deck.dart';  // 導入卡匣設計
@@ -101,8 +102,8 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
   // 卡片正面
   Widget _buildCardFront() {
     return Container(
-      width: 200,
-      height: 300,
+      width: 250,
+      height: 350,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
@@ -113,7 +114,7 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
             offset: Offset(0, 3),
           ),
         ],
-        border: Border.all(color: Colors.amber[400]!, width: 3),
+        border: Border.all(color: AppColors.cardBorder, width: 3),
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(7),
@@ -122,8 +123,8 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
           fit: BoxFit.cover,
           errorBuilder: (context, error, stackTrace) {
             return Container(
-              color: Colors.grey[300],
-              child: Icon(Icons.image_not_supported, size: 100, color: Colors.grey),
+              color: AppColors.uploadButtonBorder,
+              child: Icon(Icons.image_not_supported, size: 100, color: AppColors.uploadButtonIconColor),
             );
           },
         ),
@@ -134,16 +135,12 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("餐廳推薦"),
-        backgroundColor: Colors.purple[800],
-      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.purple[100]!, Colors.purple[50]!],
+            colors: [AppColors.backgroundColor, AppColors.cardBackground],
           ),
         ),
         child: Column(
@@ -153,10 +150,10 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "推薦的餐廳:",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    "推薦的餐廳：",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: AppColors.secondaryTextColor),
                   ),
-                  SizedBox(height: 20),
+                  SizedBox(height: 45),
                   // 顯示抽到的餐廳卡片
                   AnimatedBuilder(
                     animation: _animation,
@@ -172,13 +169,13 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
                       );
                     },
                   ),
-                  SizedBox(height: 15),
+                  SizedBox(height: 45),
                   Text(
                     _isDrawing ? "思考中..." : _drawnCardName,
                     style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
-                      color: Colors.purple[700],
+                      color: AppColors.ratingColor,
                     ),
                   ),
                 ],

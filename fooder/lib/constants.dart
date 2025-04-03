@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static const Color textColor = Color(0xFFF5F5F5);  //
-  static const Color backgroundColor = Color.fromARGB(255, 208, 179, 255);  //
+  static const Color backgroundColor = Color.fromARGB(255, 50, 1, 90);  //
   static const Color secondBackgroundColor = Color.fromARGB(255, 235, 226, 252);
   static const Color chipBackgroundColor = Color(0xFF03DAC6);
   static const Color secondaryTextColor = Color.fromARGB(255, 255, 255, 255);
@@ -19,4 +19,7 @@ class AppColors {
   static const Color dividerColor = Color.fromARGB(255, 166, 101, 226);
   static const Color uploadButtonIconColor = Color.fromARGB(255, 165, 165, 165);
   static const Color uploadButtonBorder = Color.fromARGB(255, 71, 71, 71);
+  static const Color cardBorder = Colors.amber;
+  static const Color cardDeckTop = Color.fromARGB(255, 107, 73, 61);
+  static const Color cardDeck = Color.fromARGB(255, 65, 41, 33);
 }
