@@ -15,7 +15,7 @@ class SwipeableCardStack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.secondBackgroundColor, // 整體背景色
+      backgroundColor: AppColors.cardBackground, // 整體背景色
       body: Container(
         height: MediaQuery.of(context).size.height,
         child: restaurants.isEmpty
@@ -32,7 +32,7 @@ class SwipeableCardStack extends StatelessWidget {
             : CardSwiper(
                 cardsCount: restaurants.length,
                 numberOfCardsDisplayed: restaurants.length < 3 ? restaurants.length : 3, // 限制顯示卡片數量
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
                 cardBuilder: (context, index, percentThresholdX, percentThresholdY) =>
                     Container(
                       decoration: BoxDecoration(

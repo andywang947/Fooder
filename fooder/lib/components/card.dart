@@ -18,9 +18,8 @@ class FullScreenCard extends StatelessWidget {
       body: Center(
         child: Card(
           color: AppColors.cardBackground, // 設定卡片背景顏色
-          elevation: 5,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
+            borderRadius: BorderRadius.circular(50),
           ),
           child: Container(
             width: MediaQuery.of(context).size.width,
@@ -32,7 +31,7 @@ class FullScreenCard extends StatelessWidget {
                 Expanded(
                   flex: 4,
                   child: ClipRRect(
-                    borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
+                    borderRadius: BorderRadius.vertical(top: Radius.circular(50)),
                     child: PageView.builder(
                       itemCount: restaurant.photoUrls.length,
                       itemBuilder: (context, index) {
@@ -203,12 +202,13 @@ class FullScreenCard extends StatelessWidget {
                                 ),
                               ],
                             ),
-                          SizedBox(height: 20),
+                          SizedBox(height: 5),
                         ],
                       ),
                     ),
                   ),
                 ),
+                SizedBox(height: 30,),
               ],
             ),
           ),
