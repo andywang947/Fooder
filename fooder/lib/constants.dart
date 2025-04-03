@@ -20,6 +20,6 @@ class AppColors {
   static const Color uploadButtonIconColor = Color.fromARGB(255, 165, 165, 165);
   static const Color uploadButtonBorder = Color.fromARGB(255, 71, 71, 71);
   static const Color cardBorder = Colors.amber;
-  static const Color cardDeckTop = Color.fromARGB(255, 107, 73, 61);
-  static const Color cardDeck = Color.fromARGB(255, 65, 41, 33);
+  static const Color cardDeckTop = Color.fromARGB(255, 56, 35, 27);
+  static const Color cardDeck = Color.fromARGB(255, 37, 22, 17);
 }
