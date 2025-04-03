@@ -32,6 +32,17 @@ def extract_place_details(input_json_string):
             extracted_item["weekday_text"] = item["opening_hours"]["weekday_text"]
         else:
             extracted_item["weekday_text"] = []
+
+        # 處理照片URL（來自photos字段）
+        if "photos" in item:
+            photo_urls = []
+            for photo in item["photos"]:
+                # 假設每個photo字典包含photo_url字段
+                if "photo_url" in photo:
+                    photo_urls.append(photo["photo_url"])
+            extracted_item["photo_urls"] = photo_urls
+        else:
+            extracted_item["photo_urls"] = []
         
         results.append(extracted_item)
     
@@ -39,10 +50,8 @@ def extract_place_details(input_json_string):
 
 # 主程式
 if __name__ == "__main__":
-    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/recommend_restaurants.json"  # 修改為您的JSON檔案名稱
+    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/restaurants_nearby50_with_photos.json"  # 修改為您的JSON檔案名稱
     output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_recommend_restaurants.json"
-    
-    # input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/unknown_restaurants.json"  # 修改為您的JSON檔案名稱
     # output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_unknown_restaurants.json"
 
     try:

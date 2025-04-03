@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PhotoContainer extends StatelessWidget {
-  final String imagePath;
+  final String imagePath;  // 這裡的imagePath將是圖片的URL
   final double width;
   final double height;
   final BoxFit fit;
@@ -28,9 +28,29 @@ class PhotoContainer extends StatelessWidget {
             offset: Offset(2, 2),
           ),
         ],
-        image: DecorationImage(
-          image: AssetImage(imagePath),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(10), // 圓角處理
+        child: Image.network(
+          imagePath,
           fit: fit,
+          loadingBuilder: (context, child, loadingProgress) {
+            if (loadingProgress == null) {
+              return child; // 當圖片加載完成時顯示圖片
+            } else {
+              return Center(
+                child: CircularProgressIndicator(
+                  value: loadingProgress.expectedTotalBytes != null
+                      ? loadingProgress.cumulativeBytesLoaded /
+                          (loadingProgress.expectedTotalBytes ?? 1)
+                      : null,
+                ),
+              ); // 顯示加載進度
+            }
+          },
+          errorBuilder: (context, error, stackTrace) {
+            return Center(child: Icon(Icons.error, color: Colors.red)); // 顯示錯誤圖標
+          },
         ),
       ),
     );
