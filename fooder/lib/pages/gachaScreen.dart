@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:fooder/constants.dart';
 import 'package:fooder/function/define_restaurant.dart';  // 假設 Restaurant 類型定義在這個檔案中
+import 'package:fooder/function/gacha_drawer.dart'; // 引入獨立的抽卡功能
 import '../components/card_back.dart';  // 導入卡背設計
 import '../components/card_deck.dart';  // 導入卡匣設計
 
@@ -15,7 +16,7 @@ class GachaScreen extends StatefulWidget {
 }
 
 class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStateMixin {
-  final Random _random = Random();
+  late GachaDrawer _gachaDrawer;
   String _drawnCardName = "按下按鈕進行推薦！";
   String _drawnCardImage = 'lib/assets/show.jpg'; // 預設圖片路徑
   List<Restaurant> _gachaPool = [];
@@ -41,7 +42,7 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
     try {
       // 加載 JSON 文件的內容
       _gachaPool = await _loadRestaurantsFromAsset('lib/assets/json/extracted_recommend_restaurants.json');
-      
+      _gachaDrawer = GachaDrawer(gachaPool: _gachaPool);
       setState(() {
         isLoading = false;
       });
@@ -71,25 +72,15 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
 
   // 抽卡函式
   void _drawCard() {
-    setState(() {
-      _isDrawing = true;
-    });
-
+    setState(() => _isDrawing = true);
     _animationController.reset();
     _animationController.forward();
 
-    // 延遲顯示結果，營造抽卡感
-    Future.delayed(Duration(milliseconds: 600), () {
+    Future.delayed(Duration(milliseconds: 600), () async {
+      var result = await _gachaDrawer.drawCard();
       setState(() {
-        int index = _random.nextInt(_gachaPool.length); // 隨機選擇餐廳
-        Restaurant selectedRestaurant = _gachaPool[index];
-        _drawnCardName = selectedRestaurant.name;
-
-        // If photoUrls is not empty, use the first photo reference. Else, use a default image.
-        _drawnCardImage = selectedRestaurant.photoUrls.isNotEmpty
-            ? 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${selectedRestaurant.photoUrls[0]}&key=YOUR_API_KEY'
-            : 'lib/assets/show.jpg';
-        
+        _drawnCardName = result['name']!;
+        _drawnCardImage = result['image']!;
         _isDrawing = false;
       });
     });
