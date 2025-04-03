@@ -4,6 +4,8 @@ import '../components/card_stack.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class Tinder extends StatefulWidget {
+  const Tinder({Key? key}) : super(key: key);
+
   @override
   _TinderState createState() => _TinderState();
 }

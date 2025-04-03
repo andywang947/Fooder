@@ -5,6 +5,8 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:fooder/constants.dart'; // 引入顏色定義
 
 class Retro extends StatefulWidget {
+  const Retro({Key? key}) : super(key: key);
+
   @override
   _RetroState createState() => _RetroState();
 }

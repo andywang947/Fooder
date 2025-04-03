@@ -8,6 +8,8 @@ import '../components/card_back.dart';  // 導入卡背設計
 import '../components/card_deck.dart';  // 導入卡匣設計
 
 class GachaScreen extends StatefulWidget {
+  const GachaScreen({Key? key}) : super(key: key);
+
   @override
   _GachaScreenState createState() => _GachaScreenState();
 }

@@ -16,7 +16,7 @@ class SwipeableCardStack extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.cardBackground, // 整體背景色
-      body: Container(
+      body: SizedBox(
         height: MediaQuery.of(context).size.height,
         child: restaurants.isEmpty
             ? Center(

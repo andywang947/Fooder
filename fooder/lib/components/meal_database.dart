@@ -7,7 +7,7 @@ class PhotoDatabase extends StatelessWidget {
   final String title;
   final List<Meal> meals;
 
-  PhotoDatabase({required this.title, required this.meals});
+  const PhotoDatabase({Key? key, required this.title, required this.meals}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
