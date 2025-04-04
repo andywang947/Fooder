@@ -30,10 +30,10 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
     super.initState();
     _loadRestaurants();
     _animationController = AnimationController(
-      duration: Duration(milliseconds: 800),
+      duration: Duration(milliseconds: 1200), // 3圈動畫的總時長
       vsync: this,
     );
-    _animation = Tween<double>(begin: 0, end: 1).animate(
+    _animation = Tween<double>(begin: 0, end: 3).animate(
       CurvedAnimation(parent: _animationController, curve: Curves.easeInOut),
     );
   }
@@ -76,7 +76,7 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
     _animationController.reset();
     _animationController.forward();
 
-    Future.delayed(Duration(milliseconds: 600), () async {
+    Future.delayed(Duration(milliseconds: 1000), () async {
       var result = await _gachaDrawer.drawCard();
       setState(() {
         _drawnCardName = result['name']!;
@@ -160,8 +160,8 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
                         alignment: Alignment.center,
                         transform: Matrix4.identity()
                           ..setEntry(3, 2, 0.001)
-                          ..rotateY(_isDrawing ? pi * _animation.value : 0),
-                        child: _isDrawing && _animation.value < 0.5
+                          ..rotateY(pi * 2 * _animation.value), // 每個值都乘以 2π 來實現旋轉
+                        child: _isDrawing && _animation.value < 1.5
                             ? CardBack()  // 使用卡背設計
                             : _buildCardFront(), // 顯示餐廳卡片正面
                       );
