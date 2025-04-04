@@ -43,40 +43,156 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
     try {
       final XFile? pickedFile = await _picker.pickImage(
         source: ImageSource.gallery,
-        imageQuality: 80, // Compress image quality for better performance
+        imageQuality: 80,
       );
 
       if (pickedFile != null) {
-        // Create a new meal object with the picked image
-        final newMeal = Meal(
-          id: DateTime.now().millisecondsSinceEpoch,  // Generate unique ID
-          timestamp: DateTime.now(),
-          latitude: 25.0338,  // You may want to fetch the actual location
-          longitude: 121.5645,  // You may want to fetch the actual location
-          restaurant: "Mr. light 輕食先生",
-          feedback: "好吃",
-          imageFile: pickedFile.path,
-          type: '健康餐盒', // Customize as per your requirement
-          description: '這是一個包含雞肉、秋葵、花椰菜、甜地瓜、毛豆和半顆水煮蛋的健康餐盒，淋上泰式風味的醬汁，搭配白飯。', // Customize
-          feedback_description: '餐盒配色豐富，雞肉鮮嫩、醬汁酸辣開胃，整體清爽又有飽足感，吃起來很清爽無負擔。',
-          calorieEstimation: 550,  // Example estimation
-          calorieLevel: '中',  // Example level
-          tags: ["健康餐盒", "雞肉", "秋葵", "花椰菜", "甜地瓜", "毛豆", "水煮蛋", "泰式", "低脂"],  // Example tags
-          suggestion: '這份餐盒營養均衡，富含蛋白質和膳食纖維，是很好的選擇。建議可以增加一些好的油脂，例如酪梨或堅果，讓營養更完整。',
+        // 顯示對話框選擇 feedback
+        final feedback = await showDialog<String>(
+          context: context,
+          builder: (BuildContext context) {
+            String? selectedValue;
+            String customFeedback = '';
+
+            return StatefulBuilder(
+              builder: (context, setState) {
+                return AlertDialog(
+                  title: Text('  這餐你覺得...'),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      RadioListTile<String>(
+                        title: Text('超級好吃'),
+                        value: '超級好吃',
+                        groupValue: selectedValue,
+                        onChanged: (value) => setState(() => selectedValue = value),
+                      ),
+                      RadioListTile<String>(
+                        title: Text('好吃'),
+                        value: '好吃',
+                        groupValue: selectedValue,
+                        onChanged: (value) => setState(() => selectedValue = value),
+                      ),
+                      RadioListTile<String>(
+                        title: Text('普通'),
+                        value: '普通',
+                        groupValue: selectedValue,
+                        onChanged: (value) => setState(() => selectedValue = value),
+                      ),
+                      RadioListTile<String>(
+                        title: Text('不好吃'),
+                        value: '不好吃',
+                        groupValue: selectedValue,
+                        onChanged: (value) => setState(() => selectedValue = value),
+                      ),
+                      RadioListTile<String>(
+                        title: Text('其他...'),
+                        value: '其他',
+                        groupValue: selectedValue,
+                        onChanged: (value) => setState(() => selectedValue = value),
+                      ),
+                      if (selectedValue == '其他')
+                        Padding(
+                          padding: const EdgeInsets.only(top: 12),
+                          child: Column(
+                            children: [
+                              TextField(
+                                onChanged: (value) => customFeedback = value,
+                                decoration: InputDecoration(
+                                  hintText: '請輸入你的想法...',
+                                  border: OutlineInputBorder(),
+                                ),
+                                maxLines: 2,
+                              ),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Text('取消'),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        if (selectedValue == null) return;
+                        if (selectedValue == '其他') {
+                          if (customFeedback.trim().isNotEmpty) {
+                            Navigator.of(context).pop(customFeedback.trim());
+                          }
+                        } else {
+                          Navigator.of(context).pop(selectedValue);
+                        }
+                      },
+                      child: Text('送出'),
+                    ),
+                  ],
+                );
+              },
+            );
+          },
         );
 
-        // Update the state to trigger a rebuild and display the new image
-        setState(() {
-          meals.add(newMeal);
-        });
+        // 如果使用者有選 feedback 才建立 meal
+        if (feedback != null) {
+          // 顯示 loading
+          showDialog(
+            context: context,
+            barrierDismissible: false,
+            builder: (BuildContext context) {
+              return const Dialog(
+                backgroundColor: Colors.transparent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      CircularProgressIndicator(),
+                      SizedBox(height: 16),
+                      Text(
+                        '視覺模型處理中，請稍候...',
+                        style: TextStyle(color: AppColors.secondaryTextColor, fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
+          );
 
-        // Notify parent widget if callback provided
-        if (widget.onMealAdded != null) {
-          widget.onMealAdded!(newMeal);
+          await Future.delayed(const Duration(seconds: 2));
+
+          final newMeal = Meal(
+            id: DateTime.now().millisecondsSinceEpoch,
+            timestamp: DateTime.now(),
+            latitude: 25.0338,
+            longitude: 121.5645,
+            restaurant: "Mr. light 輕食先生",
+            feedback: feedback, // 來自使用者選擇
+            imageFile: pickedFile.path,
+            type: '健康餐盒',
+            description: '這是一個包含雞肉、秋葵、花椰菜、甜地瓜、毛豆和半顆水煮蛋的健康餐盒，淋上泰式風味的醬汁，搭配白飯。',
+            feedback_description: '餐盒配色豐富，雞肉鮮嫩、醬汁酸辣開胃，整體清爽又有飽足感，吃起來很清爽無負擔。',
+            calorieEstimation: 550,
+            calorieLevel: '中',
+            tags: ["健康餐盒", "雞肉", "秋葵", "花椰菜", "甜地瓜", "毛豆", "水煮蛋", "泰式", "低脂"],
+            suggestion: '這份餐盒營養均衡，富含蛋白質和膳食纖維，是很好的選擇。建議可以增加一些好的油脂，例如酪梨或堅果，讓營養更完整。',
+          );
+
+          setState(() {
+            meals.add(newMeal);
+          });
+
+          // 關閉 loading 對話框
+          Navigator.of(context).pop();
+
+          if (widget.onMealAdded != null) {
+            widget.onMealAdded!(newMeal);
+          }
         }
       }
     } catch (e) {
-      // Show error message
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Error picking image: $e')),
       );
