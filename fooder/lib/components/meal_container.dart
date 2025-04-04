@@ -36,13 +36,14 @@ class MealContainer extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
+              SizedBox(height: 8),
               // 圖片顯示
               ClipRRect(
                 borderRadius: BorderRadius.circular(10), // 圓角
                 child: Image(
                   image: imageProvider,
                   width: 300, // 設定寬度
-                  height: 300, // 設定高度
+                  height: 350, // 設定高度
                   fit: BoxFit.cover, // 確保圖片填滿框架
                   errorBuilder: (context, error, stackTrace) {
                     print('圖片載入錯誤：$error');
@@ -96,6 +97,7 @@ class MealContainer extends StatelessWidget {
                 '營養建議：',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
               ),
+              SizedBox(height: 5,),
               Container(
                 padding: EdgeInsets.all(5),
                 width: double.infinity,

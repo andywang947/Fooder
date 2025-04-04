@@ -121,6 +121,7 @@ class FullScreenCard extends StatelessWidget {
                                     type,
                                     style: TextStyle(color: AppColors.chipTextColor, fontFamily: 'GenSenRounded'),
                                   ),
+                                  labelPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 0), // 縮小內邊距
                                   backgroundColor: AppColors.chipBackgroundColor,
                                 );
                               }).toList(),

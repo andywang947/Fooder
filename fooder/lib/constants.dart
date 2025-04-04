@@ -5,7 +5,7 @@ class AppColors {
   static const Color textColor = Color(0xFFF5F5F5);  //
   static const Color backgroundColor = Color.fromARGB(255, 50, 1, 90);  //
   static const Color secondBackgroundColor = Color.fromARGB(255, 235, 226, 252);
-  static const Color chipBackgroundColor = Color(0xFF03DAC6);
+  static const Color chipBackgroundColor = Color.fromARGB(255, 3, 150, 218);
   static const Color secondaryTextColor = Color.fromARGB(255, 255, 255, 255);
   static const Color dialogBackgroundColor = Color.fromARGB(255, 202, 157, 196);
   static const Color buttonTextColor = Color.fromARGB(255, 108, 5, 134);
