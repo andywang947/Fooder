@@ -24,7 +24,9 @@ def extract_place_details(input_json_string):
             "url": item.get("url", ""),
             "types": item.get("types", []),
             "rating": item.get("rating", None),
-            "user_ratings_total": item.get("user_ratings_total", 0)
+            "user_ratings_total": item.get("user_ratings_total", 0),
+            "distance_text": item.get("distance_text", ""),
+            "duration_text": item.get("duration_text", ""),
         }
         
         # 處理weekday_text（嵌套在opening_hours下）
@@ -50,7 +52,7 @@ def extract_place_details(input_json_string):
 
 # 主程式
 if __name__ == "__main__":
-    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/restaurants_nearby50_with_photos.json"  # 修改為您的JSON檔案名稱
+    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/restaurants_nearby50_with_photos_and_distance.json"  # 修改為您的JSON檔案名稱
     output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_recommend_restaurants.json"
     # output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_unknown_restaurants.json"
 

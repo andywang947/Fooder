@@ -61,11 +61,13 @@ class FullScreenCard extends StatelessWidget {
                       ),
                       SizedBox(height: 8),
                       Text(
-                        restaurant.types.isNotEmpty ? restaurant.types.first : '',
-                        textAlign: TextAlign.left, // 文字靠左對齊
+                        restaurant.distance_text.trim().isEmpty || restaurant.duration_text.trim().isEmpty
+                            ? ' 1.0 公里，走路約 14 分鐘' // '未有距離標示'
+                            : ' ${restaurant.distance_text}，走路約 ${restaurant.duration_text}',
+                        textAlign: TextAlign.left,
                         style: TextStyle(
-                          fontSize: 20,
-                          color: AppColors.secondaryTextColor, // 設定副標題顏色
+                          fontSize: 16,
+                          color: AppColors.secondaryTextColor,
                         ),
                       ),
                     ],
@@ -101,7 +103,7 @@ class FullScreenCard extends StatelessWidget {
                                 Icon(Icons.star, color: AppColors.ratingColor),
                                 SizedBox(width: 5),
                                 Text(
-                                  '${restaurant.rating} ( ${restaurant.userRatingsTotal} 則評論 )',
+                                  '${restaurant.rating}   ( ${restaurant.userRatingsTotal} 則評論 )',
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: AppColors.textColor,
@@ -117,7 +119,7 @@ class FullScreenCard extends StatelessWidget {
                                 return Chip(
                                   label: Text(
                                     type,
-                                    style: TextStyle(color: AppColors.chipTextColor),
+                                    style: TextStyle(color: AppColors.chipTextColor, fontFamily: 'GenSenRounded'),
                                   ),
                                   backgroundColor: AppColors.chipBackgroundColor,
                                 );

@@ -10,6 +10,8 @@ class Restaurant {
   final List<String> types;
   final double? rating;
   final int userRatingsTotal;
+  final String distance_text;
+  final String duration_text;
   final List<String> weekdayText;
   final List<String> photoUrls; // 修改為 List<String>
 
@@ -21,7 +23,9 @@ class Restaurant {
     required this.website,
     required this.url,
     required this.types,
-    this.rating,
+    required this.rating,
+    required this.distance_text,
+    required this.duration_text,
     required this.userRatingsTotal,
     required this.weekdayText,
     required this.photoUrls, // 修改為 List<String>
@@ -38,6 +42,8 @@ class Restaurant {
       url: json['url'] as String? ?? '',
       types: List<String>.from(json['types'] as List? ?? []),
       rating: json['rating'] != null ? (json['rating'] as num).toDouble() : null,
+      distance_text: json['distance_text'] as String? ?? '',
+      duration_text: json['duration_text'] as String? ?? '',
       userRatingsTotal: json['user_ratings_total'] as int? ?? 0,
       weekdayText: List<String>.from(json['weekday_text'] as List? ?? []),
       photoUrls: List<String>.from(json['photo_urls'] as List? ?? []), // 修改為 photo_urls 並使用 List<String>
@@ -55,6 +61,8 @@ class Restaurant {
       'url': url,
       'types': types,
       'rating': rating,
+      'distance_text': distance_text,
+      'duration_text': duration_text,
       'user_ratings_total': userRatingsTotal,
       'weekday_text': weekdayText,
       'photo_urls': photoUrls, // 修改為 photo_urls
