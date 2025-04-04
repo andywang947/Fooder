@@ -32,7 +32,6 @@ class MealContainer extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('食物詳情', style: TextStyle(fontSize: 20),),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
@@ -54,13 +53,13 @@ class MealContainer extends StatelessWidget {
               SizedBox(height: 10), // 加點間距
               // 類型
               Text(
-                meal.type,
+                meal.restaurant,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 5),
               // 敘述
               Text(
-                meal.description,
+                meal.feedback_description,
                 style: TextStyle(fontSize: 14),
               ),
               SizedBox(height: 5),
@@ -74,8 +73,8 @@ class MealContainer extends StatelessWidget {
                   Chip(
                     label: Text(meal.calorieLevel),
                     backgroundColor: _getCalorieLevelColor(meal.calorieLevel),
-                    labelStyle: TextStyle(fontSize: 12, color: AppColors.chipTextColor),
-                    labelPadding: EdgeInsets.symmetric(horizontal: 2, vertical: 2), // 縮小內邊距
+                    labelStyle: TextStyle(fontSize: 12, color: AppColors.chipTextColor, fontFamily: 'GenSenRounded'),
+                    labelPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 0), // 縮小內邊距
                     visualDensity: VisualDensity(horizontal: -2, vertical: -2), // 調整緊湊度
                     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap, // 讓 Chip 更小
                   ),
@@ -113,9 +112,9 @@ class MealContainer extends StatelessWidget {
                 runSpacing: 1,
                 children: meal.tags.map((tag) {
                   return Chip(
-                    label: Text(tag, style: TextStyle(fontSize: 12, color: AppColors.chipTextColor),),
+                    label: Text(tag, style: TextStyle(fontSize: 12, color: AppColors.chipTextColor, fontFamily: 'GenSenRounded'),),
                     backgroundColor: AppColors.chipBackgroundColor,
-                    labelPadding: EdgeInsets.symmetric(horizontal: 2, vertical: 2), // 縮小內邊距
+                    labelPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 0), // 縮小內邊距
                     visualDensity: VisualDensity(horizontal: -2, vertical: -2), // 調整緊湊度
                     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap, // 讓 Chip 更小
                   );

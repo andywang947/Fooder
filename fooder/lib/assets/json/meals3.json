@@ -1,12 +1,15 @@
 [
   {
     "id": 8,
+    "image_file": "lib/assets/meal_photos/8.jpg",
     "timestamp": "2025-03-30 18:30:15",
     "latitude": 25.0338,
     "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/8.jpg",
+    "restaurant": "Juicy Bun Burger",
+    "feedback": "普通",
     "type": "漢堡",
     "description": "黑麥麵包牛肉起司漢堡，搭配薯條、番茄片、洋蔥圈與酸黃瓜。漢堡肉排上鋪了起司、鳳梨片與炒蘑菇，並以竹籤固定。",
+    "feedback_description": "食材搭配豐富，漢堡外觀看起來不錯，但整體口味較為普通，沒有特別突出的亮點。",
     "calorie_estimation": 750,
     "calorie_level": "高",
     "tags": [
@@ -23,12 +26,15 @@
   },
   {
     "id": 9,
+    "image_file": "lib/assets/meal_photos/9.jpg",
     "timestamp": "2025-03-31 19:30:15",
     "latitude": 25.0338,
     "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/9.jpg",
+    "restaurant": "師園鹽酥雞",
+    "feedback": "不好吃",
     "type": "咖哩飯",
     "description": "炸雞塊咖哩飯，配菜有白飯、綠色蔬菜，淋上咖哩醬汁。",
+    "feedback_description": "炸雞口感偏乾，咖哩醬味道較淡，整體搭配略有點膩口，吃起來不太滿意。",
     "calorie_estimation": 700,
     "calorie_level": "中高",
     "tags": [
@@ -42,12 +48,15 @@
   },
   {
     "id": 10,
+    "image_file": "lib/assets/meal_photos/10.jpg",
     "timestamp": "2025-03-10 19:30:15",
     "latitude": 25.0338,
     "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/10.jpg",
+    "restaurant": "AGCT apartment",
+    "feedback": "好吃",
     "type": "提拉米蘇",
     "description": "一份淋上可可粉的提拉米蘇，旁邊搭配一杯檸檬氣泡飲。",
+    "feedback_description": "提拉米蘇綿密香甜，搭配微酸清爽的檸檬氣泡飲，甜而不膩，口感剛剛好。",
     "calorie_estimation": 450,
     "calorie_level": "高",
     "tags": [

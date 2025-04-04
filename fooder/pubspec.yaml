@@ -19,6 +19,10 @@ dev_dependencies:
   path_provider: ^2.0.15
 
 flutter:
+  fonts:
+    - family: GenSenRounded
+      fonts:
+        - asset: lib/assets/fonts/GenSenRounded2TW-H.otf
   assets:
     - lib/assets/meal_photos/
     - lib/assets/json/

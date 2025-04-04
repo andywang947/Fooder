@@ -51,15 +51,18 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
         final newMeal = Meal(
           id: DateTime.now().millisecondsSinceEpoch,  // Generate unique ID
           timestamp: DateTime.now(),
-          latitude: 0.0,  // You may want to fetch the actual location
-          longitude: 0.0,  // You may want to fetch the actual location
+          latitude: 25.0338,  // You may want to fetch the actual location
+          longitude: 121.5645,  // You may want to fetch the actual location
+          restaurant: "Mr. light 輕食先生",
+          feedback: "好吃",
           imageFile: pickedFile.path,
-          type: 'New Meal', // Customize as per your requirement
-          description: 'A new meal added from the gallery', // Customize
-          calorieEstimation: 500,  // Example estimation
-          calorieLevel: 'Medium',  // Example level
-          tags: ['New', 'Gallery', 'Image'],  // Example tags
-          suggestion: 'Enjoy your meal!',
+          type: '健康餐盒', // Customize as per your requirement
+          description: '這是一個包含雞肉、秋葵、花椰菜、甜地瓜、毛豆和半顆水煮蛋的健康餐盒，淋上泰式風味的醬汁，搭配白飯。', // Customize
+          feedback_description: '餐盒配色豐富，雞肉鮮嫩、醬汁酸辣開胃，整體清爽又有飽足感，吃起來很清爽無負擔。',
+          calorieEstimation: 550,  // Example estimation
+          calorieLevel: '中',  // Example level
+          tags: ["健康餐盒", "雞肉", "秋葵", "花椰菜", "甜地瓜", "毛豆", "水煮蛋", "泰式", "低脂"],  // Example tags
+          suggestion: '這份餐盒營養均衡，富含蛋白質和膳食纖維，是很好的選擇。建議可以增加一些好的油脂，例如酪梨或堅果，讓營養更完整。',
         );
 
         // Update the state to trigger a rebuild and display the new image

@@ -14,7 +14,6 @@ class PhotoDatabase extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        SizedBox(height: 12),
         Text(
           title,
           style: TextStyle(

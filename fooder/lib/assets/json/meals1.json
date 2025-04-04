@@ -1,35 +1,15 @@
 [
   {
-    "id": 1,
-    "timestamp": "2025-03-16 19:30:15",
-    "latitude": 25.0338,
-    "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/1.jpg",
-    "type": "健康餐盒",
-    "description": "這是一個包含雞肉、秋葵、花椰菜、甜地瓜、毛豆和半顆水煮蛋的健康餐盒，淋上泰式風味的醬汁，搭配白飯。",
-    "calorie_estimation": 550,
-    "calorie_level": "中",
-    "tags": [
-      "健康餐盒",
-      "雞肉",
-      "秋葵",
-      "花椰菜",
-      "甜地瓜",
-      "毛豆",
-      "水煮蛋",
-      "泰式",
-      "低脂"
-    ],
-    "suggestion": "這份餐盒營養均衡，富含蛋白質和膳食纖維，是很好的選擇。建議可以增加一些好的油脂，例如酪梨或堅果，讓營養更完整。"
-  },
-  {
     "id": 2,
-    "timestamp": "2025-03-18 17:30:15",
+    "image_file": "lib/assets/meal_photos/2.jpg",
+    "timestamp": "2025-03-16 17:30:15",
     "latitude": 25.0338,
     "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/2.jpg",
+    "restaurant": "敏忠餐廳",
+    "feedback": "普通",
     "type": "排骨蛋炒飯",
     "description": "一份台式排骨蛋炒飯，排骨酥脆，炒飯粒粒分明，配料有雞蛋、蔥花和高麗菜。",
+    "feedback_description": "排骨外酥內嫩，炒飯表現中規中矩，整體口味還可以，但沒有特別驚艷。",
     "calorie_estimation": 850,
     "calorie_level": "高",
     "tags": [
@@ -44,12 +24,15 @@
   },
   {
     "id": 3,
-    "timestamp": "2025-03-20 18:30:15",
+    "image_file": "lib/assets/meal_photos/3.jpg",
+    "timestamp": "2025-03-18 18:30:15",
     "latitude": 25.0338,
     "longitude": 121.5645,
-    "image_file": "lib/assets/meal_photos/3.jpg",
+    "restaurant": "隱家拉麵",
+    "feedback": "超級好吃",
     "type": "沾麵",
     "description": "一碗濃郁的沾麵，配料包含叉燒肉、雞肉、蝦子以及蔥花，麵條另外放置於碗中。湯底呈現橘紅色，看起來相當濃稠。",
+    "feedback_description": "湯頭濃郁香醇、色澤誘人，配料豐富，每一口都令人驚艷，特別是叉燒與蝦子的搭配超加分，完全是讓人想再回訪的美味沾麵！",
     "calorie_estimation": 750,
     "calorie_level": "中高",
     "tags": [
