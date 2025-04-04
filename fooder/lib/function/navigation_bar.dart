@@ -23,7 +23,7 @@ class BottomNavBar extends StatelessWidget {
       child: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.local_dining),
+            icon: Icon(Icons.collections_rounded),
             label: "吃過的",
           ),
           BottomNavigationBarItem(
@@ -31,7 +31,7 @@ class BottomNavBar extends StatelessWidget {
             label: "喜歡的",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.restaurant),
+            icon: Icon(Icons.content_copy_outlined),
             label: "想吃的",
           ),
         ],
@@ -41,6 +41,8 @@ class BottomNavBar extends StatelessWidget {
         backgroundColor: Colors.transparent, // 讓背景透明，使用容器背景
         onTap: onItemTapped,
         type: BottomNavigationBarType.fixed, // 固定類型
+        showSelectedLabels: false,   // ✅ 隱藏選中 label
+        showUnselectedLabels: false, // ✅ 隱藏未選中 label
       ),
     );
   }
