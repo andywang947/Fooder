@@ -184,7 +184,7 @@ Color _getCalorieLevelColor(String level) {
     case '中高':
       return const Color.fromARGB(255, 255, 136, 0);
     case '高':
-      return Colors.red;
+      return const Color.fromARGB(255, 241, 17, 1);
     case '超高':
       return const Color.fromARGB(255, 146, 0, 175);
     default:
