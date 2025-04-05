@@ -33,19 +33,49 @@ class FullScreenCard extends StatelessWidget {
                   flex: 4,
                   child: ClipRRect(
                     borderRadius: BorderRadius.vertical(top: Radius.circular(50)),
-                    child: PageView.builder(
-                      itemCount: restaurant.photoUrls.length,
-                      itemBuilder: (context, index) {
-                        return PhotoContainer(
-                          imagePath: restaurant.photoUrls[index],
-                          width: double.infinity,
-                          height: double.infinity,
-                          fit: BoxFit.cover,
-                        );
-                      },
+                    child: Stack(
+                      children: [
+                        PageView.builder(
+                          itemCount: restaurant.photoUrls.length,
+                          itemBuilder: (context, index) {
+                            return PhotoContainer(
+                              imagePath: restaurant.photoUrls[index],
+                              width: double.infinity,
+                              height: double.infinity,
+                              fit: BoxFit.cover,
+                            );
+                          },
+                        ),
+                        if (restaurant.types.isNotEmpty)
+                          Positioned(
+                            bottom: 10,
+                            right: 10,
+                            child: Wrap(
+                              spacing: 8,
+                              runSpacing: 1,
+                              children: restaurant.types.map((types) {
+                                return Chip(
+                                  label: Text(
+                                    types,
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      color: AppColors.chipTextColor,
+                                      fontFamily: 'GenSenRounded',
+                                    ),
+                                  ),
+                                  backgroundColor: AppColors.buttonTextColor,
+                                  labelPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+                                  visualDensity: VisualDensity(horizontal: -2, vertical: -2),
+                                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                );
+                              }).toList(),
+                            ),
+                          ),
+                      ],
                     ),
                   ),
                 ),
+
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Column(

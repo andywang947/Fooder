@@ -1,66 +1,65 @@
 [
   {
-    "id": 7,
-    "name": "裕品軒 手作包子饅頭",
-    "formatted_address": "116台灣台北市文山區新光路一段74號1樓",
-    "formatted_phone_number": "02 6604 0029",
-    "website": "https://linkgoods.com/yupinxuan?openExternalBrowser=1",
-    "url": "maps.google.com/?cid=3123395797755521382",
+    "id": 4,
+    "name": "呼嚕小酒館",
+    "formatted_address": "116台灣台北市文山區指南路二段106號",
+    "formatted_phone_number": "02 2936 9172",
+    "website": "https://www.facebook.com/purrsonbistro/",
+    "url": "https://maps.google.com/?cid=6162094737360109442",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
+      "寵物友善",
+      "性別友善"
     ],
-    "rating": 4.8,
-    "user_ratings_total": 13,
-    "distance_text": "0.8 公里",
-    "duration_text": "11 分鐘",
+    "rating": 4.7,
+    "user_ratings_total": 2106,
+    "distance_text": "1.8 公里",
+    "duration_text": "24 分鐘",
     "weekday_text": [
-      "星期一: 07:00 – 22:00",
-      "星期二: 07:00 – 22:00",
-      "星期三: 休息",
-      "星期四: 07:00 – 22:00",
-      "星期五: 07:00 – 22:00",
-      "星期六: 07:00 – 22:00",
-      "星期日: 07:00 – 22:00"
+      "星期一: 12:00 – 22:00",
+      "星期二: 12:00 – 22:00",
+      "星期三: 12:00 – 22:00",
+      "星期四: 12:00 – 22:00",
+      "星期五: 12:00 – 22:00",
+      "星期六: 12:00 – 22:00",
+      "星期日: 12:00 – 22:00"
     ],
     "photo_urls": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIEbMyWRBq9qMIjZAiOKRtf1L4UxRVqRCNYpfsiCNcbMUl9HQt6P6pVlMyYTytrTfwYXXSwKtlhLw8hq0iRpkD1GFHi2N7H693ZmUY6rlwZjLM0xRtO7OksT1-xJ4Z48Kphrl2-XjuI6V7BH4paSB8sB6XcfRbn2mQGCIic5rZ0EfQfNJrhzr26TVUxCLISGUO70pSQEW1K-pe99AEvnOMG36nTrxwa38YhzNI9GHUVoDyjogblItnJVmqfO1uIcPMiP3r_rp_QgrBqPB_X86CiOcFs3Q0mQsF4y2moarAtSBJfrvNUQ6cGkJJameSeL2STppZeQsRn-FZXmybcPBZCWnJEwySzXxoa-bUGMrVVlApORvsWddw1fZy5MTgMxRc5jxz6pO-E1NZ4nv60qhzPHWWjBOVBqHfqTp0sBad69BbGFfTHYT8BH0PMPvcPtDVsgLkivhhO8ZMDiRTq2-EFHYbHtpAVn62NthvcnZUiRJw2MbOhryY1x6OilUhdDtWbCWkBQI0xgkXNZYKmCNcZV95o0mAW_ihcPQIqFeqN6s3g2EoNUhNXXA1hrcY0BuV-Fzn8OUBn0T7eXm4dS2-cHVija6UIrV_eh26YlKcxeIs6zvrJD_plibrknX9teXuYKQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK1SttLPDXJLrp18GJDHVJlqAEKJr2jYhtlRkl20xe6OkhG3ZZnkFXsB9GAZgz-F_MoDu0xGJx_2L49I9WR6f4A9LmQSzB2WznN1BqdVuLL1SXa5geZVy-xwTWfEOG8DuqgxodglhCitUHkLRFjQFlA-BlIv2D2Qdmej_lSPtVM0QwfHcVRBqkR_mHgZ2keKEvb5H5mYNb7fcXxlaTZTgGqQVhomgd7y9pGojDhuIp7zGv_dRZ_37L28Sv7F6CeQv8yWy6U74BY3LfPIk6hKrmDrzOXwZrwPZUjsBYCtW8qucmtU9nwA582YCXgAoLvQ3oDTSIKz6Q&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKz67bN7t0TrE26noB6B5-5Sau8BYAL5rI6jdCjE9HjJ3PjpEtRx9YRt7kWCtXzhIWtI9xjds14QwPVlRS7g01cjw7ZmWr861JOLk3yyV8IlXSxSoyrJ-gUkGx8s1RisQIHdBsE16JWESnSCTyXsdFchuyqUmrx6ptNbPbzjstyErejhNr4pxazhWaBpdbKwf4Gbu92v5TkXgpDPMslZADaidIo5Juyn13eNTZuaeMQmiZaEXLkKhvUB_nhJ2ru5J-hM2sg_GQww3vwAbKCix1DR0wjO5KHqH4ZCc7mrkM3IFJnctNhoPX0-3KPaJAZgTnTz9Z636IsO3DnjunmBu7GYX3jBMdYTqZvC81nmO_UTquqeeWHyssvyRIioO4i6-bTJ01Z72xsrM6OjlStENLCr2T0qB1MXjeQGUK2RE650cCeUaWTCRGrqo6GgmCS8tc9YglcOIDqqIIP-RSbDxNMrMm8ByQTMENkVfQD0jNXepvXTaDUHvdh9nkHC8aEKLNCpskFLD8056ij5WMNtGtNUoKAzfBxfh_ynlTq6AgglfRdQdK86l-Dvcc9lJ7O76yNSa3fqu4Pws_-UCBWqaYgXeA5fW9bxx6Hp2-Y6yRn8sNwMU9z2_bnZAP3i6URXgn24w&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLA9l5MpySUiM127jQ46OUcMqR3rS_GgARBXLE2SpKO-izdvb5PDQFEUaChjqxhGI7tf53F9SJZ5PEp54Q7ELh-zyt9f-kqyltp3C1jVzpjVNfmmrqx9UKJah_Dje0IigTXA7VUEtqIY2jTQQmQ7JkE78VPl3ylKzqNi63cjZjD4cNPi_dknHBOd-4UYyaZMKg_Kv74tKoraDZO2JojT8QF5AjBo5OBvjMqElVLHt7UuIWr40vopF9aEaBXvzjpJwBOxg0-nxf-Dt2pAiH_zxd6Rd6D6haXMZ5-pRkORvliPf6PI4Gq89h0ctd0SBboNjr5gzDpAshVcA0oQd0XvDT_Z6QxqNLrSRu8gaUXg1qlMNBSVrC7IT2iLNyyxVIF7u8rmT3PhFUaHLBdo44gqujJdooYrIUeHO_hH95ypp3m_UjwMpTed7pBzceR0R1z9Y4mqmkJZ3DRZe0UEU299Ez2Sb_Ic8aLW8egYr4xaUzd0Rn0sSn8H2ill_MMoyZ_iVjPH1khyyE19OL9aXJx0eqMQ8Q7wrU0YFn4dfTJTuHDEwu7RX6nT4ZA7u8BKex4xRGms3w8VceQQH_GCJ1J0BN_Fw090T_NuPwdx559IC-RNRO9ixwiMsbU74Ldst1tmwTnXJ9QeugSNJt7pcJjSRdAdek&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcL3QEP792boJ_AuDl2RdRlQ1wkj4iyjvPOx-gfiPRFTszVb_a7zc-aLMVTmoAQSq8qgEhKdXK7SF7klBj-YpNyDQnfoIuDKC0wccdXnB0R3fxChXxC92_AlYUuSNUGQ6tt_HuQ6Kq9dtXKeUw5cEGTjNnCnsfQEcwPA0gUyfgWzNcnvtuR1PCn1cbvi-8OTVPK-rs6QJ7wGllqwVzWT7K_YzcUBuL7maDUkpuEQn4IX3yi8Ryw4wOyo9ILogPTcW1s9I2GnmucF0JX4Xki8borSRTuyADXJfnXjQKDnX9likxo9vjsE_f2J5bjDSxUIeLmwgk5B1hix3tByMdrkiE17QBjdE15hWfXRaAo6qze5Et6LC7XqIEn-SVueSsFSQ6y97yUMNzbcvUJPz8HHUtR__1oB6Ua23kg9HU-1-h4wluQP3xNq7-wlLJqWK4TXz9ijTooyHVhrEQLBia0P8UmArltwbVarIJ6O1KQcxoa3nfrQyrro4r8SnfPZNppvIh_pKtI3w81PwEj__l-wBk9-X0gAsge3EH9-AH6DZrhZHVDSPeBAWQA5_ndasC2eeZwKXR-87qB4RqfikSgV-F3toujcBAkSbTK_b4peJsDmKegKpDS_PJREaG7T68SaQN3ItVzt&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIV9L3QrMaeqlJWKIjbPpwQapvOBOXe_o6rDPPNrc-0QQNo0UH1sL8c4t1Ljrgr54ZIX7UMAm-Iimb4rQxk-aOkf-4-Q-QBWBHkrVdTFYPMWqS5wbh9TkAUX88FIcw0_r1JWVfzvXp0yfWGxrDa0RMLQEBSJo1zaOgjZZy2LMrY5dfV4z3hrWPj7q8WKJWX7aKLwiC033awqdm1QbOCKtXY2E7K0kVRl0MWHUYXBJEgN1O-VMqVeEjrfAchEvIQcoL19TIt1GDds948bwDYW7E2IMWIjr-If14Wwu_2TcuZpfU-14zUgDSvmGkIRQFYZI6-xgbak-hA5UQDahj6QMenMroNCNhPLIDpXrE1FJSOp8Tojxf6JfyAs9od8jmpAvESchUhnprjQ0R5izA-7dUX-IyAEYxCL-jC-EUY4N0znJyQ6qtJKFzPS37zXxnBZKpwBJ7DQrDtpeCPlI1ErKpoLfZ1VGLIWuE4B5OXQKaDuy4jadI1dhSkJ4arTzoOgkJ_72sRlPbIgrcz_qC75NMVxdsKn2WmS1uGMZevCAxHi79kdzVUuAIsPHDrHJU1XyMvsYZBhrDsGhZOx8vmOHgjr9DTcBwiobDKcBYqEttF39l945IY26sDZoWDsMCr&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJNWsQP8uaolQ52J450B1TDIluMuIDEEC8o-Axyp55tqz7bxkwpvH_-Q8_zsu36wKfXqWxl6_nijzj9LfwSaO5Q-efIsuuFAKNOP1Po0d2Ut_xwpSL6MfNboJ9xdpXi02spIBzn1ABg_Ujzvic6P77wv0bsGxrMw2ViMScUvjKfMyO37X_iWymNm3yjwoAXbgpIpS8GSNpJsQoo0nuuu4za7s23fVJcMMipvf2mqKrAdCY8hHCdcqy7dilvXG2EkBkcQaTdfIapCtoa4auasjyGBv-Y1So7oMOvMqGCOYjhCkevjV-eVlJAT8ygIRLKGzlsSo_CX7w8_FxPmqRv-7oUSP8ZTI5-4r1BxBRT-lbBEGQYtZxoCdfsA4GAViyl12HUxnWKV27X-aQNBhRXRqj7kpjmLAqI-EQbeEgcFnONxxzX23b3dHsuANVP7rfi0y3Ex3UWxRplsXcrtD9rsPH4nQ6AVOEAQ1zd2Qx4Yx2VHIR6fjMY1koKNVXkft5OhRLHcMw41B-YRN5RdJUr1e-qaWRWPdrL-0fx__hA04qPJXbWbwQNPiI1k5l8OE8k7VFSO2f06T0J7F52q0MHicLfKKbHPkdRyaPDfe0Lod-XZzU8Shz_otpw1AOzREvfnRipxw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
     ]
   },
   {
-    "id": 8,
-    "name": "Ruins Coffee Roasters",
-    "formatted_address": "116台灣台北市文山區木柵路三段242號",
-    "formatted_phone_number": "02 2234 0024",
-    "website": "https://www.facebook.com/RuinsCoffeeRoasters/",
-    "url": "maps.google.com/?cid=6264880712927327409",
+    "id": 5,
+    "name": "小公寓Apt.cafe",
+    "formatted_address": "2樓, No. 56號指南路二段文山區台北市台灣 116",
+    "formatted_phone_number": "02 2939 2790",
+    "website": "https://m.facebook.com/%E5%B0%8F%E5%85%AC%E5%AF%93-153345818089728/",
+    "url": "https://maps.google.com/?cid=10711289764569431028",
     "types": [
-      "cafe",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
+      "性別友善"
     ],
-    "rating": 4.5,
-    "user_ratings_total": 1268,
-    "distance_text": "0.6 公里",
-    "duration_text": "8 分鐘",
+    "rating": 4.3,
+    "user_ratings_total": 653,
+    "distance_text": "1.3 公里",
+    "duration_text": "18 分鐘",
     "weekday_text": [
-      "星期一: 休息",
-      "星期二: 13:00 – 21:00",
-      "星期三: 13:00 – 21:00",
-      "星期四: 13:00 – 21:00",
-      "星期五: 13:00 – 21:00",
-      "星期六: 13:00 – 21:00",
-      "星期日: 13:00 – 21:00"
+      "星期一: 11:00 – 20:00",
+      "星期二: 11:00 – 20:00",
+      "星期三: 11:00 – 20:00",
+      "星期四: 11:00 – 20:00",
+      "星期五: 11:00 – 20:00",
+      "星期六: 11:00 – 20:00",
+      "星期日: 11:00 – 20:00"
     ],
     "photo_urls": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcL7XLbvvivamgc_G01qb5MJigw9wW_v1rjLU5nG4wa_5Hx1O5uUdi1rYLk3osgOGZETaCfciyEpWvF9lTa8eSyNVCSMibZ3LweRQ-8HGq4DFpAMDEnlsbOT7nmV3_1k2N_3MOjVODPQlixuY90Hdg_je-k6pgA9vWVHl6MNnh38EVH0gRlSxszrdge6jjmmHDOb3Havgf5NR5IuVqXuywLw4w2z6bYJz8T-rLvphk7m7f1OoWaL1FMPD44-mI-4JfMfLN7yDKmvBJkX4Vqez9CJpsE42jcsumIwRgNAHRj3o0c1AcvN96Mv0fMwAjoQ_2psZHS_XwOInvbdmOhNppcMbhDFBqbvgeX4Bl3flcP_rUHBVSoiFZtqL4K_0dA4aTtcQnlCuEbkgKuAfyN4u8zxqMqBJthrhyv2Jtrb8887JguplAXgE7gywel41KIsY1mSDNjm40JU_3RrM0WDnRtuRfAEsykA9z7aS-PsHkjJGjitcx9VZoveTkPoSz_b9jrgUNfU93PoVf57weN3L_EM8LWbTO9i1QXNnPaDPphbTrgGatmbwy9TVz6IuX-qcqAK6dOPeLNP3i1qOclG4X-uu23Gmd6h66T5VOb8Sx6EZuHQqxw2gooMnaxx_ld1pcSvIg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIFKoRp2cnMCe9dTqWa2xjQMQerqDnEPhKySgWqtDYR2p25ajbcd-NQ2BfYMqGzBuw2fkD7n-7qZqPzKs8KhQg5gjcM9yb8Osv6-tDnVJ95NdcJvTxtD86hUKQCNctpArzXGX0iL1WgIDLhmeYEuEvcSQRhV0gxAq6FCnetUCaPjBHahk2Ch3NC4LSRAi7ypUh_CqLNVCmYhkkJQXGS3uGS8Cklta2NW8mXUzF5FGfhG6K57lSZT6E3g7nddEL6L35xyFQOjK0hfH0-avZsc62zBodFxNSA4CLDgDkcoy5LQclz705n0rfgGYUABv3X5dUBti6AhOg4FPgQvkIEEpHIoMmj1XWNg1JmM2glfi_o22gJcx6n0Bnfkbs4hcIzSICnbcAmwbgCvkSzuEIwlMni8lNNLwUSS6rWIb5Dozwr7hAS9wO7RlLYqgYUXpbjZSMk159CTeFiW-FZCjj_ai0BC26cVc0ZdhqL4LOQihnNMjp-JPq9vezKbm2_y5PasaMYsseDKHSTYdi0fwcAt3AJjQ4XmrTV52TEebF9fKuF7fqiVAM27Nu1CCC_1bPtLuzufLaUlFcXkKjwtSVrIk_EdCjjpr8bx0_iAFb5bEzQ-CKyii3t1vp0adKYL1AZ7QpabQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcI00xpC2SUgT7-GD5ypdceaMK5eXtyIlvl73Shxo_lXBE3tCBkNIio7sLebLm7iYDNr22KH-99DaR27S6EVRpE4yrz1PuuD3BvUnXTJIXbX9qN3wg4btNSRZasNO5BAvt4iW4Pzi8xQx5chAqD3JrT4E_sjDwi7SZEe6zGEgQC0hkAJYFU9JLKkowpm14ltIgPjYv6iTiFOxfLil3uhh69GgQgy5ywzW43MvcYpuHhDlBMoDCwAqVEslZ0DH6XaXi8a4eloDVXosrDUqIGPir7_IKz2uB2UqtVAmPjxg-NeoWWLCw_JP2snd3y-Y13jfe826-bcufcVEdVl0oEgbeBPQAxIV4pAROyy1FduOVr6YNsGSpqcFW-OLKQn14NO6z6EQhsDQQwXSoJR2NO3deqUruODt0l2rbR4Br0ze2uKet8-QoeipybvzDKVHT2iDt9u_AIWr_JFupYlwEa_asGP1TexVNaCQQlfuhMsPoFUQXzfI2rQ-NhgYwi4qrNfbvUCyXa_kAmg313SxgMuYT8Z4fSkZCu4SrdCptA7HppxXPvpCmg3dSEQm0twieWu6FM2Ej_zp9W1rUT5mXrfhhzwWdmr_uZzAsWXwuVNIQGa2mca5gA6mqY8MazPqDRe8vkRj2gM&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJ0lm814VSTW9O-mYOA5NAysJsiThfLvZq-Pig7EcfJG3KtnSEt2Jz_m7bGGCHNfQtyr-9mJBrzDqNcQyu0RKoQ3mVKln5g5I528Hx_y69Ypj9Tf0h44_ool2sBgkQl_bWm1aCEmFSmTlWNsZcD_Tjjs4e-9P-el0lgy9ooLBeYhr_9T6-JMaNR3ux0kUFkMmksMQSYS01miqMWKphqgypvUYaO3tWmW6u7nsNoEDgxh_ue7TPfrlihjiVD709fDUkrJ8eoeNqMYgU5f0stCgkkATQMs3XF7_5JH4omt5tV23C0lG0U-MYeL9OWMnAML7JsH4XMpGeUYrX8BDlaTkTHIJDKHGo50KsUZ-iTpGqcJ3ubGQAqSbXk2hEffkTsx_SNIv4qLQerE4Xo4E7Kt8V2-AeEIO2HlJg9U0EoVA0x6IuS3A-LVYEJKIHoip9IteE3YLtMd3N95mz3EPOorNe84fTeyMqCMT7Tlbc-9UZkYX1p_osD1Dbaav193HH4CaYCjPxLJNexrS2lvfRpNBoTJc9sti4PGYpI7C0wfdxyp77Ia98hKEodagsNP_LoCIlYlobgTDh04VA0TmuiZnpzU1L_wuzinzn1fPigfLqU3v2RHKXcCPvlzL9ysP2O9UHvJA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcITpT8b_vAijWIjV9fQoeKKKxszOk93mWpbtNwFqWiVf9UtqFdn9oj3BTiPxK9x13sjU1gWQZGhfozPGV8rHnywFCc2CQP_TIbxu6miBY8pA-clycM2_n4qABNw-ftj4boARfSLrk3MuCIfzi82O2gTQfjS31FlGlf8YJi9wZqH_IGrhn5FmI_DlbQVicbBrebGu6f4O-RQ28QZP2zQT6Zg6Cdd_z9RF1tjaxkcWO1S4fWZcZ8lDOq5tEEssmNeG6XpDk-_WkshcJZ54Cw5nKKCuAumoH4_t2J1dVWGmOupfOik4p4-NNZMLxHUP0_4Q-E3DGd9J6mjBBesi-vcTIOu2hR6AOKoNzbV9ir08acCzYndX0G2g9795rZvmEmZch227dJaQXvxA_h7vZDc-bC_LpO93U7CS-WJ29bulWo_04fZMGX_2C6GquUWJU2KdW2kk9gByGN_0t2JJYAB4aiDYpPffbS41m6OntcIdc_Qvh1b9j4DvFNTp76uefavwxON2Oo_pg1VDaF_XQ1WABIsMhnK0PEViQSLOEYv5EKNwVcuGg730pvIZwhDPv7cj6ZsZSvQtnUIW9lqgwMe7-8ngx0-QeVyPVuTvjTpIo100JlLwmYbupGqyQ6AFV8N0SGdLDzL&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKa7GB8aMzaxUaUJVjHsfYiRNpB7GKMn0OXOvHk-5uUDktNfmZEomLDOpRiRbuZAf8KsaKgmUfwA5MqUx718Hvx5veS3vq_kj6COcWa_402q399ciW-vu6eg6sdSYZACK714pJH3Horc4I8xdMpKr4ehUj5bGclsY7-ehTUGIu9KhXJU7TfggwgH-Yb-VzBbkn5o4j1KNl0LWx29uWWgOXxMPGZoCpijbhSFl48k6asKVZBO6cVNEgbxEYFlBWEFEX-kn5IlcUgCyjURASk_y63gZimJaEM7tnxtMYQAz4vwWrzw-_z9seYRdqZ-yTd62Q3HkSHGhoEOF1oHqgpesHspOefdHXFyu9IR0N525dVOFQrHhp93Ly-VxLNkfRzmbLb8nAtihrGYXySLuXiC4OOcl_60k0I0IxZuZOkZFt2f4197s0RG3jT9VVB0kjadzosDQG-GrQ2ESmSOHnAuI0dEENK2pFQ_1cVUSGQiTBKnC4WEbnU3za1vBOzXLey3F13wBqD20Vnx6vJcoy18ZCnqMRyYXxCDJD9kR8KqGmNPJ1ODF46AYv3Ua9G4lkVq9bEdB7VEDM1dwQktOFARsOrYHjRLSC05LTv8Yfw2Q01_oWTenYBToJ6NBUv4W_TGvb0pL9C&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKImJ4UINUhLxnvuBLPxZF5qcuvi84p0ZpTZyIc_ynPk7tXwI2coF_VjEkTb1SOyCpo9e6ddDRys8FPyLdd2fPd2s6I54tZhbfTvUIYTo5AYyzIfv2B1KRzoYABVj2cWUwZEbfBc5OzNjbTVvuWs8BYXQAvADE8dIBxHKmyggXK8V4fQTXFODW1cabmh4JaxVgfafsmgBbNW8FDawVR1FrUEuWBN5SrWCAHmBCHBpvHOkiBMUragieu_XK44LdcIob0YHr51O5c6je3crUw16n-7argETyaKnF_zvw_YFUSboPIxjQVvjtAfuTExpSiZKyTjdArToilTh3mG_M_ZQx1oVUouSW5GnZUbe9LPI7atNTGAPUj-6_o_J4PhMIvhq-1aZQKuQfj-ihLdGu7nFFbObfeGwfUJuu1JqOX6Ni-FoQJY0YY6FMDDrjy3RTNtZHOodIQXupo8b7mYpdWhsomdHA9aZkD_I9gyC-J745BZYOd5J_Tzjka0bv2DtMm_-7eSKit37zn9VWReYHsaLgrkSJbERqQQMKPvJW8NcVCnrd0lWTq7ZjR2mkv2ld1H7ihjyV8Yvm-kHKVexame6DREk40gnYa7VYb_TW9pXfHwWyYEuTO4munDPq6T1Rc3GM2bThZ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLnuqOsPNKPZX5x2ynlnOMUHJ3fQoVBidu1ybyddlloAn5_r1sU2S1JSjSxT3L9jAZtWYq47xfEbOf98SI3h3bdqQZjS_HGFyhGH99rigkrWkUe_bexnS_dSDjCD2u0c-d7qX-hIsuxC1Y-YjTjM7N3uPa9aPxlhdrjHxX0PhIxF726ouz4MuBy6rkzzoh6YZLPzSPvmFF-ni3TpW9JWoloVN409-q2Yz-9aDwhNGcCrE6oMcCBJe4yFoFYM34JS1CKg9dG54Sh5y--h9_bMYdQJUt49EeEuYldJIK2yRGtDFUC3iLUlibWrnEEK804UqmCkrer_K5EvfjoOwIcE096TSvgz-J5sGuZ8Qd5K0ZQ2oQat7V-GBRTcStoOHcWCFdH6DLTVunvk6MGTR8XL20ahvc0BJholp88a8w8y71WftRB1Y1cdswj3xxDKiiDLTOiPoB4pt5xpHusYT5m-1Tl7sSkNAMAVGpAjPMl1L7a5_ec48Hv5mKg4K35DVARaUrtjD30u9p15t3v_cp9RxVlMny08RfWzKY2EB1RrHRg1HIR93EBsqQNbQA18Qnu91-ZGbGxyVV6MzXlYbn1ErCSyG7oFRnzDYRsXmBZFXZ7CwBNmkIs9AixFTAH5pwCNMvbLw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
     ]
   },
   {
@@ -71,12 +70,6 @@
     "website": "https://lin.ee/c2hld0g",
     "url": "maps.google.com/?cid=13039118035687508571",
     "types": [
-      "health",
-      "restaurant",
-      "point_of_interest",
-      "store",
-      "food",
-      "establishment"
     ],
     "rating": 4.7,
     "user_ratings_total": 2089,
@@ -107,10 +100,6 @@
     "website": "https://www.facebook.com/108089164948506/",
     "url": "https://maps.google.com/?cid=5598894187674848908",
     "types": [
-      "restaurant",
-      "point_of_interest",
-      "food",
-      "establishment"
     ],
     "rating": 4.2,
     "user_ratings_total": 433,
@@ -142,10 +131,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=5043044635686646278",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.1,
     "user_ratings_total": 125,
@@ -179,10 +164,6 @@
     "website": "https://www.facebook.com/leckercookinghouse/",
     "url": "https://maps.google.com/?cid=11303676126860338976",
     "types": [
-      "restaurant",
-      "point_of_interest",
-      "food",
-      "establishment"
     ],
     "rating": 4.4,
     "user_ratings_total": 757,
@@ -218,10 +199,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=346626980621688413",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 3.6,
     "user_ratings_total": 17,
@@ -257,10 +234,6 @@
     "website": "https://www.facebook.com/Jing-Cr%C3%AAperie-107122104368518",
     "url": "https://maps.google.com/?cid=4891630927912200414",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.2,
     "user_ratings_total": 44,
@@ -296,12 +269,6 @@
     "website": "https://www.facebook.com/aduanbakery",
     "url": "https://maps.google.com/?cid=9796667455017306980",
     "types": [
-      "bakery",
-      "store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.5,
     "user_ratings_total": 259,
@@ -337,10 +304,6 @@
     "website": "https://www.facebook.com/Arty-Burger-215084711859562/?ref=bookmarks",
     "url": "https://maps.google.com/?cid=7194649587610449523",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4,
     "user_ratings_total": 479,
@@ -376,10 +339,6 @@
     "website": "https://www.facebook.com/profile.php?id=100063934805110&locale=zh_TW",
     "url": "https://maps.google.com/?cid=8663098554185343229",
     "types": [
-      "restaurant",
-      "point_of_interest",
-      "food",
-      "establishment"
     ],
     "rating": 4.1,
     "user_ratings_total": 151,
@@ -415,12 +374,6 @@
     "website": "https://www.facebook.com/happinessveggie/",
     "url": "https://maps.google.com/?cid=14896596110206684937",
     "types": [
-      "cafe",
-      "store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.6,
     "user_ratings_total": 280,
@@ -456,10 +409,6 @@
     "website": "http://www.8way.com.tw/",
     "url": "https://maps.google.com/?cid=1279187491891997100",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 3.4,
     "user_ratings_total": 514,
@@ -495,10 +444,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=14629113009039892947",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.3,
     "user_ratings_total": 58,
@@ -534,10 +479,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=11943863964204097100",
     "types": [
-      "restaurant",
-      "point_of_interest",
-      "food",
-      "establishment"
     ],
     "rating": 3.9,
     "user_ratings_total": 355,
@@ -573,10 +514,6 @@
     "website": "http://www.8way.com.tw/",
     "url": "https://maps.google.com/?cid=967527729353052683",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 3.5,
     "user_ratings_total": 494,
@@ -612,10 +549,6 @@
     "website": "https://order.nidin.shop/ustore/3795",
     "url": "https://maps.google.com/?cid=13999043275095116816",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4,
     "user_ratings_total": 75,
@@ -651,10 +584,6 @@
     "website": "https://www.facebook.com/ccvegetable/",
     "url": "https://maps.google.com/?cid=13667245406075882541",
     "types": [
-      "restaurant",
-      "point_of_interest",
-      "food",
-      "establishment"
     ],
     "rating": 4.5,
     "user_ratings_total": 320,
@@ -690,10 +619,6 @@
     "website": "https://www.mcdonalds.com/tw/zh-tw.html",
     "url": "https://maps.google.com/?cid=16910588805554411343",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 3,
     "user_ratings_total": 1474,
@@ -729,10 +654,6 @@
     "website": "http://www.mos.com.tw/",
     "url": "https://maps.google.com/?cid=14623128863639124704",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4,
     "user_ratings_total": 479,
@@ -768,10 +689,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=18333420576492910975",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 3.8,
     "user_ratings_total": 31,
@@ -807,10 +724,6 @@
     "website": "",
     "url": "https://maps.google.com/?cid=21851369573223603",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.6,
     "user_ratings_total": 292,
@@ -846,10 +759,6 @@
     "website": "https://www.facebook.com/JUICYBUN/",
     "url": "https://maps.google.com/?cid=1291145046097477170",
     "types": [
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
     ],
     "rating": 4.4,
     "user_ratings_total": 2224,

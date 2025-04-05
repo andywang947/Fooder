@@ -52,8 +52,8 @@ def extract_place_details(input_json_string):
 
 # 主程式
 if __name__ == "__main__":
-    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/restaurants_nearby50_with_photos_and_distance.json"  # 修改為您的JSON檔案名稱
-    output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_recommend_restaurants.json"
+    input_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/seven_restaurant.json"  # 修改為您的JSON檔案名稱
+    output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_seven_restaurant.json"
     # output_file = "/mnt/c/Users/h2so4/Desktop/Fooder/fooder/lib/assets/json/extracted_unknown_restaurants.json"
 
     try:
