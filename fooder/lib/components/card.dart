@@ -113,6 +113,7 @@ class FullScreenCard extends StatelessWidget {
                               ],
                             ),
                           SizedBox(height: 16),
+                          // ignore: unnecessary_null_comparison
                           if (restaurant.url != null)
                             Row(
                               children: [
