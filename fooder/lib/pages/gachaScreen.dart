@@ -163,7 +163,7 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
                       );
                     },
                   ),
-                  SizedBox(height: 45),
+                  SizedBox(height: 35),
                   Text(
                     _isDrawing ? "思考中..." : _drawnCardName,
                     style: TextStyle(
