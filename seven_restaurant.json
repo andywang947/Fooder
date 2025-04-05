@@ -1,0 +1,2587 @@
+[
+  {
+    "address_components": [
+      {
+        "long_name": "110號",
+        "short_name": "110號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "興隆路四段",
+        "short_name": "興隆路四段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "樟樹里",
+        "short_name": "樟樹里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">樟樹里興隆路四段110號</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區興隆路四段110號",
+    "formatted_phone_number": "02 2938 8080",
+    "geometry": {
+      "location": {
+        "lat": 24.9830565,
+        "lng": 121.5620267
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9844229802915,
+          "lng": 121.5634341802915
+        },
+        "southwest": {
+          "lat": 24.9817250197085,
+          "lng": 121.5607362197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "international_phone_number": "+886 2 2938 8080",
+    "name": "優秀早晨",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 09:00 – 15:00",
+        "星期三: 09:00 – 15:00",
+        "星期四: 09:00 – 15:00",
+        "星期五: 09:00 – 15:00",
+        "星期六: 09:00 – 15:00",
+        "星期日: 09:00 – 15:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1366,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117140866003464494997\">優秀早晨</a>"
+        ],
+        "photo_reference": "AeeoHcIIBmRGDwitSsdix2b1du4JSv4kczNdXwfrWzn-DdZVlYRJ-24VlVLFZSLoL7cVGCi0y4w-s3mvbZdtE3a7gcmaMx9tYqyUofYIXG5nF8Rn2Ha695lLZoRCjvwSZP_-HeUAsxYQVZUI-fAzsSiV-nY0lNzdP1urGKYIK5DKeS3JlaeiCNSGDP5Rtiygw5MYpbwQQorkY8TjOrdKbtm3cIntv9aC1Kl1ii2bpKJoYQD3GB37vZFsl-Wh6REqtNn0ZFMggl5UXz9KEUMKlveMcRpXHIJ3ElrxnAV1n98o_YWXaLaF5ajaKpELfZ4x4z4OrIWSm4VM",
+        "width": 2048,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIIBmRGDwitSsdix2b1du4JSv4kczNdXwfrWzn-DdZVlYRJ-24VlVLFZSLoL7cVGCi0y4w-s3mvbZdtE3a7gcmaMx9tYqyUofYIXG5nF8Rn2Ha695lLZoRCjvwSZP_-HeUAsxYQVZUI-fAzsSiV-nY0lNzdP1urGKYIK5DKeS3JlaeiCNSGDP5Rtiygw5MYpbwQQorkY8TjOrdKbtm3cIntv9aC1Kl1ii2bpKJoYQD3GB37vZFsl-Wh6REqtNn0ZFMggl5UXz9KEUMKlveMcRpXHIJ3ElrxnAV1n98o_YWXaLaF5ajaKpELfZ4x4z4OrIWSm4VM&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117140866003464494997\">優秀早晨</a>"
+        ],
+        "photo_reference": "AeeoHcI5QBQDC7n1tqiQi4H18nE7fPBSLxYATZi9_KQki1FcFSIgnd_PdAl7WIvLaz7ZE1EmWkY4lBeFclC253iX2mn-KGFwKBo_S1GIpZ0yQOsV8v680kDGtywI5EmBTWAPGCqIyPy0b3mA01bCsQ4UzCzX-4FNDBnG3_VXYmoeJsSeJYm6rSnZAAgAjF3zr-TtjQhO2z5BJsTGnOs9yDipMrIXftUOTVuLfgmYhLLncUgfnskSCJ-KxAFIp-7If0H-7ZY6tqRTOHy63wWVvQB9t_goGgHB1qRmLsgTXTu1MVwymvcA9fm13nXEXRn8RABFNCBnbWom",
+        "width": 1366,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcI5QBQDC7n1tqiQi4H18nE7fPBSLxYATZi9_KQki1FcFSIgnd_PdAl7WIvLaz7ZE1EmWkY4lBeFclC253iX2mn-KGFwKBo_S1GIpZ0yQOsV8v680kDGtywI5EmBTWAPGCqIyPy0b3mA01bCsQ4UzCzX-4FNDBnG3_VXYmoeJsSeJYm6rSnZAAgAjF3zr-TtjQhO2z5BJsTGnOs9yDipMrIXftUOTVuLfgmYhLLncUgfnskSCJ-KxAFIp-7If0H-7ZY6tqRTOHy63wWVvQB9t_goGgHB1qRmLsgTXTu1MVwymvcA9fm13nXEXRn8RABFNCBnbWom&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105591627739401477047\">Kelly’s Runway</a>"
+        ],
+        "photo_reference": "AeeoHcJ7tq8mZlh2uz3RycO6ciSFSUbJ0rvXmr9U2BHenCSbgzAFOWttul-6c9UC0i2MnKDK9X2v_dqgtaHK8DNAne4c6cnSXwyLDW8JjnXobdkX3uqo-910BDNWomS3pTIOiFGndSqqDd6fjh_QKZ6ordJpi_f_NyU47rHjtVsCTV1DMf4rQY6vAJx2GEsRnJIzgykwHbn8x-1hHe36Nw0Op2IX4w3_hdY6bC_a6vM13C09SEOcf1WDagWvo0TMzHtEXFw_mU5f74rqXOYw68tyl6nBJdElKWVt30zjrY3gUHFg8KVn4gdD3Qc2ylThT13Y6oBJazVIL9RDyMoLr2cXBf3zt10ZyUrYP8FgSMJ0iRyfPgHzKsHuiQf9rEPy1O-aLVppROt1m4WA_UoxNANDXBAonp6BtxUFwjYQgCUi2L9fA9lhUWl2yOC7_8mMxsJMpxoWGwHR53ej37BEbQgNQmnCLeyQvhZe5yf3qTlfBc6FmKMBi9ilQYOeH4u-sWKEIao0pblCo4tEM7Ds9yutmQoaPvaIj3WhEQ8KmqNrODFm2p-fGILwUBeT-vNmzQQXV4wAGTlYZyy6SIcjBPGdgoZfumFgL9TGqm6RzkQuGL--L4xgSX6hbpk7WcNHSXaYoQWjUg",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJ7tq8mZlh2uz3RycO6ciSFSUbJ0rvXmr9U2BHenCSbgzAFOWttul-6c9UC0i2MnKDK9X2v_dqgtaHK8DNAne4c6cnSXwyLDW8JjnXobdkX3uqo-910BDNWomS3pTIOiFGndSqqDd6fjh_QKZ6ordJpi_f_NyU47rHjtVsCTV1DMf4rQY6vAJx2GEsRnJIzgykwHbn8x-1hHe36Nw0Op2IX4w3_hdY6bC_a6vM13C09SEOcf1WDagWvo0TMzHtEXFw_mU5f74rqXOYw68tyl6nBJdElKWVt30zjrY3gUHFg8KVn4gdD3Qc2ylThT13Y6oBJazVIL9RDyMoLr2cXBf3zt10ZyUrYP8FgSMJ0iRyfPgHzKsHuiQf9rEPy1O-aLVppROt1m4WA_UoxNANDXBAonp6BtxUFwjYQgCUi2L9fA9lhUWl2yOC7_8mMxsJMpxoWGwHR53ej37BEbQgNQmnCLeyQvhZe5yf3qTlfBc6FmKMBi9ilQYOeH4u-sWKEIao0pblCo4tEM7Ds9yutmQoaPvaIj3WhEQ8KmqNrODFm2p-fGILwUBeT-vNmzQQXV4wAGTlYZyy6SIcjBPGdgoZfumFgL9TGqm6RzkQuGL--L4xgSX6hbpk7WcNHSXaYoQWjUg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3709,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101740278175789644289\">Julio</a>"
+        ],
+        "photo_reference": "AeeoHcJz4b9jJfsZlETUkT33Ec0GSIG-QO4U12Z2cLfnh0Y5hEy0uKs8Jl7oqVGpJm-zJbAI96fMEr5SyBoaCv0y0L0nr9VEhBiKDOxDjrj2pPPz59useyGNDPPAuTM3wh_HwkupdnWtA6qIkODThAP7ky0lNTpF8txtWzg1txIDpxMVtVshqBfHjlEdAjtcf5KBQ6MFZsrsQ-fI0jChIfZk9Vv-e4cqM1Gc2VmgSUrAwwut8RE6Zmom9tJIJUULJmIFDXGZ9giMnw3gF4HJr8GUxUcW9XZYO0n7blxqv6E32O93LAEKMJs942_r3IytXX9iI4yivUlSQKLBep7ZpItHdInLGtQfW9ZNb40at14O0VCMLUr7F7OflOKhjExzTSfqdS7UBuGpjx-3fOt7APEwG5-Ldsv_oX547qm8JvcmhqAdmIRFGDlko2YWzMKy6qHT1fINBFQqOAHvzBVR323fJOxVNrhXLDLlHGxvZUFbEq6Opd_p0FAngyOvusyE5YrlfVormlTTM7DIHxV4aIVb-r7RD9askN8c07yzZ_UtsW3vwhspd6vW3qmOUUqbvvLd1H9siyA854O63MDQSvj6DDMuHtJAfQO-VykgN2DOWZ_Hqw81aVhET6rLAJ1rxHx-lHEKww",
+        "width": 2782,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJz4b9jJfsZlETUkT33Ec0GSIG-QO4U12Z2cLfnh0Y5hEy0uKs8Jl7oqVGpJm-zJbAI96fMEr5SyBoaCv0y0L0nr9VEhBiKDOxDjrj2pPPz59useyGNDPPAuTM3wh_HwkupdnWtA6qIkODThAP7ky0lNTpF8txtWzg1txIDpxMVtVshqBfHjlEdAjtcf5KBQ6MFZsrsQ-fI0jChIfZk9Vv-e4cqM1Gc2VmgSUrAwwut8RE6Zmom9tJIJUULJmIFDXGZ9giMnw3gF4HJr8GUxUcW9XZYO0n7blxqv6E32O93LAEKMJs942_r3IytXX9iI4yivUlSQKLBep7ZpItHdInLGtQfW9ZNb40at14O0VCMLUr7F7OflOKhjExzTSfqdS7UBuGpjx-3fOt7APEwG5-Ldsv_oX547qm8JvcmhqAdmIRFGDlko2YWzMKy6qHT1fINBFQqOAHvzBVR323fJOxVNrhXLDLlHGxvZUFbEq6Opd_p0FAngyOvusyE5YrlfVormlTTM7DIHxV4aIVb-r7RD9askN8c07yzZ_UtsW3vwhspd6vW3qmOUUqbvvLd1H9siyA854O63MDQSvj6DDMuHtJAfQO-VykgN2DOWZ_Hqw81aVhET6rLAJ1rxHx-lHEKww&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105591627739401477047\">Kelly’s Runway</a>"
+        ],
+        "photo_reference": "AeeoHcIYOw4KVgc6TiAxw-Z_zgHWNLqMdGbYU8L3Q-9c21sbxFH9YKCd6_6dAehDMnT_YQV5UmTJbRBL6xyFMvP5_VIUi37xqBVfmp3AFudnKzgI5W7t7oOscQfxegdjpq59hVpSfxx3L4L95MqJiLR8ZDxDDZb0h7sRrxJHFKqx6y9DTEMa4MjZQd8EUW-sLx0NtaubyM-ummlo3u5ix8bT9Zh0xSZdL-uZ3qzrXOeJgMHUGdhrYdF7C1X_BWKg4r19rqRESQhRzNB_DJSySUbxXCBqfq8aJ0FC8PgIeKOoIPzVicJIN62aaAKa7RX4EFQv_AMG84PnDHyRzvHBL_wEkOu61N5xR1XienixCfBQJnhX0E-FwUTm0ixJS7Kugq7F4zpcCCv4O9UrSNPhEC9iSep2ww-gdbfjn-XnfwUX3I5r3CgpzZYXV3GiTi_CYBuas0VN1UXhLbhUy9BD6WWH-KzboPm4ytf8OxGBEn2euEDuD1fXqcIGwmuWf_PQ3PaUV1Nla-yJj4IWqTNKla-B81Qg_uz_YSBtIVKFOCRf_CxBvCdGtHL8x5fKpXL9rzX08BPveA_jBdCtdOkhsTuC7tnyQNNFgYQ6rrHHBhrSV9ZcW8J4q7aJAKqc62FXEQ",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIYOw4KVgc6TiAxw-Z_zgHWNLqMdGbYU8L3Q-9c21sbxFH9YKCd6_6dAehDMnT_YQV5UmTJbRBL6xyFMvP5_VIUi37xqBVfmp3AFudnKzgI5W7t7oOscQfxegdjpq59hVpSfxx3L4L95MqJiLR8ZDxDDZb0h7sRrxJHFKqx6y9DTEMa4MjZQd8EUW-sLx0NtaubyM-ummlo3u5ix8bT9Zh0xSZdL-uZ3qzrXOeJgMHUGdhrYdF7C1X_BWKg4r19rqRESQhRzNB_DJSySUbxXCBqfq8aJ0FC8PgIeKOoIPzVicJIN62aaAKa7RX4EFQv_AMG84PnDHyRzvHBL_wEkOu61N5xR1XienixCfBQJnhX0E-FwUTm0ixJS7Kugq7F4zpcCCv4O9UrSNPhEC9iSep2ww-gdbfjn-XnfwUX3I5r3CgpzZYXV3GiTi_CYBuas0VN1UXhLbhUy9BD6WWH-KzboPm4ytf8OxGBEn2euEDuD1fXqcIGwmuWf_PQ3PaUV1Nla-yJj4IWqTNKla-B81Qg_uz_YSBtIVKFOCRf_CxBvCdGtHL8x5fKpXL9rzX08BPveA_jBdCtdOkhsTuC7tnyQNNFgYQ6rrHHBhrSV9ZcW8J4q7aJAKqc62FXEQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2366,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116755562209202508086\">Jochi Hsu</a>"
+        ],
+        "photo_reference": "AeeoHcIK37W0_GsEdWTmUN7IRImjra1XAwOGSrAbOQoEX_kj6TNgtE7sSLyibkZrDcoqglKNDuIP8NXGx2k2yGOYocTYk7BZj3Mh8_JAvR1jW37F7KoPhyaiKK0MJk8jc5nwCScG45YAGZ48tin6Fu66dVXOCItr8FfwUHhvwro8-kB1sSvbGAubMwU8Gx0UDkmggz4k_zAvCiVNkeq_eMtLyiLt6ThqizYphbj_J7ie_9fMYcylxvlv-p5ObP5pfgKlVntuR2OEBzmpNp8iwfeBrndoxJ2WJoPjq430NYSoOe7wOFRlGv5mq1Y3xEKUPyTnpEIRu5aoDfSlCR1g21dZkzrKxppTKVeQhXIKzt1_93254Ve-dAukLsXbEJFUQMGBPX33hVf8-Ol6QLSU3OTVxg_X4XDl2cIhhFCn4rYuNjxGuFMec4GVhyPs8QA8rG_44z9Vy45nU6biO3-EDo4T2ji20bLkOe85tM-UyP5dotAYFViHsVaUFnEh6X7BOiysqqMCZU1u4v6fzMPA53xWlq2-QbH6BKIPpdmbGow0jiehWLtrWenPU_kkp_eoRN41hpVo0lsZ8OecEjhdZzs0FW-YDZHVNysGJreU60mz7hDz4cu-CT1hu09cGaRvWTT-aV2em0u3",
+        "width": 3312,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIK37W0_GsEdWTmUN7IRImjra1XAwOGSrAbOQoEX_kj6TNgtE7sSLyibkZrDcoqglKNDuIP8NXGx2k2yGOYocTYk7BZj3Mh8_JAvR1jW37F7KoPhyaiKK0MJk8jc5nwCScG45YAGZ48tin6Fu66dVXOCItr8FfwUHhvwro8-kB1sSvbGAubMwU8Gx0UDkmggz4k_zAvCiVNkeq_eMtLyiLt6ThqizYphbj_J7ie_9fMYcylxvlv-p5ObP5pfgKlVntuR2OEBzmpNp8iwfeBrndoxJ2WJoPjq430NYSoOe7wOFRlGv5mq1Y3xEKUPyTnpEIRu5aoDfSlCR1g21dZkzrKxppTKVeQhXIKzt1_93254Ve-dAukLsXbEJFUQMGBPX33hVf8-Ol6QLSU3OTVxg_X4XDl2cIhhFCn4rYuNjxGuFMec4GVhyPs8QA8rG_44z9Vy45nU6biO3-EDo4T2ji20bLkOe85tM-UyP5dotAYFViHsVaUFnEh6X7BOiysqqMCZU1u4v6fzMPA53xWlq2-QbH6BKIPpdmbGow0jiehWLtrWenPU_kkp_eoRN41hpVo0lsZ8OecEjhdZzs0FW-YDZHVNysGJreU60mz7hDz4cu-CT1hu09cGaRvWTT-aV2em0u3&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106709474161996066348\">Fu-Ching Yang</a>"
+        ],
+        "photo_reference": "AeeoHcLFyOTh7Z0yzB5rzepZImUSeBLs-s-fw6DRjN0v-4x12aMRPPPjUJ8UVnPW-ZxVE5BujDxifAONP_uHLJrdrKiO47At-RCxMSwO1G0De9Q1apd5ojBEYhfgonCFDiglzMbiQki26CLjzb81uLP3Ha62t67aCM9OrD2_Qk_vxUj4vyWABJ4YTRQoqp5phM7Hxpxgt25x9MDTAZD0UgyCvjVyDJhVhjigQ3LOKyMR_7JklcKBRQgmYxw8UwDeNN5rAtAHzWtooOz6nJ84X_-FU-N8wiW7BSTOzY0fSjKTrpWz9yo7d-ZxYY2R9OTR28Gu4xJLygSB4aJcvspTCsrusz_A8AQHZkhjQtVFUE9NN0ke0cD3lvuo_zIepTSkcNVfXuVZXboq5YW60acPFv2S-mAUALiXYKvSRYnmytY74Elr2ZO-c1gcQ3LwXhOU7IxWqB5ybLmgH3Fp-zYrdfRd-z3IQ86h_Ych3VMrzKEyiqzRG70WKFqRhTwz8llWyQK3gbzoQI5Tcsa069KfD6sZFxs-p33d5DhDInwX9-GsdV7Gw54G6fBcl3I9KeBXc11uNCa1lssWgsWurLxkdllGDeL6Zee2lVYffyXums5TozAMzIESJmblwmuVk9G24MqB6XBTVVp8",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLFyOTh7Z0yzB5rzepZImUSeBLs-s-fw6DRjN0v-4x12aMRPPPjUJ8UVnPW-ZxVE5BujDxifAONP_uHLJrdrKiO47At-RCxMSwO1G0De9Q1apd5ojBEYhfgonCFDiglzMbiQki26CLjzb81uLP3Ha62t67aCM9OrD2_Qk_vxUj4vyWABJ4YTRQoqp5phM7Hxpxgt25x9MDTAZD0UgyCvjVyDJhVhjigQ3LOKyMR_7JklcKBRQgmYxw8UwDeNN5rAtAHzWtooOz6nJ84X_-FU-N8wiW7BSTOzY0fSjKTrpWz9yo7d-ZxYY2R9OTR28Gu4xJLygSB4aJcvspTCsrusz_A8AQHZkhjQtVFUE9NN0ke0cD3lvuo_zIepTSkcNVfXuVZXboq5YW60acPFv2S-mAUALiXYKvSRYnmytY74Elr2ZO-c1gcQ3LwXhOU7IxWqB5ybLmgH3Fp-zYrdfRd-z3IQ86h_Ych3VMrzKEyiqzRG70WKFqRhTwz8llWyQK3gbzoQI5Tcsa069KfD6sZFxs-p33d5DhDInwX9-GsdV7Gw54G6fBcl3I9KeBXc11uNCa1lssWgsWurLxkdllGDeL6Zee2lVYffyXums5TozAMzIESJmblwmuVk9G24MqB6XBTVVp8&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101740278175789644289\">Julio</a>"
+        ],
+        "photo_reference": "AeeoHcKUGticHZK1kFXkZNDDHA5N5_zLTQiMguisrtx8HuqOUD7tIhTTxItKnYCsdoBMVp6vtVxJ4eEAYMP7yAVcvX7Ttek1NFrRzYiWdGAyvkoVLm8A35Oc7foq_bpTbblr2I7ZLJxc7wfGBXsVhPXgQfEs6B9CHQc8YXbpDHQedgBPvDs05zKdzmSLTVlnr05J-tzFsTC26725AwneGdHMr7uhPL4WLEPuH9fpoTyie6VrT5sBbIrfGKsiU8XRzRV-ZFgsQ6oqjyPS4apfNXchp42ds6TCNF4tdTb6SWIaLVRl_C6fKj0_tpnwKSNIvyrcBd7nwVWl-g4LDk63ZkPT4pxPGxvnYwps6udPHp2ux2SE1M6qt_BeFZ50v3UuSQ2IQczTW_wsSuJvpStn80iO9YsIXrrj9lSRSscP5-v4AzUhCXpHdaitXQpfec9HJSD8V5RpqW5ow6QP42vtZKvEOXjT6Jy6fImw5X4zGQNvlGhervMMi29RSufOqf0jDvBjVYqzh4jW_BsEqfvtVoAJLbJowJy8_ykmDDlFkEtYmQrM3ARZbkRe_McRw2j1MVZBfEFh1wwgv0FbB1UMLGUZ-fGQEoNHY-ipcNPJjgRtbLdHXL0m9_viVxCGCO8-ijEuHcEzPY5y",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKUGticHZK1kFXkZNDDHA5N5_zLTQiMguisrtx8HuqOUD7tIhTTxItKnYCsdoBMVp6vtVxJ4eEAYMP7yAVcvX7Ttek1NFrRzYiWdGAyvkoVLm8A35Oc7foq_bpTbblr2I7ZLJxc7wfGBXsVhPXgQfEs6B9CHQc8YXbpDHQedgBPvDs05zKdzmSLTVlnr05J-tzFsTC26725AwneGdHMr7uhPL4WLEPuH9fpoTyie6VrT5sBbIrfGKsiU8XRzRV-ZFgsQ6oqjyPS4apfNXchp42ds6TCNF4tdTb6SWIaLVRl_C6fKj0_tpnwKSNIvyrcBd7nwVWl-g4LDk63ZkPT4pxPGxvnYwps6udPHp2ux2SE1M6qt_BeFZ50v3UuSQ2IQczTW_wsSuJvpStn80iO9YsIXrrj9lSRSscP5-v4AzUhCXpHdaitXQpfec9HJSD8V5RpqW5ow6QP42vtZKvEOXjT6Jy6fImw5X4zGQNvlGhervMMi29RSufOqf0jDvBjVYqzh4jW_BsEqfvtVoAJLbJowJy8_ykmDDlFkEtYmQrM3ARZbkRe_McRw2j1MVZBfEFh1wwgv0FbB1UMLGUZ-fGQEoNHY-ipcNPJjgRtbLdHXL0m9_viVxCGCO8-ijEuHcEzPY5y&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115758057599984226283\">Jeffrey Liao</a>"
+        ],
+        "photo_reference": "AeeoHcIk3aTtcwWUKyjeRm3gSsf18NRcxcaH9QViQ-9uwAbdYZFtI5Ou_0alOK1-sibcgLphq1WhadMr9x8zH3CuwEClAw7hsWoonlm0CRJOxBTyPbeZ9IDknwpU5bSF-Laq3j2X5cz54rRAWIM0DtrgHf9I4gVACDhRD8HtV5nA051WdVSYTP6TlXCjbQIc7PR-5xZU1ssx9y56S4oiOIau_iFB2FJJznN3M6KpY8MqUmj4qjFiE9BUg-rcMJgW-5bnAnyneYqKf1IHHgxcso8YiS0afzyudtK72RD2FkaLU1sUJnWFel-I5iPNk0O1XjBto5_-ABCqgFWI_--DGwW_sZo3a9hAcDN0RsDemcz6stgmZSPQJ-4wuLsAdNUJActfrsuKcrQjYZDy0IB0kddgvUZK6_lneiVg6_L5ygRDzFRHlQzeaFX-UFUkYYJtZhQ1FHwmuFbwzmGFbDIaRsW5-p4RRfJ-26Cvcj7Xd_TuW03g_PlduWDUDx7E-1l9ctJcQ8smxYm1Ay4-yqSH3jqsaUW8jIUB3AZwjS1EMgz1VEYZhVR3kZ_DhnwYQOX3vh9-0MsUCdopPGk807B_6HEUFAfhDS5s0M7ascUEynMozwWnPGQBmt6ZSWgK_aHyhTeyBQ57ow",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIk3aTtcwWUKyjeRm3gSsf18NRcxcaH9QViQ-9uwAbdYZFtI5Ou_0alOK1-sibcgLphq1WhadMr9x8zH3CuwEClAw7hsWoonlm0CRJOxBTyPbeZ9IDknwpU5bSF-Laq3j2X5cz54rRAWIM0DtrgHf9I4gVACDhRD8HtV5nA051WdVSYTP6TlXCjbQIc7PR-5xZU1ssx9y56S4oiOIau_iFB2FJJznN3M6KpY8MqUmj4qjFiE9BUg-rcMJgW-5bnAnyneYqKf1IHHgxcso8YiS0afzyudtK72RD2FkaLU1sUJnWFel-I5iPNk0O1XjBto5_-ABCqgFWI_--DGwW_sZo3a9hAcDN0RsDemcz6stgmZSPQJ-4wuLsAdNUJActfrsuKcrQjYZDy0IB0kddgvUZK6_lneiVg6_L5ygRDzFRHlQzeaFX-UFUkYYJtZhQ1FHwmuFbwzmGFbDIaRsW5-p4RRfJ-26Cvcj7Xd_TuW03g_PlduWDUDx7E-1l9ctJcQ8smxYm1Ay4-yqSH3jqsaUW8jIUB3AZwjS1EMgz1VEYZhVR3kZ_DhnwYQOX3vh9-0MsUCdopPGk807B_6HEUFAfhDS5s0M7ascUEynMozwWnPGQBmt6ZSWgK_aHyhTeyBQ57ow&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2879,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116755562209202508086\">Jochi Hsu</a>"
+        ],
+        "photo_reference": "AeeoHcK3Zc-KSql-EGfWBKZ5c_pHDccgEia_TrbRI9BgSvNRDsF_xWLcRJQHzTba9u6EOMeQiDF7XC_J2o6RX4WnoCGsh3XX0RbdM6iEH0KcharQIYWAMkW4X5sRGUl-U14djxo-7OmS69DYdgeovWQKGfS2VCsdb4M8gIiuwpkqqLJJvUDCzKev0f-SUTzQUkkpChxknKq9hEnhiipOM-CFstMYjHRc0Poie5IaISWNkE6FqGgcdtxHGWh5-l20SBDZJxUB8N3XLrHLcVay0DPVOY3193B4jY77NGfIUfOmxTqyedn6zp1Sax9eEBCCZQLkPB7d-ZIrCI4Nb7wohU1b_sMvTymeUxRsBH7G6nYHRXnvxIk8YTS3zFV8izqoZYth1YpGd5ih6N2wKTC-KK159jIwMiCf0x7GPj406FYVjZIKUoIp6HW2J0UlGI6DMBMIO2Kc3uy5tycJjH1tLo5mmi33hSafdM-HHD3DKSmr-JG8BSNVvRs0sLeDJ4aHog96L_fzZL8rAiWyurqvXPPSJybaJORovL3hl8SnA9_uCjuca39kSxHu9ytuRovl15tYXTsxl_qXkgqzs8AW_F8p74Rvihr3EC_u_xxjFbgUOyokP-SJG2YHETq6ZilN7DUdpkCd1m_g",
+        "width": 4030,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK3Zc-KSql-EGfWBKZ5c_pHDccgEia_TrbRI9BgSvNRDsF_xWLcRJQHzTba9u6EOMeQiDF7XC_J2o6RX4WnoCGsh3XX0RbdM6iEH0KcharQIYWAMkW4X5sRGUl-U14djxo-7OmS69DYdgeovWQKGfS2VCsdb4M8gIiuwpkqqLJJvUDCzKev0f-SUTzQUkkpChxknKq9hEnhiipOM-CFstMYjHRc0Poie5IaISWNkE6FqGgcdtxHGWh5-l20SBDZJxUB8N3XLrHLcVay0DPVOY3193B4jY77NGfIUfOmxTqyedn6zp1Sax9eEBCCZQLkPB7d-ZIrCI4Nb7wohU1b_sMvTymeUxRsBH7G6nYHRXnvxIk8YTS3zFV8izqoZYth1YpGd5ih6N2wKTC-KK159jIwMiCf0x7GPj406FYVjZIKUoIp6HW2J0UlGI6DMBMIO2Kc3uy5tycJjH1tLo5mmi33hSafdM-HHD3DKSmr-JG8BSNVvRs0sLeDJ4aHog96L_fzZL8rAiWyurqvXPPSJybaJORovL3hl8SnA9_uCjuca39kSxHu9ytuRovl15tYXTsxl_qXkgqzs8AW_F8p74Rvihr3EC_u_xxjFbgUOyokP-SJG2YHETq6ZilN7DUdpkCd1m_g&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJD4Pqot8BaDQRDLhFHKmT0HE",
+    "plus_code": {
+      "compound_code": "XHM6+6R 台灣台北市文山區樟樹里",
+      "global_code": "7QP3XHM6+6R"
+    },
+    "rating": 4.4,
+    "reviews": [
+      {
+        "author_name": "Kelly’s Runway",
+        "author_url": "https://www.google.com/maps/contrib/105591627739401477047/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW3Q-lAkEVk26JstIhZaQ_wmbVEmjMk0OUouFU7eobDm2GuVghGxQ=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 4,
+        "relative_time_description": "4 週前",
+        "text": "聽家人介紹才知道原來離家走路五分鐘就有一間營業多年且評價不錯的早午餐店，就趁著週末空檔約姊姊一起來吃吃看。可能是因為深色木質調性的門面有點太低調，加上騎樓總是停滿了機車…明明很常經過卻都沒發現是一家早午餐咖啡廳😂\n優秀早晨的用餐環境整體而言是很不錯的，有輕鬆的沙發區也有可以自成一區的大桌，每一份的早午餐份量都不小，我個人覺得女生通常會吃不完，男生應該是剛剛好。在口味上雞腿排煎的很好吃，不會太乾也不會太過油膩，法式吐司也是軟硬適中很好入口。其他也有提供義大利麵和燉飯的餐點選項，是很適合全家人一起來用餐的地方。",
+        "time": 1741410817,
+        "translated": false
+      },
+      {
+        "author_name": "Lili Kao",
+        "author_url": "https://www.google.com/maps/contrib/114167979923296518943/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVwB_GgbnrbiVNlqr9iaZJpnFcZMl1nBYQ1iUSH5MLabUgdQEk=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "我們是老顧客了，看到樓下四樓RxxxRxxx先生的評價，其實蠻黑人問號的...當天用餐我們這桌剛好在旁邊沙發區，現場人確實多，年節期間人手不足點餐時都有告知，餐點都吃到要完了才反應餐點鹹 （？）而且他們在點餐的時候剛好我男朋友也在點餐，聽到他點的餐還要客製化要求一堆（不要洋蔥不要蒜不要什麼的點超久），水煮蛋這邊吃七年的常客應該都知道是擺沙拉盤吃的，是冷的也很正常~ 因為我們也都會點舒肥雞凱薩木盆沙拉.. 咖啡部分，老闆換半自動義式咖啡機後整體好喝很多，熱拿鐵的泡不是粗泡是很綿密的那種。重點是門口有掛比賽得獎的布條 櫃檯點餐時右邊很明顯有咖啡豆產地及認證的證書，這些都是咖啡愛好者知道的~\n\n在這家店吃很久了，店家用料和食材都十分用心，也不曾吃壞肚子（當然，有些人腸胃科可能會太過敏感，那也不能怪店家囉）。整體店家在經營真的不太容易 經過了疫情跟物價上漲那麼多，還能維持差不多的價位跟餐點的量，再看看周圍店家的量跟價格，真的已經算很佛心了！\n\n第一次寫這麽多....真的覺得用心店家應該要支持，畢竟這樣的人不多了。",
+        "time": 1738905500,
+        "translated": false
+      },
+      {
+        "author_name": "曾雍傑",
+        "author_url": "https://www.google.com/maps/contrib/116802266134468121573/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJaN9fZDJC53HVaBrOSI1pnBo2LX6SAZ6lh6K3I0khpI4MvBw=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "一個很棒的早午餐店家。熱門的背景音樂，搭配合適的用餐空間，讓人可以一邊享受美食，一邊舒服的滑手機或交談。店員年輕有熱情，點餐時都會耐心等待與解說。內裝設計還不錯。支援街口、Line pay ，有WiFi ！\n\n今天點了 義式雞腿排佐法式吐司、雞腿柚子醬佐木盆沙拉。蛋白質、碳水、脂肪、膳食纖維...等等都有了，活力的一天啟動囉！\n\n想跟店家小小建議：如果把椅子跟地板更新/刷白，會更加分 ^-^",
+        "time": 1739592632,
+        "translated": false
+      },
+      {
+        "author_name": "Jochi Hsu",
+        "author_url": "https://www.google.com/maps/contrib/116755562209202508086/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVjgn8188LCHbBOq0wreNZoNG4lNrig0dCMfgY-BVVnw5Vmvoo=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 4,
+        "relative_time_description": "5 個月前",
+        "text": "朋友們午餐聚會，感謝店家讓我們待了好久，大家聊得很開心。沙拉碗沒吃完打包，店家用盒子和塑膠袋裝好，沒想到塑膠袋有漏，包包裡面都濕了…暈😵‍💫",
+        "time": 1730555091,
+        "translated": false
+      },
+      {
+        "author_name": "lion lin",
+        "author_url": "https://www.google.com/maps/contrib/102377151522902826557/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI1EtD7pl1pJU-G66sop3rdZRtlakUHOBThOmFK1UUQ_AwdDg=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "1 週前",
+        "text": "餐點好吃，高cp質，是和三五好友聚餐的好選擇也適合自己一人獨食的好地方",
+        "time": 1742884601,
+        "translated": false
+      }
+    ],
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=8201217275974760460",
+    "user_ratings_total": 523,
+    "utc_offset": 480,
+    "vicinity": "文山區興隆路四段110號",
+    "website": "https://www.facebook.com/YouXiubrunch",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIIBmRGDwitSsdix2b1du4JSv4kczNdXwfrWzn-DdZVlYRJ-24VlVLFZSLoL7cVGCi0y4w-s3mvbZdtE3a7gcmaMx9tYqyUofYIXG5nF8Rn2Ha695lLZoRCjvwSZP_-HeUAsxYQVZUI-fAzsSiV-nY0lNzdP1urGKYIK5DKeS3JlaeiCNSGDP5Rtiygw5MYpbwQQorkY8TjOrdKbtm3cIntv9aC1Kl1ii2bpKJoYQD3GB37vZFsl-Wh6REqtNn0ZFMggl5UXz9KEUMKlveMcRpXHIJ3ElrxnAV1n98o_YWXaLaF5ajaKpELfZ4x4z4OrIWSm4VM&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "2.1 公里",
+    "distance_value": 2097,
+    "duration_text": "30 分鐘",
+    "duration_value": 1778
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "1樓",
+        "short_name": "1樓",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "62號",
+        "short_name": "62號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "指南路二段",
+        "short_name": "指南路二段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "萬興里",
+        "short_name": "萬興里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">萬興里指南路二段62號</span>1樓",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區指南路二段62號1樓",
+    "formatted_phone_number": "02 2937 0225",
+    "geometry": {
+      "location": {
+        "lat": 24.9876393,
+        "lng": 121.5755819
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9890055802915,
+          "lng": 121.5769347802915
+        },
+        "southwest": {
+          "lat": 24.98630761970849,
+          "lng": 121.5742368197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "international_phone_number": "+886 2 2937 0225",
+    "name": "覓糖Mi Tang 文山政大店 (七彩粉粿 |紅豆湯|燒仙草| 湯圓|仙草凍|冰|茶|美食|下午茶|點心|飲料|甜點|推薦 |人氣| 文山|新店|深坑|木柵|政大|景美|貓空|動物園 )",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2230"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2230"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2230"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2230"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:00 – 22:30",
+        "星期二: 11:00 – 22:30",
+        "星期三: 11:00 – 22:30",
+        "星期四: 11:00 – 22:30",
+        "星期五: 11:00 – 22:30",
+        "星期六: 11:00 – 22:30",
+        "星期日: 11:00 – 22:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1830,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100501669946275168847\">覓糖Mi Tang 文山政大店 (七彩粉粿 |紅豆湯|燒仙草| 湯圓|仙草凍|冰|茶|美食|下午茶|點心|飲料|甜點|推薦 |人氣| 文山|新店|深坑|木柵|政大|景美|貓空|動物園 )</a>"
+        ],
+        "photo_reference": "AeeoHcLTaCUtsVSUQKk8k2SWqBp0cwje5xM52AJ2hCeZomK2zq2BxFtAyYh81vtN3e-KZ7Ma49VyGPG4LTgH1hG-EI5FXJH2hPu1bnLjbdxftQqWwuXu1NorCmaXYp416GXVohG1Km3WsJraW2lgv_n3ciXPBoygjsSvecfnh2QvWxPLLzsgGIr1RCltog7QT_-s4PE80jKL8H3YnbibfB1Fpjsea_ofoEY7VArW0o-Owl4lPMY-IaO0goiuN70nsBsivz6DKRzOoMTjflBf059NrS6zEjoDwkFMgqd1gg3OPPyx2OaLdng5xuXnYexRlA6fE-rcoSIUVzU",
+        "width": 1451,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLTaCUtsVSUQKk8k2SWqBp0cwje5xM52AJ2hCeZomK2zq2BxFtAyYh81vtN3e-KZ7Ma49VyGPG4LTgH1hG-EI5FXJH2hPu1bnLjbdxftQqWwuXu1NorCmaXYp416GXVohG1Km3WsJraW2lgv_n3ciXPBoygjsSvecfnh2QvWxPLLzsgGIr1RCltog7QT_-s4PE80jKL8H3YnbibfB1Fpjsea_ofoEY7VArW0o-Owl4lPMY-IaO0goiuN70nsBsivz6DKRzOoMTjflBf059NrS6zEjoDwkFMgqd1gg3OPPyx2OaLdng5xuXnYexRlA6fE-rcoSIUVzU&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 1109,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100501669946275168847\">覓糖Mi Tang 文山政大店 (七彩粉粿 |紅豆湯|燒仙草| 湯圓|仙草凍|冰|茶|美食|下午茶|點心|飲料|甜點|推薦 |人氣| 文山|新店|深坑|木柵|政大|景美|貓空|動物園 )</a>"
+        ],
+        "photo_reference": "AeeoHcJaTwAtINOG1CgHz4_admCiIt8Hykm63Ny0Dyt3imjNbBXM2eir3HwRrGAh1rj5UnddYHQf-rSwzs4qT6N6yWpC4jVcKfY05JNQWq7NVUi087sjyJZJZTV0Fgts13-GnBxYP3tnqnOPeJ42hm-4zaagLsVphTNkoKbSiov0AjJBxD7qaLqpEAntfFF1H2xc6MHMMFl8zR2t9Oi5AHYlJWteBAFH8iOvvSXxho_0hUiXrYe2BQ0Ki4sAK1CVJmB2WtTYRhmrTGdjlu30kFr7O9nUgk7e6mMJs3FUkoXxdY1J25Xuaa1QuVm2tEXWv-HyI_WUyxKNXjk",
+        "width": 1479,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJaTwAtINOG1CgHz4_admCiIt8Hykm63Ny0Dyt3imjNbBXM2eir3HwRrGAh1rj5UnddYHQf-rSwzs4qT6N6yWpC4jVcKfY05JNQWq7NVUi087sjyJZJZTV0Fgts13-GnBxYP3tnqnOPeJ42hm-4zaagLsVphTNkoKbSiov0AjJBxD7qaLqpEAntfFF1H2xc6MHMMFl8zR2t9Oi5AHYlJWteBAFH8iOvvSXxho_0hUiXrYe2BQ0Ki4sAK1CVJmB2WtTYRhmrTGdjlu30kFr7O9nUgk7e6mMJs3FUkoXxdY1J25Xuaa1QuVm2tEXWv-HyI_WUyxKNXjk&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 5712,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115931971355469186030\">俞尚毅</a>"
+        ],
+        "photo_reference": "AeeoHcLnQpwRsR2AwMJydDhHaDjsiLkdNqo691ukL8-KAa_d3OSGViBPnac19kkieG01kLpGHVMHIJJT1qkeqRZBUVo8V6IByTRxT0ygH9aIA_NHdy4jjIIy2IFY4_5bXjgpfsOTijtZvCHgtByMe_DXLxEHOhFa2hxyEZ-DrurkHfdwwtSv9QyRzFRt2d8p0LW0nI9A6eIeSNXuRsEObeElbo0hyI63nIq0ZD8wWfAosrvvOaDs1JOY-7lAI-C5g5dAtoKQGxOTgDwW9eccHY-8I1co4rfkWSe0R2ZKx5OFU-hvApRcoJojH2tMBUkviIQ_WWjE1fRnvZJUOUhcTGvbNuKvR0dOfLpqBL0zaLLh7Bpkc9fycYNIEbUO-3mtBmGMaEg6tEcUkQZu8GD-fslrmtf8wOP8PrHiPuF5SKeMDSmEhUXhS9EycDkhseDFsx-R5DeKuBD9nduZHjSQ40hpKyi1W_7ur_LtJrTjbyTMb7z8jqbGfhDgcYm0fb9Gu5fNgotFnYkTP58Oq8eI977P949W0x3Num_mrVrbZl9QpirE2QECvYVOp2oDGlwg7WRtdfpwSKr46yQZT41mg5O7J2gEDj0FGuYLGmZaASy_nrp15U1oxHWxl_LFNHx3GkCc",
+        "width": 4284,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLnQpwRsR2AwMJydDhHaDjsiLkdNqo691ukL8-KAa_d3OSGViBPnac19kkieG01kLpGHVMHIJJT1qkeqRZBUVo8V6IByTRxT0ygH9aIA_NHdy4jjIIy2IFY4_5bXjgpfsOTijtZvCHgtByMe_DXLxEHOhFa2hxyEZ-DrurkHfdwwtSv9QyRzFRt2d8p0LW0nI9A6eIeSNXuRsEObeElbo0hyI63nIq0ZD8wWfAosrvvOaDs1JOY-7lAI-C5g5dAtoKQGxOTgDwW9eccHY-8I1co4rfkWSe0R2ZKx5OFU-hvApRcoJojH2tMBUkviIQ_WWjE1fRnvZJUOUhcTGvbNuKvR0dOfLpqBL0zaLLh7Bpkc9fycYNIEbUO-3mtBmGMaEg6tEcUkQZu8GD-fslrmtf8wOP8PrHiPuF5SKeMDSmEhUXhS9EycDkhseDFsx-R5DeKuBD9nduZHjSQ40hpKyi1W_7ur_LtJrTjbyTMb7z8jqbGfhDgcYm0fb9Gu5fNgotFnYkTP58Oq8eI977P949W0x3Num_mrVrbZl9QpirE2QECvYVOp2oDGlwg7WRtdfpwSKr46yQZT41mg5O7J2gEDj0FGuYLGmZaASy_nrp15U1oxHWxl_LFNHx3GkCc&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2386,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116802266134468121573\">曾雍傑</a>"
+        ],
+        "photo_reference": "AeeoHcKzuNrpsJeCDp8a7dFCZWUFar55JgfVHnxa776Slwf_keezNcFxZMFamImpy7zhjmFdUjHirP3KbLuUJMusxY8u8SlpLwSRgEL-pKOAoevUx9Ejfa5Oml5bpLNm_NOX3aayXBUf4mPkuav4Vp_S3jegmkUD4gPBogLnRYRZbUOxFLTMRlwHFZOrjDp8yUGL7xMWXy8paH8oHZ3nXi2QxdJawcspSEScxfBRHhzKmPcVtgGzsrt_Hf5xuWJ1n_QnhvzuNpRe9cJ-OrNQfgJRwIlleLFLAfn6BU15SBCQ42lVgTCEmv9bKuCZ-U_z8Bl7VorSUPAAARKIkjHkIgxn5Rcm_OrH2LPS0SZ8cloXF33DxTQPoWa503Ckp_wuXFXmiFrSANTwjVuSQ-cfuBMpDXPlJ69RdCaYKBcSrsglZNrmnBL5pehGq2ktg_Bry6wZxqVtB0vW6mkF-c8gf9EqMyyE3LkgjcaA60hml0moxzKa_3kmYk1WAElPIhi1Gl2Uaa-044iw3PFUTwEph1XvJ-pSTEjSN-iStBJiEXwN1-9vsB4LDM4H_PG_8HjUNHxvDgZC52QVaWBDf1trvMZh8-ZXrT-mkEsDFEWd1hhj-H9zvYTGCR4oFbPX0qvjnefUwomUSkZn",
+        "width": 3404,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKzuNrpsJeCDp8a7dFCZWUFar55JgfVHnxa776Slwf_keezNcFxZMFamImpy7zhjmFdUjHirP3KbLuUJMusxY8u8SlpLwSRgEL-pKOAoevUx9Ejfa5Oml5bpLNm_NOX3aayXBUf4mPkuav4Vp_S3jegmkUD4gPBogLnRYRZbUOxFLTMRlwHFZOrjDp8yUGL7xMWXy8paH8oHZ3nXi2QxdJawcspSEScxfBRHhzKmPcVtgGzsrt_Hf5xuWJ1n_QnhvzuNpRe9cJ-OrNQfgJRwIlleLFLAfn6BU15SBCQ42lVgTCEmv9bKuCZ-U_z8Bl7VorSUPAAARKIkjHkIgxn5Rcm_OrH2LPS0SZ8cloXF33DxTQPoWa503Ckp_wuXFXmiFrSANTwjVuSQ-cfuBMpDXPlJ69RdCaYKBcSrsglZNrmnBL5pehGq2ktg_Bry6wZxqVtB0vW6mkF-c8gf9EqMyyE3LkgjcaA60hml0moxzKa_3kmYk1WAElPIhi1Gl2Uaa-044iw3PFUTwEph1XvJ-pSTEjSN-iStBJiEXwN1-9vsB4LDM4H_PG_8HjUNHxvDgZC52QVaWBDf1trvMZh8-ZXrT-mkEsDFEWd1hhj-H9zvYTGCR4oFbPX0qvjnefUwomUSkZn&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113502679444699031778\">kevin chen</a>"
+        ],
+        "photo_reference": "AeeoHcKP5MMFZxxfplS1FgLxdmMSYe6B4ZYD7yWhfBukTaZoDWxyD-Jp28Y7V2aQvUVfYI5j6cVf_esjFvUgLgyFjKIEzM1cMFIHDfCzyrYzLit84xXTmiMEJPtW5xG_j7r60ypRMOaXqkUngr6_plFPqSSVCyACmPEy9ugP8x5Hk1iGlMWKyaHa08phfCwMJd9Iee_nRrMAwHtS0Lj1D-cgGP8nkdKRyrEZYHidhtM3a-B705Py7-nIlZJ-Ear77l6eCeMpjvd4ZPa75mXVVoIA8Si7pQj1k9CQrJNh4KZtQ-Ix_b53yvvNcEiZa3cJPKC27bEYCTzw1N9BznmUSwuTbCaPgmX9hnfBH2CS4bRkAWQnmYK0ZvxJbVFtdFzj9Zxe313lguc7vDd_TsRowFAfs3d-zb74u6KL5qmIzGC-8L61N0VRIZNgsQHIwBFJQrx9LdclGm2WAFXxTCJJM3RwwvfLvRtMR_GvVsgE2lSvdhknsRvJJN-dmpb-zcyf8eIJbprI1d7GlPsF9HNQV389TnETaxAevV4wc7iUxYTiIV_lGbvWeGSe5guV2_8fTnRNYkUw4DaUdAFSsUvron6iOEUbJkFE3TNE5brK85NbWTf293uOUQ2uQUTL1IUQA38dIrPZSjmv",
+        "width": 4608,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKP5MMFZxxfplS1FgLxdmMSYe6B4ZYD7yWhfBukTaZoDWxyD-Jp28Y7V2aQvUVfYI5j6cVf_esjFvUgLgyFjKIEzM1cMFIHDfCzyrYzLit84xXTmiMEJPtW5xG_j7r60ypRMOaXqkUngr6_plFPqSSVCyACmPEy9ugP8x5Hk1iGlMWKyaHa08phfCwMJd9Iee_nRrMAwHtS0Lj1D-cgGP8nkdKRyrEZYHidhtM3a-B705Py7-nIlZJ-Ear77l6eCeMpjvd4ZPa75mXVVoIA8Si7pQj1k9CQrJNh4KZtQ-Ix_b53yvvNcEiZa3cJPKC27bEYCTzw1N9BznmUSwuTbCaPgmX9hnfBH2CS4bRkAWQnmYK0ZvxJbVFtdFzj9Zxe313lguc7vDd_TsRowFAfs3d-zb74u6KL5qmIzGC-8L61N0VRIZNgsQHIwBFJQrx9LdclGm2WAFXxTCJJM3RwwvfLvRtMR_GvVsgE2lSvdhknsRvJJN-dmpb-zcyf8eIJbprI1d7GlPsF9HNQV389TnETaxAevV4wc7iUxYTiIV_lGbvWeGSe5guV2_8fTnRNYkUw4DaUdAFSsUvron6iOEUbJkFE3TNE5brK85NbWTf293uOUQ2uQUTL1IUQA38dIrPZSjmv&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109648578072368355053\">Chensheng Hung</a>"
+        ],
+        "photo_reference": "AeeoHcI3f-E4x54R_xjig5IQfdYnDrABxxZx_kMr1sA2nElSY29PmJ7A4G9GNByAKhckvD27aGXOQs1FAqQPnCKFI_wDDE39-PGM8JgwOzFFtNtJQdUQHt6OV-5bjHmIgvSoKd4r0tXvPfH4-pJ_8RoN5gr5DjImBfasqgn5Yb37s1CDh20c4rpOZcTNcZQL1-LXXgqXpj9L6ebE2_L7DrNhjJJXy1IQOzR9n4hUJbv2EuJ2TslcXGZzg3SCBNnlMLp1kBieTsTf5OpYWKyegYqGDtzgysorm7by6GeZwAK0npiEvG5npEEjqGA8hc_gKWcDDlBv4okqUOAkR06HcAY4PiQq4I8Xa7O_obxhypag1mlnfCuOV2-MDaLEwB-PJbbt0s5zC9ve2fYcF0X4Y_TFastQpguiHvCYTf-KFC4pIDbfX818hBAO7sUBYw_tqdjQD45oGvN1l1fzao_n0BK7J85YUSKe1fAHxFaOzLkAoaPjRojovkPR7_l4pEZ7kHQe-Cia7kh3dbSt0IZYms0xjRqA3LlLAnJcBYJkUsDKfM4z_FVC5Ue60JQjzEkh8jJHqDDW28tMjlmOll8vWcMLv16G5mUjFliHhWFO9c7e4v0jPYLBjGnYL8KDsGyE4ANVguEEOg",
+        "width": 3072,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcI3f-E4x54R_xjig5IQfdYnDrABxxZx_kMr1sA2nElSY29PmJ7A4G9GNByAKhckvD27aGXOQs1FAqQPnCKFI_wDDE39-PGM8JgwOzFFtNtJQdUQHt6OV-5bjHmIgvSoKd4r0tXvPfH4-pJ_8RoN5gr5DjImBfasqgn5Yb37s1CDh20c4rpOZcTNcZQL1-LXXgqXpj9L6ebE2_L7DrNhjJJXy1IQOzR9n4hUJbv2EuJ2TslcXGZzg3SCBNnlMLp1kBieTsTf5OpYWKyegYqGDtzgysorm7by6GeZwAK0npiEvG5npEEjqGA8hc_gKWcDDlBv4okqUOAkR06HcAY4PiQq4I8Xa7O_obxhypag1mlnfCuOV2-MDaLEwB-PJbbt0s5zC9ve2fYcF0X4Y_TFastQpguiHvCYTf-KFC4pIDbfX818hBAO7sUBYw_tqdjQD45oGvN1l1fzao_n0BK7J85YUSKe1fAHxFaOzLkAoaPjRojovkPR7_l4pEZ7kHQe-Cia7kh3dbSt0IZYms0xjRqA3LlLAnJcBYJkUsDKfM4z_FVC5Ue60JQjzEkh8jJHqDDW28tMjlmOll8vWcMLv16G5mUjFliHhWFO9c7e4v0jPYLBjGnYL8KDsGyE4ANVguEEOg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109648578072368355053\">Chensheng Hung</a>"
+        ],
+        "photo_reference": "AeeoHcKZdBQU00ifTHsdMJvrCrcBWKqOEEQHCMa6n7WTmxmql3m8ll8tu52ZS9cinF70OrBiUMeh1j4_MwyXvuSpMgZPbu0VP9KARbr03YPWd0MgyMjxqXzwUoLM_ssWc2QvePqCCKNqrl_90oPLYwrJAcE2tfXZcSj1Ew0ex30Gf2VwKy8msvWiO5NJF-AbqewuNOr7gPTyy2tPjERXAd99lN1OtfaY1tO4AA9QG-OzMggpG3fvvAMjRH_auv2mR8p7MLJdhtlAB4pNecbXHyfGJwLNTqtYmhN4xXj9cHAiP7lI66NZ3iTzCPcD33OwLFlHrZqJWYb3wmaetKbg4BsPRDibxrjbzw1q8UB2EpDFZoGB9mHEzQZIS-kEKNN2T-_LA2AlrMmAK3ESHsDeocrOhSvSGyO4sdh7OVLESeXwgX58IvmdG3tfSiSBqa99Y2jHUj3SnP2KiuU0ljFqaxs2FOMe0Nn2L87d6cXLvPZuFTViTUt-AmFZZGySWO2Q9dM3wH8CUvewnB-yzHTp0EjNhletYkmok-4KFW_2--y1NKRQ4_7YCwSQALt2B-bNGkz1aKtW6Ayh_NA9YRhI6o3Gmv2IakmZdzubXxQ54l_k-FN1kX8I4_etGAtZ2_kzurdynXDsSHg-",
+        "width": 4096,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKZdBQU00ifTHsdMJvrCrcBWKqOEEQHCMa6n7WTmxmql3m8ll8tu52ZS9cinF70OrBiUMeh1j4_MwyXvuSpMgZPbu0VP9KARbr03YPWd0MgyMjxqXzwUoLM_ssWc2QvePqCCKNqrl_90oPLYwrJAcE2tfXZcSj1Ew0ex30Gf2VwKy8msvWiO5NJF-AbqewuNOr7gPTyy2tPjERXAd99lN1OtfaY1tO4AA9QG-OzMggpG3fvvAMjRH_auv2mR8p7MLJdhtlAB4pNecbXHyfGJwLNTqtYmhN4xXj9cHAiP7lI66NZ3iTzCPcD33OwLFlHrZqJWYb3wmaetKbg4BsPRDibxrjbzw1q8UB2EpDFZoGB9mHEzQZIS-kEKNN2T-_LA2AlrMmAK3ESHsDeocrOhSvSGyO4sdh7OVLESeXwgX58IvmdG3tfSiSBqa99Y2jHUj3SnP2KiuU0ljFqaxs2FOMe0Nn2L87d6cXLvPZuFTViTUt-AmFZZGySWO2Q9dM3wH8CUvewnB-yzHTp0EjNhletYkmok-4KFW_2--y1NKRQ4_7YCwSQALt2B-bNGkz1aKtW6Ayh_NA9YRhI6o3Gmv2IakmZdzubXxQ54l_k-FN1kX8I4_etGAtZ2_kzurdynXDsSHg-&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110240577885554353176\">Diego Kuo</a>"
+        ],
+        "photo_reference": "AeeoHcLIXaNTrEdkmGqB-kiuIejR4KDFdFCDQoF6H6qTi7sUZQmdVFBg1H5LfTQKhC6fwRyLXeeRy7-5L-HIz5bQDPUkSmYZJaT-eS7DXlLGJJvmDhPVvwyKlVRY7qtYX3QKu07Sx0hKH4bYfUZN2MsTE4_ArAndM6CJzHP481GcHZo1_Jp1HktQdwtug9dNhuhUkCqfdDZ67hHZ2CZhfRM4D24-gslVm5usdfNaIhHKiZccg2AjQJ84wDx0Cx2HpzL3oalaBf4IFODvKXXYk8OSbrTLaKeGcbsr1mLAG7WItfYvwwimr6G3ftzSEWL3whvJuTtm8HwnHEkal696wMWZOTitAGDQJ-lPbWkjsEAY7cmkiCqiiR2CtBhSGiFN4K3GhRdnELXhCaX9petIthI9F_WlV3cI3umwBE_ThG8PJNunnVayh2R2agMBOf9gtHxKI9R24vroecn1bnhvrhAjFnYyX21dYTNUUvMMx4wKAw6OycEWLbV709QrWH9YUbp-efs9jVN5Y82Uor1alxVCU0j6EofAr_E14otajkpSmNJ_ZNrQzePtUvuuG7AvE86nDLEJNmQ3ahAI60I7o9hShHRuXXYzh3WcQyemM3HlI0SzX5UU9EBPqapCcva2h2Lu",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLIXaNTrEdkmGqB-kiuIejR4KDFdFCDQoF6H6qTi7sUZQmdVFBg1H5LfTQKhC6fwRyLXeeRy7-5L-HIz5bQDPUkSmYZJaT-eS7DXlLGJJvmDhPVvwyKlVRY7qtYX3QKu07Sx0hKH4bYfUZN2MsTE4_ArAndM6CJzHP481GcHZo1_Jp1HktQdwtug9dNhuhUkCqfdDZ67hHZ2CZhfRM4D24-gslVm5usdfNaIhHKiZccg2AjQJ84wDx0Cx2HpzL3oalaBf4IFODvKXXYk8OSbrTLaKeGcbsr1mLAG7WItfYvwwimr6G3ftzSEWL3whvJuTtm8HwnHEkal696wMWZOTitAGDQJ-lPbWkjsEAY7cmkiCqiiR2CtBhSGiFN4K3GhRdnELXhCaX9petIthI9F_WlV3cI3umwBE_ThG8PJNunnVayh2R2agMBOf9gtHxKI9R24vroecn1bnhvrhAjFnYyX21dYTNUUvMMx4wKAw6OycEWLbV709QrWH9YUbp-efs9jVN5Y82Uor1alxVCU0j6EofAr_E14otajkpSmNJ_ZNrQzePtUvuuG7AvE86nDLEJNmQ3ahAI60I7o9hShHRuXXYzh3WcQyemM3HlI0SzX5UU9EBPqapCcva2h2Lu&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104794951938935988250\">Kaikai Lin</a>"
+        ],
+        "photo_reference": "AeeoHcJmRM3a3snzpQL_z7_IlyHgb3S5UOFCnfmEC82FnU_hd4xvbBV4tuizrBQbsSHY1F0QIOoVTQSuP24X2lnlDBVHu8yc-AdrMKEKUUKykUHHfYkFdwFInfRCL-fnp8xuV1j2mwR-cyDmLzsrw3yeFKjhMi3DgW442wK7mKP9XCtFLneJEYRl5dybfUQTqwlKyut4wsKcriFqB-DLQV1os8HX6NYwgG1GX6ZYRTo5kgYmrvnR6pwOSyFN6y8R3cS85e13PJmj-smvdhXadMnAEe9MPj7QBaTWxDF63kIG-ipQr2H4aFeHKlgXH_gr33hGDh8xGmkwthuRsWDGCv-E_w2TBiim_dWK_XjTpsFyVtHrLIdljGg5tAWaORDofm2H7ldV8EIE-Pr2YQXB5esU4sLCaousZnHCvjHeS2LC3Gb_kDwDUb5ebZjOppiPQES5dPpbMWJ0yx7flKGgu2D2qOUrglaAxtt88LOZUrlB8Mv047x_ax0W4rX2cz-4dB5YAixgja24q7povVSJ8lxixoyUZcbCW1gEfOofesRIS4WawgS4ahmoqnuaJKKJCO-y1D926ruPaQC1LbEMB2_gyU9QEndyGUPMk6EdZWlcu69RvTSK2gURgZB6MYP70oo69l3Eue1Z",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJmRM3a3snzpQL_z7_IlyHgb3S5UOFCnfmEC82FnU_hd4xvbBV4tuizrBQbsSHY1F0QIOoVTQSuP24X2lnlDBVHu8yc-AdrMKEKUUKykUHHfYkFdwFInfRCL-fnp8xuV1j2mwR-cyDmLzsrw3yeFKjhMi3DgW442wK7mKP9XCtFLneJEYRl5dybfUQTqwlKyut4wsKcriFqB-DLQV1os8HX6NYwgG1GX6ZYRTo5kgYmrvnR6pwOSyFN6y8R3cS85e13PJmj-smvdhXadMnAEe9MPj7QBaTWxDF63kIG-ipQr2H4aFeHKlgXH_gr33hGDh8xGmkwthuRsWDGCv-E_w2TBiim_dWK_XjTpsFyVtHrLIdljGg5tAWaORDofm2H7ldV8EIE-Pr2YQXB5esU4sLCaousZnHCvjHeS2LC3Gb_kDwDUb5ebZjOppiPQES5dPpbMWJ0yx7flKGgu2D2qOUrglaAxtt88LOZUrlB8Mv047x_ax0W4rX2cz-4dB5YAixgja24q7povVSJ8lxixoyUZcbCW1gEfOofesRIS4WawgS4ahmoqnuaJKKJCO-y1D926ruPaQC1LbEMB2_gyU9QEndyGUPMk6EdZWlcu69RvTSK2gURgZB6MYP70oo69l3Eue1Z&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112462472838454347283\">卡蹦</a>"
+        ],
+        "photo_reference": "AeeoHcK5DYGWFP5kaT-TbxeDZd_AeC1LfyXoFfzAMLkkYcew5WsKA3G2JQxjj0eTZu_6LF9EdttWsew0SSRPV8MjHhwaJOu1csOo0tFgAXMvWZIf95RPDrFJB2oRo6Omaz5puP2a2jIjcuARdo75aC4S7nx4_eHObHtJQcKnPjKCtF3TRG2Gp815J-Dxso5c0u5l-I4fBHQ4lUh8xIWJcaK6cuD3QVANRZbIl52xdq3y9yNjMtmDmxYtlLs-Iwf_XKsM8hLM3-szpZ4Sv8LXgzo9LbHbSbAd_5BLxfWo3QMHLzY2mtvepE9PWVEgyu_FcpZP_zcUtrdnJXf5CeHIEVSaZWUptdLdmXUh6K6rUsvs2mJt82dPIVZ9euq9q2hF-bC7m48AUGlO9sJoQx5TLYl1pghprEtmogpYSBFHkp_RKmKjWFJdf2cP9M2AvO1N6go82jTvdfkgSFkQYfCzpjimj8mUzv1-YDMu7PpNO7SNQxDPRGKKjy5r3sCCxka0IduwG5uQQeVKAFob5kJgKJZBNeDq51ur-GwZ7WsNtWvzxrTr5o4vRg1sYU7nNQ-AYJ5UGM9VyiWxvUozrLtqFSGtA9pd1oMKZcGG-M3CHzIplc0ycb0JLV0nQT_t55TE7YTBxmcffg",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK5DYGWFP5kaT-TbxeDZd_AeC1LfyXoFfzAMLkkYcew5WsKA3G2JQxjj0eTZu_6LF9EdttWsew0SSRPV8MjHhwaJOu1csOo0tFgAXMvWZIf95RPDrFJB2oRo6Omaz5puP2a2jIjcuARdo75aC4S7nx4_eHObHtJQcKnPjKCtF3TRG2Gp815J-Dxso5c0u5l-I4fBHQ4lUh8xIWJcaK6cuD3QVANRZbIl52xdq3y9yNjMtmDmxYtlLs-Iwf_XKsM8hLM3-szpZ4Sv8LXgzo9LbHbSbAd_5BLxfWo3QMHLzY2mtvepE9PWVEgyu_FcpZP_zcUtrdnJXf5CeHIEVSaZWUptdLdmXUh6K6rUsvs2mJt82dPIVZ9euq9q2hF-bC7m48AUGlO9sJoQx5TLYl1pghprEtmogpYSBFHkp_RKmKjWFJdf2cP9M2AvO1N6go82jTvdfkgSFkQYfCzpjimj8mUzv1-YDMu7PpNO7SNQxDPRGKKjy5r3sCCxka0IduwG5uQQeVKAFob5kJgKJZBNeDq51ur-GwZ7WsNtWvzxrTr5o4vRg1sYU7nNQ-AYJ5UGM9VyiWxvUozrLtqFSGtA9pd1oMKZcGG-M3CHzIplc0ycb0JLV0nQT_t55TE7YTBxmcffg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJJ4UnEcarQjQRN1vHUzf2ldM",
+    "plus_code": {
+      "compound_code": "XHQG+36 台灣台北市文山區萬興里",
+      "global_code": "7QP3XHQG+36"
+    },
+    "rating": 4.3,
+    "reviews": [
+      {
+        "author_name": "曾雍傑",
+        "author_url": "https://www.google.com/maps/contrib/116802266134468121573/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJaN9fZDJC53HVaBrOSI1pnBo2LX6SAZ6lh6K3I0khpI4MvBw=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 4,
+        "relative_time_description": "1 個月前",
+        "text": "衝著漂亮的七彩粉粿以及可愛的仙草/奶凍兔兔來的。小小的希望，店家的料可以再多一些。^-^\n\n店裡環境明亮乾淨，搭配當天播著周杰倫的歌曲，很輕鬆的在店裡享用這美麗的甜品。用完餐要自行餐盤回收。支援街口、line pay！",
+        "time": 1739774106,
+        "translated": false
+      },
+      {
+        "author_name": "fifi Huang",
+        "author_url": "https://www.google.com/maps/contrib/104277761952187126449/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUeD2FVk3zpp9oNWNQZwvTwqbgpvBSznP_P8AkL-BorWck96HKdYQ=s128-c0x00000000-cc-rp-mo-ba7",
+        "rating": 3,
+        "relative_time_description": "3 週前",
+        "text": "以前在開封店的時候就吃過一次，我吃完沒什麼印象，\n今天路過叫了一碗七彩粉粿紅豆湯，除了七彩粉粿不太行外其它都正常🤣（粉粿沒有口感可言,軟趴趴的也沒Q度）",
+        "time": 1741519191,
+        "translated": false
+      },
+      {
+        "author_name": "卡蹦",
+        "author_url": "https://www.google.com/maps/contrib/112462472838454347283/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV_osE_BclxEg4zcLEbrTAUMEXKLP9B3gLIebCsod6DawnIo7dP=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "4 個月前",
+        "text": "外帶紅豆芝麻湯圓，很優秀，是芝麻小湯圓欸！很好吃，也不會太甜太膩。\n會想再來",
+        "time": 1731767647,
+        "translated": false
+      },
+      {
+        "author_name": "羅摟雷（i.am.olafood）",
+        "author_url": "https://www.google.com/maps/contrib/114228347724287539696/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVwDWKD_xJ7RkcAaluPwE9khxkRZcZnJDEZMcwgiGNugsMvfYwC=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 5,
+        "relative_time_description": "9 個月前",
+        "text": "全台北中南都有分店的覓糖，主打的是天然紅薯粉熬製、使用天然色素的招牌七彩粉粿，另外也有刨冰、雪花冰、仙草凍…等冰品和可以加粉粿的飲品\n之前冬天吃過他們的粉粿冰就很喜歡，近期發現他們加入了韓國來的搖搖兔奶凍/仙草凍決定再來吃一波🤤\n-\n🌈七彩粉粿雪花冰（粉粿+珍珠+芋圓）（80元）\n🐰LOVE U 兔（奶凍／仙草）（99元）\n-\n七彩粉粿每種都很Q又帶手工感✨\n口味分別是黑糖、芝麻、玫瑰、抹茶、山梔子、椰香、桂花，我覺得只有椰香和黑糖比較明顯，玫瑰帶點花香味個人比較不愛一點\n其他配料也都軟糯好吃，和奶香的雪花冰很搭～\n二訪吃了黑白搖搖兔，會搭配七彩粉粿、芋圓、珍珠和黑糖刨冰，其中仙草又比奶凍再更ㄉㄨㄞ一些！\n拍起來畫面感十足😆\n整體而言，\n覓糖的冰品好吃、環境乾淨舒服價錢也合理\n天然的粉粿吸睛吃起來也很安心🥰\n聽說5月底在新店也開了分店，有機會要再去踩點\n在這邊推薦給想試試搖搖兔的大家🫨\n更多介紹請看instagram：@i.am.olafood",
+        "time": 1718202186,
+        "translated": false
+      },
+      {
+        "author_name": "kiki",
+        "author_url": "https://www.google.com/maps/contrib/110913131765703145755/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVvluy-3vvGsDyJEmxVGM2xj_oqRuShBmWEGln688fSJ7LLlDIk=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 5,
+        "relative_time_description": "7 個月前",
+        "text": "很乾淨的一間小冰店\n菜單品項蠻多的\n粉粿有七種口味\n真的很特別 台北很少有這種特色冰\n會再回訪 試看看其它冰品\n價格也算便宜 份量蠻多的\n很推薦給愛吃冰跟粉粿的～❤️",
+        "time": 1723558957,
+        "translated": false
+      }
+    ],
+    "types": [
+      "meal_takeaway",
+      "zoo",
+      "university",
+      "school",
+      "restaurant",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=15246362831021890359",
+    "user_ratings_total": 115,
+    "utc_offset": 480,
+    "vicinity": "文山區指南路二段62號1樓",
+    "website": "https://www.facebook.com/enjoydollar29370225/",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLTaCUtsVSUQKk8k2SWqBp0cwje5xM52AJ2hCeZomK2zq2BxFtAyYh81vtN3e-KZ7Ma49VyGPG4LTgH1hG-EI5FXJH2hPu1bnLjbdxftQqWwuXu1NorCmaXYp416GXVohG1Km3WsJraW2lgv_n3ciXPBoygjsSvecfnh2QvWxPLLzsgGIr1RCltog7QT_-s4PE80jKL8H3YnbibfB1Fpjsea_ofoEY7VArW0o-Owl4lPMY-IaO0goiuN70nsBsivz6DKRzOoMTjflBf059NrS6zEjoDwkFMgqd1gg3OPPyx2OaLdng5xuXnYexRlA6fE-rcoSIUVzU&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "1.3 公里",
+    "distance_value": 1317,
+    "duration_text": "18 分鐘",
+    "duration_value": 1076
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "16號",
+        "short_name": "16號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "一壽街",
+        "short_name": "一壽街",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "樟新里",
+        "short_name": "樟新里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">樟新里一壽街16號</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區一壽街16號",
+    "formatted_phone_number": "02 8661 0257",
+    "geometry": {
+      "location": {
+        "lat": 24.9799939,
+        "lng": 121.5564306
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9813517302915,
+          "lng": 121.5578280802915
+        },
+        "southwest": {
+          "lat": 24.9786537697085,
+          "lng": 121.5551301197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "international_phone_number": "+886 2 8661 0257",
+    "name": "ÎLE 島嶼法式海鮮",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 17:00, 17:30 – 21:00",
+        "星期二: 12:00 – 17:00, 17:30 – 21:00",
+        "星期三: 09:00 – 17:00",
+        "星期四: 12:00 – 17:00, 17:30 – 21:00",
+        "星期五: 12:00 – 17:00, 17:30 – 21:00",
+        "星期六: 12:00 – 17:00, 17:30 – 21:00",
+        "星期日: 休息"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1046,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109464908995364864814\">ÎLE 島嶼法式海鮮</a>"
+        ],
+        "photo_reference": "AeeoHcLcThcgmtEiDKlkmnDpVsTi3UxX5FKePHUJP8MouZIwVGEuQf3O-vZHTqNbvKGizISF8UHK2mhXczS_gW8jK3rMMCpxJ6TzcUrcqrLZ6FLXRLsqKMSjUw-7qtx1TWimyV8z0LcFOpnqjfk4_0HpPaDSk6fG_SOVTwVfaDS-YR2Ggpawv34PFuLXXv3eSpEi629ryMPJTzQh9zDt3adxBz7UOCReW47pZOrMARxEmQwwAg0v3bUr50hyfbFeD_ak3KQAcx1wbnHobYrqkTnQc2LHDTR-tkwq9DNaUabwtcoCTDLP_l0lUhIeDvs0rvu3z9rX3l5hVy0",
+        "width": 1568,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLcThcgmtEiDKlkmnDpVsTi3UxX5FKePHUJP8MouZIwVGEuQf3O-vZHTqNbvKGizISF8UHK2mhXczS_gW8jK3rMMCpxJ6TzcUrcqrLZ6FLXRLsqKMSjUw-7qtx1TWimyV8z0LcFOpnqjfk4_0HpPaDSk6fG_SOVTwVfaDS-YR2Ggpawv34PFuLXXv3eSpEi629ryMPJTzQh9zDt3adxBz7UOCReW47pZOrMARxEmQwwAg0v3bUr50hyfbFeD_ak3KQAcx1wbnHobYrqkTnQc2LHDTR-tkwq9DNaUabwtcoCTDLP_l0lUhIeDvs0rvu3z9rX3l5hVy0&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 1079,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109464908995364864814\">ÎLE 島嶼法式海鮮</a>"
+        ],
+        "photo_reference": "AeeoHcIi6RZuABgfFVlqAcmVHqFdi9KZFeF9aC0FEFSaftzHF5lINal8ZlHQG9wSluA6DMY-e8sX0ZU5j9UbsfAX5samkANDuAHoNHWvWpS_I0lVGFwEHe1yhjtyN8FlCiStVGONrTHjmEoMdRzHTO9-Ce69dRmUVJJAYEsdybDYUEqZk-15GTIyk3tmdat4ljiqUfIdaec-vx2OQNJSnsLXeWL3TGItT4dGe0cB8bEUCMJR-XWfdP18NZVDATcrj482FBFynaghYBLs7u8jPmuaRt9P4rv8tMAxn4rWj7gBiQ0g3HR2hhn621trqTs_LsbDPwbezMvPuc8",
+        "width": 1440,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIi6RZuABgfFVlqAcmVHqFdi9KZFeF9aC0FEFSaftzHF5lINal8ZlHQG9wSluA6DMY-e8sX0ZU5j9UbsfAX5samkANDuAHoNHWvWpS_I0lVGFwEHe1yhjtyN8FlCiStVGONrTHjmEoMdRzHTO9-Ce69dRmUVJJAYEsdybDYUEqZk-15GTIyk3tmdat4ljiqUfIdaec-vx2OQNJSnsLXeWL3TGItT4dGe0cB8bEUCMJR-XWfdP18NZVDATcrj482FBFynaghYBLs7u8jPmuaRt9P4rv8tMAxn4rWj7gBiQ0g3HR2hhn621trqTs_LsbDPwbezMvPuc8&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 883,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109464908995364864814\">ÎLE 島嶼法式海鮮</a>"
+        ],
+        "photo_reference": "AeeoHcJ6WCVo7kduNkWJKzYhWSzNO2ka_BV-t8-qZpS-9zhch-6yyT-w-cW9BqRER2ww1Fbzboqx-RJkL4kr8odqNJSZ_gEJu7zfxU_YzAeU7BxOLWHAFocTDo6bWLdd92GfRvlJk1j73nDtjRZ9tpffMGWMbzLvWKYVag6lMdm2FAVlKayMl2BlBhYlS9CDgEoTREMLxbGEryGkHFL0nyRCsuUtmUvtHmn55oiiwUAGLcAWF_dAAP8nqQG3wHqsf_kZHXlHrVh0PWh40uEn_Ij42lCRQ8LQC2PGyHbteMvmc7ifICRRM62yrFuHdTkfSlojYEJkNnM_uOA",
+        "width": 1568,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJ6WCVo7kduNkWJKzYhWSzNO2ka_BV-t8-qZpS-9zhch-6yyT-w-cW9BqRER2ww1Fbzboqx-RJkL4kr8odqNJSZ_gEJu7zfxU_YzAeU7BxOLWHAFocTDo6bWLdd92GfRvlJk1j73nDtjRZ9tpffMGWMbzLvWKYVag6lMdm2FAVlKayMl2BlBhYlS9CDgEoTREMLxbGEryGkHFL0nyRCsuUtmUvtHmn55oiiwUAGLcAWF_dAAP8nqQG3wHqsf_kZHXlHrVh0PWh40uEn_Ij42lCRQ8LQC2PGyHbteMvmc7ifICRRM62yrFuHdTkfSlojYEJkNnM_uOA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116316200286395579533\">張文騰</a>"
+        ],
+        "photo_reference": "AeeoHcJlevQ5KGNwFg5bsHHWVqPqkVGsQ83Sop0UL1nl0Rf2DTU_Owae-ApjQ-m4DCRR9JDthGNLkGnPTb0H03Mjn6uC4DDCkzbF2AIkaLN_cngCop-PJ-bAu8T_-uh6FbxDFWr0wzMmRlWlos-Hih11spsM_m1TyKBB9KQIdOfXFcm4vERmdW8B3-TtQ3alfqzOow-T_6TVwbV2VDauKVIqYzBdQ37ze0u0tJham_kC3lmnphmNlGN4zKHeofTa9TyVqdj8Fvj9_CQaYteM2d296b-YgUY8VxrdXtHNjjkMWKZj_RGdaqe-_nMfNGUeeTUd9eU5NZaFPZgxfxn5Mw2XHY6Eji6gCpbDjZtmXSfLfP645_Pi_hmlx4URTSbQduDxCOa6f_JVu5As3OG6AAcpuo9Bs2LPYg3FLHJ2z_rSJ0uU028HDPxBL29Cy3lt2oLiz7CWyV51XJpeyxRbues_6nsz3ol2Q-1S57E_JiffgBRlWh69encmZ_HhMd3xJA1lM0yzVHdBRiM0rJ_8DFjVgHKyGpIn2oW0VzWaRDXWWcd2jXJFsXdhvYJXqc8Wo_e5ROsga43KS6Z8fvi5GVB3VARn6MohIkhIs4FuQg2w3GT0DfcKRYhw0-G5k8GYk1Vf4ryfIY3I",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJlevQ5KGNwFg5bsHHWVqPqkVGsQ83Sop0UL1nl0Rf2DTU_Owae-ApjQ-m4DCRR9JDthGNLkGnPTb0H03Mjn6uC4DDCkzbF2AIkaLN_cngCop-PJ-bAu8T_-uh6FbxDFWr0wzMmRlWlos-Hih11spsM_m1TyKBB9KQIdOfXFcm4vERmdW8B3-TtQ3alfqzOow-T_6TVwbV2VDauKVIqYzBdQ37ze0u0tJham_kC3lmnphmNlGN4zKHeofTa9TyVqdj8Fvj9_CQaYteM2d296b-YgUY8VxrdXtHNjjkMWKZj_RGdaqe-_nMfNGUeeTUd9eU5NZaFPZgxfxn5Mw2XHY6Eji6gCpbDjZtmXSfLfP645_Pi_hmlx4URTSbQduDxCOa6f_JVu5As3OG6AAcpuo9Bs2LPYg3FLHJ2z_rSJ0uU028HDPxBL29Cy3lt2oLiz7CWyV51XJpeyxRbues_6nsz3ol2Q-1S57E_JiffgBRlWh69encmZ_HhMd3xJA1lM0yzVHdBRiM0rJ_8DFjVgHKyGpIn2oW0VzWaRDXWWcd2jXJFsXdhvYJXqc8Wo_e5ROsga43KS6Z8fvi5GVB3VARn6MohIkhIs4FuQg2w3GT0DfcKRYhw0-G5k8GYk1Vf4ryfIY3I&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3611,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111687335409725575124\">MAY YEH</a>"
+        ],
+        "photo_reference": "AeeoHcLlxnANCqzFn6UzKAqY8GpLtH27_R30K8Q14Lq6Awg6eB35dv314JxcQjSIDcLSeYcNdjFOxCKuv_6lOntZcqNaGfZJr-S7558o5jKO8FElan8pwbv9fZlxHBG7HVfW6vYsyz8O4xNlnre0KKLhHFA7WfJo_zbYvjIUSQF3dlhJ48hj4rHaAnlOE-IaiscT1WIVm1hiB0rNXh3DNKu-AkzuSf8YOCVvSZ7Acpf34IrMuDcXzghNrmDN7NstpY9XhiFxZ4gQcqW2ATj27fpyijXVBDvIOP8yB4Xl5TGnAUtkRstdHmWUkbge3MYWjjgw5qp3pWfpNGMHbKroCpftFJn_ITWKbzXRfyelSCJO5ZS04iESCQBnxFsvEuthriMgwiCRWFfURZBQtsg-N_Z2azHd99j51EjoIkUYqXLHi55bES7NvibMREvUAzZjnzmPciZemwWSeJIFY_N_y0lftrgao5eZMp-w0faYusEgrL35PRmileqnuu66M1BlcDttdBK7UGeCeaXptSI779kmXaFrYnhwAGzotgJHGsCcItYZvKL79hRWRkU9_T8h_-y3S7hkyiYXVEmhSs8wH6WjCWzF6OSEh0ucTT-H5FHlBwN9F62nU8Kb8ybqInbhPJYy",
+        "width": 4018,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLlxnANCqzFn6UzKAqY8GpLtH27_R30K8Q14Lq6Awg6eB35dv314JxcQjSIDcLSeYcNdjFOxCKuv_6lOntZcqNaGfZJr-S7558o5jKO8FElan8pwbv9fZlxHBG7HVfW6vYsyz8O4xNlnre0KKLhHFA7WfJo_zbYvjIUSQF3dlhJ48hj4rHaAnlOE-IaiscT1WIVm1hiB0rNXh3DNKu-AkzuSf8YOCVvSZ7Acpf34IrMuDcXzghNrmDN7NstpY9XhiFxZ4gQcqW2ATj27fpyijXVBDvIOP8yB4Xl5TGnAUtkRstdHmWUkbge3MYWjjgw5qp3pWfpNGMHbKroCpftFJn_ITWKbzXRfyelSCJO5ZS04iESCQBnxFsvEuthriMgwiCRWFfURZBQtsg-N_Z2azHd99j51EjoIkUYqXLHi55bES7NvibMREvUAzZjnzmPciZemwWSeJIFY_N_y0lftrgao5eZMp-w0faYusEgrL35PRmileqnuu66M1BlcDttdBK7UGeCeaXptSI779kmXaFrYnhwAGzotgJHGsCcItYZvKL79hRWRkU9_T8h_-y3S7hkyiYXVEmhSs8wH6WjCWzF6OSEh0ucTT-H5FHlBwN9F62nU8Kb8ybqInbhPJYy&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102323644165311887002\">Dash CHUNG</a>"
+        ],
+        "photo_reference": "AeeoHcIZ5ubKtSFNECOO_sXCA3Ngz2KXRHnWLThbXMpPzsYCqCAlcbK-q9ma_Dgl0jlOKN3PPimTCgGAJh4p-cdUZ-W6CPFjP4WQ3ts3A-I62ObptpmyR2aMhGcYS4mSJur6dVmffKVfcjKrffiNKZ5ss0auXLSTcAJDuFrajKQg2OkyrT7yUqxWC4dthaJGRzksR3fzCqt0MQOrc4Rc7xbEOQYD_ZS_vvKEhZKlp4mPglKOxi5_NvIxAvZnypv7obQ3w6ysiLVecm-B8geEIH2w-ykjgQ-jFDS_23v_7ygI9rxQPFTxramwH8xGhRyfEM7n7iD-C-UPI14hXB_zd0mZlDU9d7undkb7Hpw_czF4gBn2gtmT0AhxzolnaX9mQXMDxDgW2uqbGYCViNR3OtlnynVsfkXia0hmc3DltPeCoIzPXq08GMUuLdPYxCc7d_MdudMsIgrjvG32WtZZKThy508-AdKNcvuAEjkH-UaOYKDLNTbgT7ROm2rXTNqc3bNgjOm4CYYfFalWrAQEpo3HTTdIkTIKAZGOyJB7SL20uYAofvPPIv_deF-Ie8As57ypju_beW-3YjO4NIjd2VrUCbWkqAoZ_ZJHb3tepwGzZ5Qb90p9V1XwEQ4RO2wOMYgnRIhj8w",
+        "width": 4080,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIZ5ubKtSFNECOO_sXCA3Ngz2KXRHnWLThbXMpPzsYCqCAlcbK-q9ma_Dgl0jlOKN3PPimTCgGAJh4p-cdUZ-W6CPFjP4WQ3ts3A-I62ObptpmyR2aMhGcYS4mSJur6dVmffKVfcjKrffiNKZ5ss0auXLSTcAJDuFrajKQg2OkyrT7yUqxWC4dthaJGRzksR3fzCqt0MQOrc4Rc7xbEOQYD_ZS_vvKEhZKlp4mPglKOxi5_NvIxAvZnypv7obQ3w6ysiLVecm-B8geEIH2w-ykjgQ-jFDS_23v_7ygI9rxQPFTxramwH8xGhRyfEM7n7iD-C-UPI14hXB_zd0mZlDU9d7undkb7Hpw_czF4gBn2gtmT0AhxzolnaX9mQXMDxDgW2uqbGYCViNR3OtlnynVsfkXia0hmc3DltPeCoIzPXq08GMUuLdPYxCc7d_MdudMsIgrjvG32WtZZKThy508-AdKNcvuAEjkH-UaOYKDLNTbgT7ROm2rXTNqc3bNgjOm4CYYfFalWrAQEpo3HTTdIkTIKAZGOyJB7SL20uYAofvPPIv_deF-Ie8As57ypju_beW-3YjO4NIjd2VrUCbWkqAoZ_ZJHb3tepwGzZ5Qb90p9V1XwEQ4RO2wOMYgnRIhj8w&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110455660683726204231\">Vincent Lee</a>"
+        ],
+        "photo_reference": "AeeoHcIZZTwjUikTr6i31ZoFvPzUzRw-FF6NbsJW_-2Y1aMolSXQLkV2T0mvGgku7FXfjHbVag4wy3zur0mj1yoCELUHleodCj0y_WP1ViOp3-us2sL19K3d4r6PWLqIev802Nh0KC3QsgQrIJGyGCddSVpoI2p0qyyp3f_CflywtLAg-EBRS09eFbpGzM5QTbbTOjYFWhI7mVh97pS6BiZJDP-AV41GRF9-ZYuHumb_LkQe0G7_xF11uGiCgFZS6nYYnYoXeX4djiFXoTOB7yJ2f9w6BefwS7Te7wKuVe_cP8P6JUl0pFBLA6EMGVQeQGZesMEzlZQ9K7HO4WQ5AawCTffNB4nUgKGnL0z7bPXjK8QC9aK1s3qjeNI12moE83SickxNKjtm58r2ogXHY904NeaWWs2L10-SXvCrPEgqf9a2rS_K1b1np3JILXKo6RxI0YTcq5MJBynJ954wOE_d834m4e2pPGQLBBEPkEZ9wRYfJpSy9zrRLLOMHQhwpTJ7iPIMvQlYHYy2l2dHF0-TcRL_IOpV-xllTHOrfVKJ-iutZkbnEyLy817zPQlRlIQpV4K2hWi1f3arrvH5qWOrUFIvTlrNtPLWaCBz_wfU5XcGBfqFuD1cEiZLhClEXKRbcf8B_Q",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIZZTwjUikTr6i31ZoFvPzUzRw-FF6NbsJW_-2Y1aMolSXQLkV2T0mvGgku7FXfjHbVag4wy3zur0mj1yoCELUHleodCj0y_WP1ViOp3-us2sL19K3d4r6PWLqIev802Nh0KC3QsgQrIJGyGCddSVpoI2p0qyyp3f_CflywtLAg-EBRS09eFbpGzM5QTbbTOjYFWhI7mVh97pS6BiZJDP-AV41GRF9-ZYuHumb_LkQe0G7_xF11uGiCgFZS6nYYnYoXeX4djiFXoTOB7yJ2f9w6BefwS7Te7wKuVe_cP8P6JUl0pFBLA6EMGVQeQGZesMEzlZQ9K7HO4WQ5AawCTffNB4nUgKGnL0z7bPXjK8QC9aK1s3qjeNI12moE83SickxNKjtm58r2ogXHY904NeaWWs2L10-SXvCrPEgqf9a2rS_K1b1np3JILXKo6RxI0YTcq5MJBynJ954wOE_d834m4e2pPGQLBBEPkEZ9wRYfJpSy9zrRLLOMHQhwpTJ7iPIMvQlYHYy2l2dHF0-TcRL_IOpV-xllTHOrfVKJ-iutZkbnEyLy817zPQlRlIQpV4K2hWi1f3arrvH5qWOrUFIvTlrNtPLWaCBz_wfU5XcGBfqFuD1cEiZLhClEXKRbcf8B_Q&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100585544406436143662\">周含鍾</a>"
+        ],
+        "photo_reference": "AeeoHcIaI2XAL6FRH526fNShlsO4WiNBaKl8IFEdjKzdAbi74ksVyjotmgiFLI-W7R2d0uF_BfHUm-d-vwbACKnnNtsxLaxakCdpIz4ZIo8CO811BgPB7TAQusWmg_3BRYvs2OwuOX_kStxq5fhP6J7ZzubO4rfLMJET0nrn1XbPASp9P3HffyPzqQsxravYExUAp3dwCJlU8iNudxAgFBCrJNu-Qd-2hokHtuhDK6IOb-WVxeDrxdHe8zTyhZu33Qh4Xb6IHiswCCTc6Mipq3U2CVqVpLMJISC6HVOGpKnh54QQrtSmaV3XtZnURnMrdSx3USi36F7LBzmneBNImw5oh8aoF2Fdj6LZliEo-ANtdyANKeLNJfGlIkYcG3PwHxXhUGn0-J19mHV8F4F5kY1lZQgYHXvBIg0s3_apBtB8GE_feveLw2FugsoW1I3xXAG822i7A09hwBSCidOIclevzMtGdYbEGkCUzJpUXqUVVjQMn0moGHlYxnfORW9mo_AwAb0kjF19iZ1H1GTle_pmnkZ9761HRp9_5vooPK6Ex_D8xgiy5YoqI4lhSSMOdkYhSe2okw9T9impHxvT_MjEpxlLjAyZYTGpEFB2NG43Vm27h6Fh7MCJaGsIY_3FV5JlOpgxWw",
+        "width": 1280,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIaI2XAL6FRH526fNShlsO4WiNBaKl8IFEdjKzdAbi74ksVyjotmgiFLI-W7R2d0uF_BfHUm-d-vwbACKnnNtsxLaxakCdpIz4ZIo8CO811BgPB7TAQusWmg_3BRYvs2OwuOX_kStxq5fhP6J7ZzubO4rfLMJET0nrn1XbPASp9P3HffyPzqQsxravYExUAp3dwCJlU8iNudxAgFBCrJNu-Qd-2hokHtuhDK6IOb-WVxeDrxdHe8zTyhZu33Qh4Xb6IHiswCCTc6Mipq3U2CVqVpLMJISC6HVOGpKnh54QQrtSmaV3XtZnURnMrdSx3USi36F7LBzmneBNImw5oh8aoF2Fdj6LZliEo-ANtdyANKeLNJfGlIkYcG3PwHxXhUGn0-J19mHV8F4F5kY1lZQgYHXvBIg0s3_apBtB8GE_feveLw2FugsoW1I3xXAG822i7A09hwBSCidOIclevzMtGdYbEGkCUzJpUXqUVVjQMn0moGHlYxnfORW9mo_AwAb0kjF19iZ1H1GTle_pmnkZ9761HRp9_5vooPK6Ex_D8xgiy5YoqI4lhSSMOdkYhSe2okw9T9impHxvT_MjEpxlLjAyZYTGpEFB2NG43Vm27h6Fh7MCJaGsIY_3FV5JlOpgxWw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106292505494085733537\">Doris Chen</a>"
+        ],
+        "photo_reference": "AeeoHcJ3CTEl6C-t6a2S8s2NWVJ2L3ei3GRdCU8BwcBmSJCDZMM-edYIoEHjLUuRhQIJxIDcm9SSIhKM8sGfELdCkokfru9mIVdlzFvfn9wQWfMscCnfd_WmdaEgp5YJTQCsCb1WWpoBBFxUn5fwQ56DJ_FXyiOCsQY4i1JJXNuH9Qh16XVdBKvjJQSg6nlSPx8VjDf78-c_w005pYwDwNLEvx1cqNFbAIfqw3xyJpTttq2J1bo6mGB-CKv6SYa7m90TyxPoZeLvM7S0iVVNLK6sOfiFR-7tJaztSx-n53bjUDVg0C5Cj4F2Ml1Y3DJcSQ0lUP6p-oPA1KfHcX4vgowjA3ANmKyI8mQWThMO2hujRX2Ri_x_yrH3y3QuglBb-A8NITiJF4v90l3zoyutPOW-NHqp5OP0ineGOi1iaa1K7xfg4wex5IyzTAAL5XhJEa8Gkke_uKrmC_3XSvhD1C78DrPJ0pLL9chMsEw2FqmnQgynP8GBpMKpN07f3fUxB0w3vpdYruuwRzBO9keL8_4triLYZucOUBeosUVbZ1jeeN37RKszqVE4RL9pnAWtBXtdiM957u7v_80Bm-DThKUp_M1lPGUN7k2BM0DJ5FxtIwBjzNuDwoOBUYc0ZkHhZBp7",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJ3CTEl6C-t6a2S8s2NWVJ2L3ei3GRdCU8BwcBmSJCDZMM-edYIoEHjLUuRhQIJxIDcm9SSIhKM8sGfELdCkokfru9mIVdlzFvfn9wQWfMscCnfd_WmdaEgp5YJTQCsCb1WWpoBBFxUn5fwQ56DJ_FXyiOCsQY4i1JJXNuH9Qh16XVdBKvjJQSg6nlSPx8VjDf78-c_w005pYwDwNLEvx1cqNFbAIfqw3xyJpTttq2J1bo6mGB-CKv6SYa7m90TyxPoZeLvM7S0iVVNLK6sOfiFR-7tJaztSx-n53bjUDVg0C5Cj4F2Ml1Y3DJcSQ0lUP6p-oPA1KfHcX4vgowjA3ANmKyI8mQWThMO2hujRX2Ri_x_yrH3y3QuglBb-A8NITiJF4v90l3zoyutPOW-NHqp5OP0ineGOi1iaa1K7xfg4wex5IyzTAAL5XhJEa8Gkke_uKrmC_3XSvhD1C78DrPJ0pLL9chMsEw2FqmnQgynP8GBpMKpN07f3fUxB0w3vpdYruuwRzBO9keL8_4triLYZucOUBeosUVbZ1jeeN37RKszqVE4RL9pnAWtBXtdiM957u7v_80Bm-DThKUp_M1lPGUN7k2BM0DJ5FxtIwBjzNuDwoOBUYc0ZkHhZBp7&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4922,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111687335409725575124\">MAY YEH</a>"
+        ],
+        "photo_reference": "AeeoHcJbKpGnN08iBVbwyeQvGNVWclmJxTj8ZQ4AOUSJTZKsCI7rA05evZ5uxUKVsLDvfijI_RAbhElDiYAXEx54PhrVL21jWKwhmGyqEwTIrhinS0p8Fy2yf_i98RN9hvKwzCiStNDm4z7V0BUIgdLJYOWL4Vi33Up62YmNWD5Q8E-n7XD3eIErEPAbQ6ITraXG9uSK9avC0mp45_rOr5e1uJ7r2NB6QXtJ9IUvYvx9dvnt0-modE4xcS4zQ6k87JyC5NZVOyS-EW3H4vvhRx5-2tiDBduKuzFKWvSeFiYOo-ezaQAGRWJIOZDPPVSaBiv7qQAAMLx7P5lOuxZsdq4H7fq4kcLHi8urwWXOcDwzZ44yVVsqhOkJSm6MMNW4Tl3_QDXoT_o3jHVbG4yLHZCSazvy3AtuL-TcXFB7ReGpPFI_bLJWu1med2f1EZwTWtACERdbX_AWZbRUxteRpk6Dw4yeTHWErOoL201DNYyX0XJVk58PBYASOEZPezDkGIY_1oBVVGpsNzqtwDfmG-Ft_MQSA01qBZTsBjL8auZ6O4Pr4YXZAftF0Z79Ew73DgLz-S3B6mfj4zNR8cQpIVhxvffKbmNuSiu4pqKWFsGUCSab5cuV9xEENs4pjNWh6ty1e_wdooKI",
+        "width": 4280,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJbKpGnN08iBVbwyeQvGNVWclmJxTj8ZQ4AOUSJTZKsCI7rA05evZ5uxUKVsLDvfijI_RAbhElDiYAXEx54PhrVL21jWKwhmGyqEwTIrhinS0p8Fy2yf_i98RN9hvKwzCiStNDm4z7V0BUIgdLJYOWL4Vi33Up62YmNWD5Q8E-n7XD3eIErEPAbQ6ITraXG9uSK9avC0mp45_rOr5e1uJ7r2NB6QXtJ9IUvYvx9dvnt0-modE4xcS4zQ6k87JyC5NZVOyS-EW3H4vvhRx5-2tiDBduKuzFKWvSeFiYOo-ezaQAGRWJIOZDPPVSaBiv7qQAAMLx7P5lOuxZsdq4H7fq4kcLHi8urwWXOcDwzZ44yVVsqhOkJSm6MMNW4Tl3_QDXoT_o3jHVbG4yLHZCSazvy3AtuL-TcXFB7ReGpPFI_bLJWu1med2f1EZwTWtACERdbX_AWZbRUxteRpk6Dw4yeTHWErOoL201DNYyX0XJVk58PBYASOEZPezDkGIY_1oBVVGpsNzqtwDfmG-Ft_MQSA01qBZTsBjL8auZ6O4Pr4YXZAftF0Z79Ew73DgLz-S3B6mfj4zNR8cQpIVhxvffKbmNuSiu4pqKWFsGUCSab5cuV9xEENs4pjNWh6ty1e_wdooKI&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJ8T9HSxUBaDQRH8Mr9QlNk34",
+    "plus_code": {
+      "compound_code": "XHH4+XH 台灣台北市文山區樟新里",
+      "global_code": "7QP3XHH4+XH"
+    },
+    "rating": 4.4,
+    "reviews": [
+      {
+        "author_name": "周含鍾",
+        "author_url": "https://www.google.com/maps/contrib/100585544406436143662/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWuzzuV-kopjQsDeThFFsElohEfVdCM6d8TADUw4cBvMdMATaiT=s128-c0x00000000-cc-rp-mo-ba8",
+        "rating": 5,
+        "relative_time_description": "3 個月前",
+        "text": "#台北市 #文山區\n#餐廳 #法式 #ÎLE 島嶼法式海鮮\n\n這是一家非常有意思的法式海鮮餐廳，隱藏在住宅區的巷弄內，說真的不是朋友帶路還真的不太可能進來，這位女主廚非常有自己的想法，她的調味我很喜歡，在法式家庭料理中加入了很多台灣在地元素，連餐後甜點都很好吃歐。\n沙拉肯定不是我的愛，因為本人真的不太愛吃草，但他的擺盤非常漂亮害我忍不住嚐了一下，用的是台灣在地小農蔬菜及台灣在地製作的Salami，鹹香清新的口感還不錯，但我覺得搭配店家自製的法式香腸口味更好。\n西班牙海鮮燉飯做得不錯，米心的嚼感有做出來，海鮮的濃郁浸潤到米粒中，一口燉飯立馬沉浸在海港的風味裡。\n煙花女海鮮義大利麵的口味不錯，但這稍寬的麵條不是我的愛，我還是比較喜歡帶點嚼感的細麵。\n前菜中另外點了盤淡菜，這盤淡菜我真的愛了，我愛上的是哪那蒜香十足的醬汁真的太好吃了，吃到最後我還捨不得底下的湯汁，恨不得來碗白飯或是來個麵包將底下的湯汁舔完啊。\n法式油淋屠夫帶骨肋眼一上桌就非常吸睛，足足1.8公斤碩大的帶骨牛排淋上主廚特製蘑菇醬，這蘑菇醬的味道完全打中我的甜蜜點，主廚採用紐西蘭草飼牛就不是我的愛，草飼牛的油花沒有美牛那麼均勻而且有個特有的味道，這如果能搭配上美國牛的油花那就完美了。\n最後的龍眼蜜檸檬瑪德蓮被朋友譽為死前必須要吃一次的瑪德蓮，香氣不錯口感鬆軟，整體口味平衡度很好不會太甜會是太乾，很不錯吃。\n這家店的出品真不錯，連我這不太愛吃西餐的都可以接受，整體環境非常整齊乾淨，連開放式廚房都整理的井井有條，服務態度也非常專業，非常適合三五好友或是情人約會的好地方。\n\nÎLE 島嶼法式海鮮\n台北市文山區一壽街16號",
+        "time": 1734830663,
+        "translated": false
+      },
+      {
+        "author_name": "Bling B",
+        "author_url": "https://www.google.com/maps/contrib/117454196967773959007/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKTgaHXaluczk7EyhFsL-JgUlu9drXWexJRAWduiJcgkcjakg=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 2,
+        "relative_time_description": "1 個月前",
+        "text": "菜單名為”冬暖”，但開胃菜是冰涼的，加上到訪時正值寒流，室內無暖氣、空調好冷，用餐期間冷到無法脫外套，所以直到出餐到洋蔥湯之前，都不覺得有如菜單”冬暖”的感受！\n\n菜色中規中矩，少了點驚喜感，些許食材組合在一起沒有感受到碰撞相乘的美味，品嚐到的就是各自的風味。\n\n主菜『紅玉雞雙重奏』採用的是雞胸肉的部位，口感偏柴也沒有肉汁甜味！\n\n店家在網路上頗受好評，而我以當天套餐$1800+10%的內容來看，食材用料和口味皆不符個人期待，著實感受不到如網路分享文那般的美好！",
+        "time": 1740295532,
+        "translated": false
+      },
+      {
+        "author_name": "eddie Chen",
+        "author_url": "https://www.google.com/maps/contrib/106845440203849187744/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUVXmhbFX9eZ62nyB3-HSsp1TqARR3sltj6ob6_GoOJJTHmubHbIw=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "每道料理彷彿是一件精緻的藝術品，每一個細節都展現了廚師的用心與巧思，是一場視覺與味覺的極致饗宴。",
+        "time": 1739024728,
+        "translated": false
+      },
+      {
+        "author_name": "milk",
+        "author_url": "https://www.google.com/maps/contrib/108992205986769396565/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI7a5EtZiGPDaCdLB61aAklyrly5id67pt0Yhe8Sw2EF4BOvg=s128-c0x00000000-cc-rp-mo",
+        "rating": 1,
+        "relative_time_description": "1 個月前",
+        "text": "剛開幕的時候來吃過一次覺得很驚艷，這次來吃不但漲價餐點水準下降，真的是失望透頂，很後悔沒有把錢拿去去吃王品。主餐的白蝦很小隻自己超市買的都更新鮮又大隻，松露炸蛋下方培根很鹹，干貝完全吃不出甜味，甜點的泡芙跟焦糖布丁都很普通。這樣的餐點一個人1800再加一成，連一杯飲料都捨不得給，吃甜點的時候才發現飲料是要另外加點很傻眼，一開始就應該要先告知套餐是不含飲料",
+        "time": 1740456576,
+        "translated": false
+      },
+      {
+        "author_name": "李粉圓",
+        "author_url": "https://www.google.com/maps/contrib/111377454664288569704/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKfvOqPVqfRCdeK30TSy1k5UEw_gH4LVmngtPRS7cHd42YZkw=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 4,
+        "relative_time_description": "2 年前",
+        "text": "在木柵地區很少數的法式餐廳，隱身在巷子裡面，其實經過了幾次都沒有進去，剛巧家人訂了就嘗試看看法式料理。\n因為是包場了，所以是很歡樂的氣氛，服務態度很好，會介紹食材來源及做法，也會提一下口味的部分，我們是點雙主菜的套餐，不過會覺得份量有點少，以我這號稱晚餐小鳥胃的人吃剛剛好，但男生會覺得不夠，這次豬肉的部分說是雲林的健康豬，但豬肉要沒全熟真的會覺得怪，但其實我覺得小小可惜，因為深坑黑豬肉反而肉的味道比較少且就近應該會更新鮮，魚的部分海鱺魚是吃的出他不柴有油脂，牛肉選擇五分，但覺得份量真的蠻少的，所以我只分享了一小口，很嫩沒錯，但就真的有點少，我們有另外訂蛋糕跟可麗露，甜點真的是我的愛，覺得蛋糕很好吃，可麗露也不會死甜，外面紮實裡面軟嫩，隔天食用依舊好吃。\n我是沒去過法國，沒得比較到底差異或相似度跟真的法式料理多少，但或許來嘗試一次也是不錯，如果是講究食材及氛圍或許可以來試試看。",
+        "time": 1676813295,
+        "translated": false
+      }
+    ],
+    "types": [
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=9120718375518716703",
+    "user_ratings_total": 248,
+    "utc_offset": 480,
+    "vicinity": "文山區一壽街16號",
+    "website": "https://www.facebook.com/Ile%E5%B3%B6%E5%B6%BC%E6%B3%95%E5%BC%8F%E6%B5%B7%E9%AE%AE-383858092420522",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLcThcgmtEiDKlkmnDpVsTi3UxX5FKePHUJP8MouZIwVGEuQf3O-vZHTqNbvKGizISF8UHK2mhXczS_gW8jK3rMMCpxJ6TzcUrcqrLZ6FLXRLsqKMSjUw-7qtx1TWimyV8z0LcFOpnqjfk4_0HpPaDSk6fG_SOVTwVfaDS-YR2Ggpawv34PFuLXXv3eSpEi629ryMPJTzQh9zDt3adxBz7UOCReW47pZOrMARxEmQwwAg0v3bUr50hyfbFeD_ak3KQAcx1wbnHobYrqkTnQc2LHDTR-tkwq9DNaUabwtcoCTDLP_l0lUhIeDvs0rvu3z9rX3l5hVy0&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "2.7 公里",
+    "distance_value": 2686,
+    "duration_text": "38 分鐘",
+    "duration_value": 2272
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "106號",
+        "short_name": "106號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "指南路二段",
+        "short_name": "指南路二段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">指南路二段106號</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區指南路二段106號",
+    "formatted_phone_number": "02 2936 9172",
+    "geometry": {
+      "location": {
+        "lat": 24.9861386,
+        "lng": 121.5794751
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9875130302915,
+          "lng": 121.5808608302915
+        },
+        "southwest": {
+          "lat": 24.9848150697085,
+          "lng": 121.5781628697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "international_phone_number": "+886 2 2936 9172",
+    "name": "呼嚕小酒館",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 22:00",
+        "星期二: 12:00 – 22:00",
+        "星期三: 12:00 – 22:00",
+        "星期四: 12:00 – 22:00",
+        "星期五: 12:00 – 22:00",
+        "星期六: 12:00 – 22:00",
+        "星期日: 12:00 – 22:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1706,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106354202628650332949\">呼嚕小酒館</a>"
+        ],
+        "photo_reference": "AeeoHcL0Ok5xIFUR9QuEnX7HPBGkS8gO7JEcDRMjKELzbEg8HdlQHB0dApvv7gHunUxXKwmFM4YgMzDV_2ibDoya9Ul5GBCqk-DMhbwJ38G2UJaJYBM9BPADZYvY1xjYHyArbDCXjblrm1fpGRiwSOlnyFGOuop2Et7Smf_Nzk1OX_f6pIir69P8DKdHp2vZ4KgMfy3A9yZYWCt56DqezBfItjmuJkis-6yPw5Gc5pvnglyk9g4HHQP6uh_d8mvKCnVo3HVAFvIPjxrwS6NBxC_tpEkdPDN20MPHFypbQoVfR_Rttso5m2qEyBlr7KatiyjuyWnDPh2ClSc",
+        "width": 960,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcL0Ok5xIFUR9QuEnX7HPBGkS8gO7JEcDRMjKELzbEg8HdlQHB0dApvv7gHunUxXKwmFM4YgMzDV_2ibDoya9Ul5GBCqk-DMhbwJ38G2UJaJYBM9BPADZYvY1xjYHyArbDCXjblrm1fpGRiwSOlnyFGOuop2Et7Smf_Nzk1OX_f6pIir69P8DKdHp2vZ4KgMfy3A9yZYWCt56DqezBfItjmuJkis-6yPw5Gc5pvnglyk9g4HHQP6uh_d8mvKCnVo3HVAFvIPjxrwS6NBxC_tpEkdPDN20MPHFypbQoVfR_Rttso5m2qEyBlr7KatiyjuyWnDPh2ClSc&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101332051718306252501\">馬心韻</a>"
+        ],
+        "photo_reference": "AeeoHcInFqiXviHNqQvH3U6vYv0jn40cmjTohKcj-uUXkB2jRjcKx7Mvioelj88aSE_g22H8bdsQmHozktRuAkxMWMpj1l5tTtmz9ttm0hJcUIL49yF6OgOk8uKoiBN5Usg-1mpTEk5GcMdJBXXKvlxD5pBHRfGOYc0JbtdumAcokhvdddQaa4vKNzjoojNCsqSYVTYvf7dg1ke5UKJsAYlQBtX5dEJVmH5DDTGLTLri5k0fCPbJPtpIKTok6-D3aSRvp1dTAgCFBwEs6z_HBCUWXafDYSBuxcDbNq7nYgDtja3E8taW0CjcUp1Sl_vAVUm6yGQe41UNK_CuMhQsYQlh6yWOCDXijl7fL2shoZ0I-mwNHJqvVuZzpziRS6koPnbbcWlnFzxnuAMj4jSr0hW_hypZ5iOMd_EBrE0lJRjpmR-YTcqTj75vNleBE_2Qt-6W8Toz3518lpjGV_m7yWJoS3bgCg9jyrk3bs1IGB-5ieJcvdREKwEYqifHWpTEsT4-Xfz_hxjRbzm7bQPAYQ4VWi4HDiSqKldpDo0FULoyIVnkeS6E_dfWaCMly2nYkeS2ZYiO_RmeRcCwFPnOEM8F_1P4vu3NzXO-74XdXbtIuaiV3gmz2kprSUKub0XadfWECc5QTUWe_fNC6EmByoVXfHKsrGU",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcInFqiXviHNqQvH3U6vYv0jn40cmjTohKcj-uUXkB2jRjcKx7Mvioelj88aSE_g22H8bdsQmHozktRuAkxMWMpj1l5tTtmz9ttm0hJcUIL49yF6OgOk8uKoiBN5Usg-1mpTEk5GcMdJBXXKvlxD5pBHRfGOYc0JbtdumAcokhvdddQaa4vKNzjoojNCsqSYVTYvf7dg1ke5UKJsAYlQBtX5dEJVmH5DDTGLTLri5k0fCPbJPtpIKTok6-D3aSRvp1dTAgCFBwEs6z_HBCUWXafDYSBuxcDbNq7nYgDtja3E8taW0CjcUp1Sl_vAVUm6yGQe41UNK_CuMhQsYQlh6yWOCDXijl7fL2shoZ0I-mwNHJqvVuZzpziRS6koPnbbcWlnFzxnuAMj4jSr0hW_hypZ5iOMd_EBrE0lJRjpmR-YTcqTj75vNleBE_2Qt-6W8Toz3518lpjGV_m7yWJoS3bgCg9jyrk3bs1IGB-5ieJcvdREKwEYqifHWpTEsT4-Xfz_hxjRbzm7bQPAYQ4VWi4HDiSqKldpDo0FULoyIVnkeS6E_dfWaCMly2nYkeS2ZYiO_RmeRcCwFPnOEM8F_1P4vu3NzXO-74XdXbtIuaiV3gmz2kprSUKub0XadfWECc5QTUWe_fNC6EmByoVXfHKsrGU&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 1478,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106354202628650332949\">呼嚕小酒館</a>"
+        ],
+        "photo_reference": "AeeoHcK1SttLPDXJLrp18GJDHVJlqAEKJr2jYhtlRkl20xe6OkhG3ZZnkFXsB9GAZgz-F_MoDu0xGJx_2L49I9WR6f4A9LmQSzB2WznN1BqdVuLL1SXa5geZVy-xwTWfEOG8DuqgxodglhCitUHkLRFjQFlA-BlIv2D2Qdmej_lSPtVM0QwfHcVRBqkR_mHgZ2keKEvb5H5mYNb7fcXxlaTZTgGqQVhomgd7y9pGojDhuIp7zGv_dRZ_37L28Sv7F6CeQv8yWy6U74BY3LfPIk6hKrmDrzOXwZrwPZUjsBYCtW8qucmtU9nwA582YCXgAoLvQ3oDTSIKz6Q",
+        "width": 1108,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK1SttLPDXJLrp18GJDHVJlqAEKJr2jYhtlRkl20xe6OkhG3ZZnkFXsB9GAZgz-F_MoDu0xGJx_2L49I9WR6f4A9LmQSzB2WznN1BqdVuLL1SXa5geZVy-xwTWfEOG8DuqgxodglhCitUHkLRFjQFlA-BlIv2D2Qdmej_lSPtVM0QwfHcVRBqkR_mHgZ2keKEvb5H5mYNb7fcXxlaTZTgGqQVhomgd7y9pGojDhuIp7zGv_dRZ_37L28Sv7F6CeQv8yWy6U74BY3LfPIk6hKrmDrzOXwZrwPZUjsBYCtW8qucmtU9nwA582YCXgAoLvQ3oDTSIKz6Q&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105101622793751429460\">Felicia</a>"
+        ],
+        "photo_reference": "AeeoHcKz67bN7t0TrE26noB6B5-5Sau8BYAL5rI6jdCjE9HjJ3PjpEtRx9YRt7kWCtXzhIWtI9xjds14QwPVlRS7g01cjw7ZmWr861JOLk3yyV8IlXSxSoyrJ-gUkGx8s1RisQIHdBsE16JWESnSCTyXsdFchuyqUmrx6ptNbPbzjstyErejhNr4pxazhWaBpdbKwf4Gbu92v5TkXgpDPMslZADaidIo5Juyn13eNTZuaeMQmiZaEXLkKhvUB_nhJ2ru5J-hM2sg_GQww3vwAbKCix1DR0wjO5KHqH4ZCc7mrkM3IFJnctNhoPX0-3KPaJAZgTnTz9Z636IsO3DnjunmBu7GYX3jBMdYTqZvC81nmO_UTquqeeWHyssvyRIioO4i6-bTJ01Z72xsrM6OjlStENLCr2T0qB1MXjeQGUK2RE650cCeUaWTCRGrqo6GgmCS8tc9YglcOIDqqIIP-RSbDxNMrMm8ByQTMENkVfQD0jNXepvXTaDUHvdh9nkHC8aEKLNCpskFLD8056ij5WMNtGtNUoKAzfBxfh_ynlTq6AgglfRdQdK86l-Dvcc9lJ7O76yNSa3fqu4Pws_-UCBWqaYgXeA5fW9bxx6Hp2-Y6yRn8sNwMU9z2_bnZAP3i6URXgn24w",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKz67bN7t0TrE26noB6B5-5Sau8BYAL5rI6jdCjE9HjJ3PjpEtRx9YRt7kWCtXzhIWtI9xjds14QwPVlRS7g01cjw7ZmWr861JOLk3yyV8IlXSxSoyrJ-gUkGx8s1RisQIHdBsE16JWESnSCTyXsdFchuyqUmrx6ptNbPbzjstyErejhNr4pxazhWaBpdbKwf4Gbu92v5TkXgpDPMslZADaidIo5Juyn13eNTZuaeMQmiZaEXLkKhvUB_nhJ2ru5J-hM2sg_GQww3vwAbKCix1DR0wjO5KHqH4ZCc7mrkM3IFJnctNhoPX0-3KPaJAZgTnTz9Z636IsO3DnjunmBu7GYX3jBMdYTqZvC81nmO_UTquqeeWHyssvyRIioO4i6-bTJ01Z72xsrM6OjlStENLCr2T0qB1MXjeQGUK2RE650cCeUaWTCRGrqo6GgmCS8tc9YglcOIDqqIIP-RSbDxNMrMm8ByQTMENkVfQD0jNXepvXTaDUHvdh9nkHC8aEKLNCpskFLD8056ij5WMNtGtNUoKAzfBxfh_ynlTq6AgglfRdQdK86l-Dvcc9lJ7O76yNSa3fqu4Pws_-UCBWqaYgXeA5fW9bxx6Hp2-Y6yRn8sNwMU9z2_bnZAP3i6URXgn24w&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101332051718306252501\">馬心韻</a>"
+        ],
+        "photo_reference": "AeeoHcLA9l5MpySUiM127jQ46OUcMqR3rS_GgARBXLE2SpKO-izdvb5PDQFEUaChjqxhGI7tf53F9SJZ5PEp54Q7ELh-zyt9f-kqyltp3C1jVzpjVNfmmrqx9UKJah_Dje0IigTXA7VUEtqIY2jTQQmQ7JkE78VPl3ylKzqNi63cjZjD4cNPi_dknHBOd-4UYyaZMKg_Kv74tKoraDZO2JojT8QF5AjBo5OBvjMqElVLHt7UuIWr40vopF9aEaBXvzjpJwBOxg0-nxf-Dt2pAiH_zxd6Rd6D6haXMZ5-pRkORvliPf6PI4Gq89h0ctd0SBboNjr5gzDpAshVcA0oQd0XvDT_Z6QxqNLrSRu8gaUXg1qlMNBSVrC7IT2iLNyyxVIF7u8rmT3PhFUaHLBdo44gqujJdooYrIUeHO_hH95ypp3m_UjwMpTed7pBzceR0R1z9Y4mqmkJZ3DRZe0UEU299Ez2Sb_Ic8aLW8egYr4xaUzd0Rn0sSn8H2ill_MMoyZ_iVjPH1khyyE19OL9aXJx0eqMQ8Q7wrU0YFn4dfTJTuHDEwu7RX6nT4ZA7u8BKex4xRGms3w8VceQQH_GCJ1J0BN_Fw090T_NuPwdx559IC-RNRO9ixwiMsbU74Ldst1tmwTnXJ9QeugSNJt7pcJjSRdAdek",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLA9l5MpySUiM127jQ46OUcMqR3rS_GgARBXLE2SpKO-izdvb5PDQFEUaChjqxhGI7tf53F9SJZ5PEp54Q7ELh-zyt9f-kqyltp3C1jVzpjVNfmmrqx9UKJah_Dje0IigTXA7VUEtqIY2jTQQmQ7JkE78VPl3ylKzqNi63cjZjD4cNPi_dknHBOd-4UYyaZMKg_Kv74tKoraDZO2JojT8QF5AjBo5OBvjMqElVLHt7UuIWr40vopF9aEaBXvzjpJwBOxg0-nxf-Dt2pAiH_zxd6Rd6D6haXMZ5-pRkORvliPf6PI4Gq89h0ctd0SBboNjr5gzDpAshVcA0oQd0XvDT_Z6QxqNLrSRu8gaUXg1qlMNBSVrC7IT2iLNyyxVIF7u8rmT3PhFUaHLBdo44gqujJdooYrIUeHO_hH95ypp3m_UjwMpTed7pBzceR0R1z9Y4mqmkJZ3DRZe0UEU299Ez2Sb_Ic8aLW8egYr4xaUzd0Rn0sSn8H2ill_MMoyZ_iVjPH1khyyE19OL9aXJx0eqMQ8Q7wrU0YFn4dfTJTuHDEwu7RX6nT4ZA7u8BKex4xRGms3w8VceQQH_GCJ1J0BN_Fw090T_NuPwdx559IC-RNRO9ixwiMsbU74Ldst1tmwTnXJ9QeugSNJt7pcJjSRdAdek&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112609074583564928608\">黃以同</a>"
+        ],
+        "photo_reference": "AeeoHcL3QEP792boJ_AuDl2RdRlQ1wkj4iyjvPOx-gfiPRFTszVb_a7zc-aLMVTmoAQSq8qgEhKdXK7SF7klBj-YpNyDQnfoIuDKC0wccdXnB0R3fxChXxC92_AlYUuSNUGQ6tt_HuQ6Kq9dtXKeUw5cEGTjNnCnsfQEcwPA0gUyfgWzNcnvtuR1PCn1cbvi-8OTVPK-rs6QJ7wGllqwVzWT7K_YzcUBuL7maDUkpuEQn4IX3yi8Ryw4wOyo9ILogPTcW1s9I2GnmucF0JX4Xki8borSRTuyADXJfnXjQKDnX9likxo9vjsE_f2J5bjDSxUIeLmwgk5B1hix3tByMdrkiE17QBjdE15hWfXRaAo6qze5Et6LC7XqIEn-SVueSsFSQ6y97yUMNzbcvUJPz8HHUtR__1oB6Ua23kg9HU-1-h4wluQP3xNq7-wlLJqWK4TXz9ijTooyHVhrEQLBia0P8UmArltwbVarIJ6O1KQcxoa3nfrQyrro4r8SnfPZNppvIh_pKtI3w81PwEj__l-wBk9-X0gAsge3EH9-AH6DZrhZHVDSPeBAWQA5_ndasC2eeZwKXR-87qB4RqfikSgV-F3toujcBAkSbTK_b4peJsDmKegKpDS_PJREaG7T68SaQN3ItVzt",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcL3QEP792boJ_AuDl2RdRlQ1wkj4iyjvPOx-gfiPRFTszVb_a7zc-aLMVTmoAQSq8qgEhKdXK7SF7klBj-YpNyDQnfoIuDKC0wccdXnB0R3fxChXxC92_AlYUuSNUGQ6tt_HuQ6Kq9dtXKeUw5cEGTjNnCnsfQEcwPA0gUyfgWzNcnvtuR1PCn1cbvi-8OTVPK-rs6QJ7wGllqwVzWT7K_YzcUBuL7maDUkpuEQn4IX3yi8Ryw4wOyo9ILogPTcW1s9I2GnmucF0JX4Xki8borSRTuyADXJfnXjQKDnX9likxo9vjsE_f2J5bjDSxUIeLmwgk5B1hix3tByMdrkiE17QBjdE15hWfXRaAo6qze5Et6LC7XqIEn-SVueSsFSQ6y97yUMNzbcvUJPz8HHUtR__1oB6Ua23kg9HU-1-h4wluQP3xNq7-wlLJqWK4TXz9ijTooyHVhrEQLBia0P8UmArltwbVarIJ6O1KQcxoa3nfrQyrro4r8SnfPZNppvIh_pKtI3w81PwEj__l-wBk9-X0gAsge3EH9-AH6DZrhZHVDSPeBAWQA5_ndasC2eeZwKXR-87qB4RqfikSgV-F3toujcBAkSbTK_b4peJsDmKegKpDS_PJREaG7T68SaQN3ItVzt&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106350606682796812006\">Kao Jerry</a>"
+        ],
+        "photo_reference": "AeeoHcJkAz6lRGkVdzo41_zCv7aXFFdxB08RWy2krmmrWLvH48O-bwpV6YMduztV8uUAAHrNLy0GDZ1sJEX7j_Wf_6NkHf7QXrMYFraX4TwWkm9ujCq3AI3cx-kxK2YBTNL4rxg12e0dJ1s0uvRIGxP3EMcDj4d7Bbs2doN_k8Ks6C6E0kgO2XQv64RS8aj1voQQib2xIyy1s5S3z1Q9nTzShlyyD0Ze-xRbdytOlu1b8eCvz-g6nzFWneuE35Kl99tZ-0wSAJzHvwNmxRvv9HqTJ1NgPqjGPWBhWVxp5Z0yNBhRnOro0yJ37TRcmDB82C2nWsUKnvxlxFLTDH5UeRb-BE1j2O_i01JrD078TEQJk9aw8fSgfiucklOYwseIrf0XJPtJwyRZ_qid_7UwKSmNAALhIX4zh9zIQbYRcRebn1wdxqOdR7ZGGIqj8z4tmhuIR3AjjGjcvgSccuV0EyogwndsN0xcKhWXthzSDbHviev1eupHlCL6bpiyS9PZ0cavrlTBUrz5gEgo3q1bZ2o7FwZ-K0aDy2aLACQCE2Vnr3c_v5v0OBWLeFnA73Z56DBiOG_epsnueLS9m-HTHpyFDINi2UTplbIDLWthUm8BC78l2K0regVhQdacI_HL6sSi7rjjiA",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJkAz6lRGkVdzo41_zCv7aXFFdxB08RWy2krmmrWLvH48O-bwpV6YMduztV8uUAAHrNLy0GDZ1sJEX7j_Wf_6NkHf7QXrMYFraX4TwWkm9ujCq3AI3cx-kxK2YBTNL4rxg12e0dJ1s0uvRIGxP3EMcDj4d7Bbs2doN_k8Ks6C6E0kgO2XQv64RS8aj1voQQib2xIyy1s5S3z1Q9nTzShlyyD0Ze-xRbdytOlu1b8eCvz-g6nzFWneuE35Kl99tZ-0wSAJzHvwNmxRvv9HqTJ1NgPqjGPWBhWVxp5Z0yNBhRnOro0yJ37TRcmDB82C2nWsUKnvxlxFLTDH5UeRb-BE1j2O_i01JrD078TEQJk9aw8fSgfiucklOYwseIrf0XJPtJwyRZ_qid_7UwKSmNAALhIX4zh9zIQbYRcRebn1wdxqOdR7ZGGIqj8z4tmhuIR3AjjGjcvgSccuV0EyogwndsN0xcKhWXthzSDbHviev1eupHlCL6bpiyS9PZ0cavrlTBUrz5gEgo3q1bZ2o7FwZ-K0aDy2aLACQCE2Vnr3c_v5v0OBWLeFnA73Z56DBiOG_epsnueLS9m-HTHpyFDINi2UTplbIDLWthUm8BC78l2K0regVhQdacI_HL6sSi7rjjiA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100975025119298009234\">SK Hong</a>"
+        ],
+        "photo_reference": "AeeoHcIV9L3QrMaeqlJWKIjbPpwQapvOBOXe_o6rDPPNrc-0QQNo0UH1sL8c4t1Ljrgr54ZIX7UMAm-Iimb4rQxk-aOkf-4-Q-QBWBHkrVdTFYPMWqS5wbh9TkAUX88FIcw0_r1JWVfzvXp0yfWGxrDa0RMLQEBSJo1zaOgjZZy2LMrY5dfV4z3hrWPj7q8WKJWX7aKLwiC033awqdm1QbOCKtXY2E7K0kVRl0MWHUYXBJEgN1O-VMqVeEjrfAchEvIQcoL19TIt1GDds948bwDYW7E2IMWIjr-If14Wwu_2TcuZpfU-14zUgDSvmGkIRQFYZI6-xgbak-hA5UQDahj6QMenMroNCNhPLIDpXrE1FJSOp8Tojxf6JfyAs9od8jmpAvESchUhnprjQ0R5izA-7dUX-IyAEYxCL-jC-EUY4N0znJyQ6qtJKFzPS37zXxnBZKpwBJ7DQrDtpeCPlI1ErKpoLfZ1VGLIWuE4B5OXQKaDuy4jadI1dhSkJ4arTzoOgkJ_72sRlPbIgrcz_qC75NMVxdsKn2WmS1uGMZevCAxHi79kdzVUuAIsPHDrHJU1XyMvsYZBhrDsGhZOx8vmOHgjr9DTcBwiobDKcBYqEttF39l945IY26sDZoWDsMCr",
+        "width": 3000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIV9L3QrMaeqlJWKIjbPpwQapvOBOXe_o6rDPPNrc-0QQNo0UH1sL8c4t1Ljrgr54ZIX7UMAm-Iimb4rQxk-aOkf-4-Q-QBWBHkrVdTFYPMWqS5wbh9TkAUX88FIcw0_r1JWVfzvXp0yfWGxrDa0RMLQEBSJo1zaOgjZZy2LMrY5dfV4z3hrWPj7q8WKJWX7aKLwiC033awqdm1QbOCKtXY2E7K0kVRl0MWHUYXBJEgN1O-VMqVeEjrfAchEvIQcoL19TIt1GDds948bwDYW7E2IMWIjr-If14Wwu_2TcuZpfU-14zUgDSvmGkIRQFYZI6-xgbak-hA5UQDahj6QMenMroNCNhPLIDpXrE1FJSOp8Tojxf6JfyAs9od8jmpAvESchUhnprjQ0R5izA-7dUX-IyAEYxCL-jC-EUY4N0znJyQ6qtJKFzPS37zXxnBZKpwBJ7DQrDtpeCPlI1ErKpoLfZ1VGLIWuE4B5OXQKaDuy4jadI1dhSkJ4arTzoOgkJ_72sRlPbIgrcz_qC75NMVxdsKn2WmS1uGMZevCAxHi79kdzVUuAIsPHDrHJU1XyMvsYZBhrDsGhZOx8vmOHgjr9DTcBwiobDKcBYqEttF39l945IY26sDZoWDsMCr&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2250,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104672285075324535839\">史又欣</a>"
+        ],
+        "photo_reference": "AeeoHcKomwZhhhT9F7p82bsw8aYJdMFptPEfxSNZc7akAJkJVKw3OI0PjBFl9UbTXxLyfITVmCYgWE4ouU9u4bswaFvKFj4xMLVQXRHy3lEm-SlY5ixRHz1mr7Sb9Iv71lSfdyETq5uJR8p6SqbORVXDB09p4M9jxVpdVGCkuDbiUedKgrL68krN8hGF-8SEhRjidEQFPXbUhdokgvRgN2nHjVr5FpiGY0JSdeJ1kVvBw1ZbzTaAERKKcqBovDW0A155nYhVOVFTzhszyr8G5rYgk5tPjryjwwMEF3LMaT0pTaT1EW8evBCS-2dj2jbblPu7kl3xGY6DtqpTtksOhAibkpNEKkSKhGCK7pcXbnDVsHfnb7MlKj7-1vGEDRBK6Ho8kNGZdawUtQB1-wHr3HM0VbM0dgvf-9UmSWkmjudZcS9XPuaCf2rlmwiS-IKDFEbb5guORC2D6BgCOKG_nXYgl0Y-LTU3LXFB2eoe6O7PE_kW3vIfobSqCb5c6GDpv7iuIK4a9cpWnsBgOahfds3srZaja2_QmC3uGYNIkiYvbr1uqlCB6DRsFt0vF3YiLoxM6-ylGl5c5n9jwTSuZ_Um5T5-4NMDZlnQBzWIIOe38wEhn0XptOxsxp1KcWUL9yqPI_2oRNNy",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKomwZhhhT9F7p82bsw8aYJdMFptPEfxSNZc7akAJkJVKw3OI0PjBFl9UbTXxLyfITVmCYgWE4ouU9u4bswaFvKFj4xMLVQXRHy3lEm-SlY5ixRHz1mr7Sb9Iv71lSfdyETq5uJR8p6SqbORVXDB09p4M9jxVpdVGCkuDbiUedKgrL68krN8hGF-8SEhRjidEQFPXbUhdokgvRgN2nHjVr5FpiGY0JSdeJ1kVvBw1ZbzTaAERKKcqBovDW0A155nYhVOVFTzhszyr8G5rYgk5tPjryjwwMEF3LMaT0pTaT1EW8evBCS-2dj2jbblPu7kl3xGY6DtqpTtksOhAibkpNEKkSKhGCK7pcXbnDVsHfnb7MlKj7-1vGEDRBK6Ho8kNGZdawUtQB1-wHr3HM0VbM0dgvf-9UmSWkmjudZcS9XPuaCf2rlmwiS-IKDFEbb5guORC2D6BgCOKG_nXYgl0Y-LTU3LXFB2eoe6O7PE_kW3vIfobSqCb5c6GDpv7iuIK4a9cpWnsBgOahfds3srZaja2_QmC3uGYNIkiYvbr1uqlCB6DRsFt0vF3YiLoxM6-ylGl5c5n9jwTSuZ_Um5T5-4NMDZlnQBzWIIOe38wEhn0XptOxsxp1KcWUL9yqPI_2oRNNy&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113088635928950763549\">Joann Cheng</a>"
+        ],
+        "photo_reference": "AeeoHcJNWsQP8uaolQ52J450B1TDIluMuIDEEC8o-Axyp55tqz7bxkwpvH_-Q8_zsu36wKfXqWxl6_nijzj9LfwSaO5Q-efIsuuFAKNOP1Po0d2Ut_xwpSL6MfNboJ9xdpXi02spIBzn1ABg_Ujzvic6P77wv0bsGxrMw2ViMScUvjKfMyO37X_iWymNm3yjwoAXbgpIpS8GSNpJsQoo0nuuu4za7s23fVJcMMipvf2mqKrAdCY8hHCdcqy7dilvXG2EkBkcQaTdfIapCtoa4auasjyGBv-Y1So7oMOvMqGCOYjhCkevjV-eVlJAT8ygIRLKGzlsSo_CX7w8_FxPmqRv-7oUSP8ZTI5-4r1BxBRT-lbBEGQYtZxoCdfsA4GAViyl12HUxnWKV27X-aQNBhRXRqj7kpjmLAqI-EQbeEgcFnONxxzX23b3dHsuANVP7rfi0y3Ex3UWxRplsXcrtD9rsPH4nQ6AVOEAQ1zd2Qx4Yx2VHIR6fjMY1koKNVXkft5OhRLHcMw41B-YRN5RdJUr1e-qaWRWPdrL-0fx__hA04qPJXbWbwQNPiI1k5l8OE8k7VFSO2f06T0J7F52q0MHicLfKKbHPkdRyaPDfe0Lod-XZzU8Shz_otpw1AOzREvfnRipxw",
+        "width": 2880,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJNWsQP8uaolQ52J450B1TDIluMuIDEEC8o-Axyp55tqz7bxkwpvH_-Q8_zsu36wKfXqWxl6_nijzj9LfwSaO5Q-efIsuuFAKNOP1Po0d2Ut_xwpSL6MfNboJ9xdpXi02spIBzn1ABg_Ujzvic6P77wv0bsGxrMw2ViMScUvjKfMyO37X_iWymNm3yjwoAXbgpIpS8GSNpJsQoo0nuuu4za7s23fVJcMMipvf2mqKrAdCY8hHCdcqy7dilvXG2EkBkcQaTdfIapCtoa4auasjyGBv-Y1So7oMOvMqGCOYjhCkevjV-eVlJAT8ygIRLKGzlsSo_CX7w8_FxPmqRv-7oUSP8ZTI5-4r1BxBRT-lbBEGQYtZxoCdfsA4GAViyl12HUxnWKV27X-aQNBhRXRqj7kpjmLAqI-EQbeEgcFnONxxzX23b3dHsuANVP7rfi0y3Ex3UWxRplsXcrtD9rsPH4nQ6AVOEAQ1zd2Qx4Yx2VHIR6fjMY1koKNVXkft5OhRLHcMw41B-YRN5RdJUr1e-qaWRWPdrL-0fx__hA04qPJXbWbwQNPiI1k5l8OE8k7VFSO2f06T0J7F52q0MHicLfKKbHPkdRyaPDfe0Lod-XZzU8Shz_otpw1AOzREvfnRipxw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJURTE5n2rQjQRgj-n9IMohFU",
+    "plus_code": {
+      "compound_code": "XHPH+FQ 台灣台北市文山區",
+      "global_code": "7QP3XHPH+FQ"
+    },
+    "rating": 4.7,
+    "reviews": [
+      {
+        "author_name": "Jessica Laksono",
+        "author_url": "https://www.google.com/maps/contrib/106953883581478135551/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUImTgWAHJRyB5LeOr5WHeAP_gDoQU4HzxuZ-xRI0dKKlsBBj9h=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "1 週前",
+        "text": "環境優雅，氣氛溫馨，老闆很好，餐點除了好吃外，更是個非常適合聊天的地方。 當月壽星還有送炸物一份。",
+        "time": 1742808812,
+        "translated": false
+      },
+      {
+        "author_name": "丁叮噹",
+        "author_url": "https://www.google.com/maps/contrib/110932535737079441691/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKcQ3_ce-SB6-42xEQ6-zhAChJOr0BjkUm89yweZNbg5Z7ymg=s128-c0x00000000-cc-rp-mo-ba5",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "服務人員都很友善親切，環境也很舒適。餐點算好吃，有點可惜的地方牛排我們選5分熟⋯但好像快全熟了哭哭，所以有點硬了\n有機會會嘗試其他餐點。當月壽星還有送炸物活動😊",
+        "time": 1740051179,
+        "translated": false
+      },
+      {
+        "author_name": "阿布（阿布）",
+        "author_url": "https://www.google.com/maps/contrib/115032630436070577692/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUOMfgr_CSfpKFu6oKE_yYJhSzwwa6v4rJf8PblW_HtatdTHQ9k=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "餐點味道比想像的好，點了“牛肝菌燉飯”♥️\n佈置的很舒服不會有拘謹的感覺👍\n花果茶能試聞茶包這點很特別，我點了“大寒” 菊花的味道清雅不會太重很順口，冷掉喝了也不會覺得味道差。\n鬆餅好看也好吃，冷冷的吃不會干不噎口 麻糬可以選白玉或是黑糖，我點 草莓黑糖麻糬鬆餅，草莓的品項還滿高水準👍👍♥️\n\n整體非常適合大型聚會、有戶外餐桌、飲料選擇多元、菜單多元化 味道都很好，而且寵物友善 有狗狗跟貓貓的餐點呢！",
+        "time": 1738839477,
+        "translated": false
+      },
+      {
+        "author_name": "LU WANNI",
+        "author_url": "https://www.google.com/maps/contrib/101115165153740415871/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWQaLHR14ws3EJ_T5MjTGK7P9GJ73xc1NuCEuyOaeHdCdtiwJo=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "2 週前",
+        "text": "不得不說真的很好吃😋\n我點了燉飯來不及拍照就吃完，\n連一歲的寶寶都愛不釋手！\n\n甜點更是沒有讓我失望，口味好吃擺盤也漂亮、戚風蛋糕跟布丁都超級驚艷！",
+        "time": 1742623593,
+        "translated": false
+      },
+      {
+        "author_name": "Ooosacha Wang",
+        "author_url": "https://www.google.com/maps/contrib/112079228326566826971/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIeqNBw2OcRICwLd9xuuGiqhhqrHmWztwA7JcAt6GW9O5-M4Q=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "情人節沿路問餐廳走進來的😆\n蕃茄蔬菜湯很好喝\n牛排有炭香味😍\n下面的大蒜麵包邊緣酥脆中間有牛肉的炭香肉汁超好吃\n軟殼蟹燉飯的調味也很鮮👍🏻\n份量很大，CP值很高\n本來還想吃甜點，但真的太飽了\n已經想好之後要帶家人來過節😆❤️",
+        "time": 1739548580,
+        "translated": false
+      }
+    ],
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=6162094737360109442",
+    "user_ratings_total": 2106,
+    "utc_offset": 480,
+    "vicinity": "文山區指南路二段106號",
+    "website": "https://www.facebook.com/purrsonbistro/",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcL0Ok5xIFUR9QuEnX7HPBGkS8gO7JEcDRMjKELzbEg8HdlQHB0dApvv7gHunUxXKwmFM4YgMzDV_2ibDoya9Ul5GBCqk-DMhbwJ38G2UJaJYBM9BPADZYvY1xjYHyArbDCXjblrm1fpGRiwSOlnyFGOuop2Et7Smf_Nzk1OX_f6pIir69P8DKdHp2vZ4KgMfy3A9yZYWCt56DqezBfItjmuJkis-6yPw5Gc5pvnglyk9g4HHQP6uh_d8mvKCnVo3HVAFvIPjxrwS6NBxC_tpEkdPDN20MPHFypbQoVfR_Rttso5m2qEyBlr7KatiyjuyWnDPh2ClSc&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "1.8 公里",
+    "distance_value": 1760,
+    "duration_text": "24 分鐘",
+    "duration_value": 1449
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "2樓",
+        "short_name": "2樓",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "56號",
+        "short_name": "56號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "指南路二段",
+        "short_name": "指南路二段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "萬興里",
+        "short_name": "萬興里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "2樓, <span class=\"street-address\">No. 56號指南路二段萬興里</span><span class=\"locality\">文山區</span><span class=\"region\">台北市</span><span class=\"country-name\">台灣</span> <span class=\"postal-code\">116</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2樓, No. 56號指南路二段文山區台北市台灣 116",
+    "formatted_phone_number": "02 2939 2790",
+    "geometry": {
+      "location": {
+        "lat": 24.9876541,
+        "lng": 121.5754547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9890260802915,
+          "lng": 121.5768081802915
+        },
+        "southwest": {
+          "lat": 24.9863281197085,
+          "lng": 121.5741102197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+    "international_phone_number": "+886 2 2939 2790",
+    "name": "小公寓Apt.cafe",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:00 – 20:00",
+        "星期二: 11:00 – 20:00",
+        "星期三: 11:00 – 20:00",
+        "星期四: 11:00 – 20:00",
+        "星期五: 11:00 – 20:00",
+        "星期六: 11:00 – 20:00",
+        "星期日: 11:00 – 20:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107815611689711215294\">Sherry Ko</a>"
+        ],
+        "photo_reference": "AeeoHcLqtFL5GqK6D_fJgz5B8y3_O1hZMekUcptvQUGj5-Lyx8Y643h293vMx2fiXBOTTW1-49wiYbMfVNlWDxSAowiZ_KUEwcGF1rxcdJznosvfoaHUuS2V4zFxPlsP_PibD9rnUGxWIzH9hUPAqN20nRG5-I9Sr7VZDio95fsuFNJS9Fb3-L69ys7XrrGXsGXFNR6dFOGZ6LvWPQnmxbWePnDjfHXp52UD5295GtrU4QKE4xcFclRf6UectGbklMhru8buvrWQzP37xBsv44_ZPniu1V_8_8KLxHhlo2Foud6rNvOvjIBByLyP9cOPuAkUuPhZiFWL6L0xSuj-xEp5x7Bzm3s14-13XPLV46BT_Uc9NzjdLMc2tNr80jv0uIb2g_UF3panWIcf8BiQioIt_y0koNVUzDy0c7h84VvQMcwB8LwPEXFa9U8jjfcKMMZOMG8oa0mwU5Xsg6anWI12em898lnMvhkAgcKLStrhFf7y_4b8wUccPQ8HAPUrn0J4VqzNcTDc6YSK9BRK1_PXEF05lPCvpkJrt3fLiHfjQUo7ao0RPw4lJynScuMrDrECemU4PkykcCL7Z81t4wYHz-_GQok0iJbW2EreTUezDaOfzqDv9LHOwos0eI9afZ-pLZixfUMv",
+        "width": 3000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLqtFL5GqK6D_fJgz5B8y3_O1hZMekUcptvQUGj5-Lyx8Y643h293vMx2fiXBOTTW1-49wiYbMfVNlWDxSAowiZ_KUEwcGF1rxcdJznosvfoaHUuS2V4zFxPlsP_PibD9rnUGxWIzH9hUPAqN20nRG5-I9Sr7VZDio95fsuFNJS9Fb3-L69ys7XrrGXsGXFNR6dFOGZ6LvWPQnmxbWePnDjfHXp52UD5295GtrU4QKE4xcFclRf6UectGbklMhru8buvrWQzP37xBsv44_ZPniu1V_8_8KLxHhlo2Foud6rNvOvjIBByLyP9cOPuAkUuPhZiFWL6L0xSuj-xEp5x7Bzm3s14-13XPLV46BT_Uc9NzjdLMc2tNr80jv0uIb2g_UF3panWIcf8BiQioIt_y0koNVUzDy0c7h84VvQMcwB8LwPEXFa9U8jjfcKMMZOMG8oa0mwU5Xsg6anWI12em898lnMvhkAgcKLStrhFf7y_4b8wUccPQ8HAPUrn0J4VqzNcTDc6YSK9BRK1_PXEF05lPCvpkJrt3fLiHfjQUo7ao0RPw4lJynScuMrDrECemU4PkykcCL7Z81t4wYHz-_GQok0iJbW2EreTUezDaOfzqDv9LHOwos0eI9afZ-pLZixfUMv&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117487414799720212890\">Tien-hsin Wang</a>"
+        ],
+        "photo_reference": "AeeoHcITpT8b_vAijWIjV9fQoeKKKxszOk93mWpbtNwFqWiVf9UtqFdn9oj3BTiPxK9x13sjU1gWQZGhfozPGV8rHnywFCc2CQP_TIbxu6miBY8pA-clycM2_n4qABNw-ftj4boARfSLrk3MuCIfzi82O2gTQfjS31FlGlf8YJi9wZqH_IGrhn5FmI_DlbQVicbBrebGu6f4O-RQ28QZP2zQT6Zg6Cdd_z9RF1tjaxkcWO1S4fWZcZ8lDOq5tEEssmNeG6XpDk-_WkshcJZ54Cw5nKKCuAumoH4_t2J1dVWGmOupfOik4p4-NNZMLxHUP0_4Q-E3DGd9J6mjBBesi-vcTIOu2hR6AOKoNzbV9ir08acCzYndX0G2g9795rZvmEmZch227dJaQXvxA_h7vZDc-bC_LpO93U7CS-WJ29bulWo_04fZMGX_2C6GquUWJU2KdW2kk9gByGN_0t2JJYAB4aiDYpPffbS41m6OntcIdc_Qvh1b9j4DvFNTp76uefavwxON2Oo_pg1VDaF_XQ1WABIsMhnK0PEViQSLOEYv5EKNwVcuGg730pvIZwhDPv7cj6ZsZSvQtnUIW9lqgwMe7-8ngx0-QeVyPVuTvjTpIo100JlLwmYbupGqyQ6AFV8N0SGdLDzL",
+        "width": 3545,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcITpT8b_vAijWIjV9fQoeKKKxszOk93mWpbtNwFqWiVf9UtqFdn9oj3BTiPxK9x13sjU1gWQZGhfozPGV8rHnywFCc2CQP_TIbxu6miBY8pA-clycM2_n4qABNw-ftj4boARfSLrk3MuCIfzi82O2gTQfjS31FlGlf8YJi9wZqH_IGrhn5FmI_DlbQVicbBrebGu6f4O-RQ28QZP2zQT6Zg6Cdd_z9RF1tjaxkcWO1S4fWZcZ8lDOq5tEEssmNeG6XpDk-_WkshcJZ54Cw5nKKCuAumoH4_t2J1dVWGmOupfOik4p4-NNZMLxHUP0_4Q-E3DGd9J6mjBBesi-vcTIOu2hR6AOKoNzbV9ir08acCzYndX0G2g9795rZvmEmZch227dJaQXvxA_h7vZDc-bC_LpO93U7CS-WJ29bulWo_04fZMGX_2C6GquUWJU2KdW2kk9gByGN_0t2JJYAB4aiDYpPffbS41m6OntcIdc_Qvh1b9j4DvFNTp76uefavwxON2Oo_pg1VDaF_XQ1WABIsMhnK0PEViQSLOEYv5EKNwVcuGg730pvIZwhDPv7cj6ZsZSvQtnUIW9lqgwMe7-8ngx0-QeVyPVuTvjTpIo100JlLwmYbupGqyQ6AFV8N0SGdLDzL&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100998115214747928170\">penghua chen</a>"
+        ],
+        "photo_reference": "AeeoHcKa7GB8aMzaxUaUJVjHsfYiRNpB7GKMn0OXOvHk-5uUDktNfmZEomLDOpRiRbuZAf8KsaKgmUfwA5MqUx718Hvx5veS3vq_kj6COcWa_402q399ciW-vu6eg6sdSYZACK714pJH3Horc4I8xdMpKr4ehUj5bGclsY7-ehTUGIu9KhXJU7TfggwgH-Yb-VzBbkn5o4j1KNl0LWx29uWWgOXxMPGZoCpijbhSFl48k6asKVZBO6cVNEgbxEYFlBWEFEX-kn5IlcUgCyjURASk_y63gZimJaEM7tnxtMYQAz4vwWrzw-_z9seYRdqZ-yTd62Q3HkSHGhoEOF1oHqgpesHspOefdHXFyu9IR0N525dVOFQrHhp93Ly-VxLNkfRzmbLb8nAtihrGYXySLuXiC4OOcl_60k0I0IxZuZOkZFt2f4197s0RG3jT9VVB0kjadzosDQG-GrQ2ESmSOHnAuI0dEENK2pFQ_1cVUSGQiTBKnC4WEbnU3za1vBOzXLey3F13wBqD20Vnx6vJcoy18ZCnqMRyYXxCDJD9kR8KqGmNPJ1ODF46AYv3Ua9G4lkVq9bEdB7VEDM1dwQktOFARsOrYHjRLSC05LTv8Yfw2Q01_oWTenYBToJ6NBUv4W_TGvb0pL9C",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKa7GB8aMzaxUaUJVjHsfYiRNpB7GKMn0OXOvHk-5uUDktNfmZEomLDOpRiRbuZAf8KsaKgmUfwA5MqUx718Hvx5veS3vq_kj6COcWa_402q399ciW-vu6eg6sdSYZACK714pJH3Horc4I8xdMpKr4ehUj5bGclsY7-ehTUGIu9KhXJU7TfggwgH-Yb-VzBbkn5o4j1KNl0LWx29uWWgOXxMPGZoCpijbhSFl48k6asKVZBO6cVNEgbxEYFlBWEFEX-kn5IlcUgCyjURASk_y63gZimJaEM7tnxtMYQAz4vwWrzw-_z9seYRdqZ-yTd62Q3HkSHGhoEOF1oHqgpesHspOefdHXFyu9IR0N525dVOFQrHhp93Ly-VxLNkfRzmbLb8nAtihrGYXySLuXiC4OOcl_60k0I0IxZuZOkZFt2f4197s0RG3jT9VVB0kjadzosDQG-GrQ2ESmSOHnAuI0dEENK2pFQ_1cVUSGQiTBKnC4WEbnU3za1vBOzXLey3F13wBqD20Vnx6vJcoy18ZCnqMRyYXxCDJD9kR8KqGmNPJ1ODF46AYv3Ua9G4lkVq9bEdB7VEDM1dwQktOFARsOrYHjRLSC05LTv8Yfw2Q01_oWTenYBToJ6NBUv4W_TGvb0pL9C&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102631423136443931997\">顏絮</a>"
+        ],
+        "photo_reference": "AeeoHcK2Ublt5mLlw7G5-gNPxFlV2lna97KBiq3xg9Uv27Xw0XF39xgB7W6-N4FehZaTexybz_QHCNlR5UXmSnydDrMeeUU-qeB38Pgv-Q_MfKHlBLSYDyr6cUut6-UUVGKZiKNJVMIMAUrI0bdWJ7UomThxGXDWhyZ561X0m18VGxV7W4mAp3mmKCfCWPTnTqS6rDkeaDzb-qs30VT9-im116Lys3JeKdiAWu76BK37NbOUXiyopXJlNLOR2hzLCGRYuQDi9CptLDxWRt_mFh5aXANLmvR5GR9dIKJdngFQQCtMDImYpdsKU2K3vbSZiykbZGzUVqYjnHch57KcOoAY_fRCexC2D62qdnokOhsHO676-MS3mwFZvvH_mxMhV8uEDKZACUYKxYzr-pI7lmvlQY-xm6gXMCbj-Q9gvMS2etEzzE-B7Vf4Z-CbBqDDljYuH-K9IjR34igHY3exCUcrzBJ3KuUuchbO_e5K25KKTCaJZD6QnNaUoAn57JJCOEvpr3G9Sb3Kc10l7FTJC57-LMEFXoQzNU0bNAd9kmAHBCeJGIp63AbvdD-cCnQzIN63r90SIEGVuPXg2zCc_GZjj_nrPWJZZP8Q5xbHBuxCx9o1vhNl9mhcIZNm_m8GYsVmZjSOnQ",
+        "width": 3060,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK2Ublt5mLlw7G5-gNPxFlV2lna97KBiq3xg9Uv27Xw0XF39xgB7W6-N4FehZaTexybz_QHCNlR5UXmSnydDrMeeUU-qeB38Pgv-Q_MfKHlBLSYDyr6cUut6-UUVGKZiKNJVMIMAUrI0bdWJ7UomThxGXDWhyZ561X0m18VGxV7W4mAp3mmKCfCWPTnTqS6rDkeaDzb-qs30VT9-im116Lys3JeKdiAWu76BK37NbOUXiyopXJlNLOR2hzLCGRYuQDi9CptLDxWRt_mFh5aXANLmvR5GR9dIKJdngFQQCtMDImYpdsKU2K3vbSZiykbZGzUVqYjnHch57KcOoAY_fRCexC2D62qdnokOhsHO676-MS3mwFZvvH_mxMhV8uEDKZACUYKxYzr-pI7lmvlQY-xm6gXMCbj-Q9gvMS2etEzzE-B7Vf4Z-CbBqDDljYuH-K9IjR34igHY3exCUcrzBJ3KuUuchbO_e5K25KKTCaJZD6QnNaUoAn57JJCOEvpr3G9Sb3Kc10l7FTJC57-LMEFXoQzNU0bNAd9kmAHBCeJGIp63AbvdD-cCnQzIN63r90SIEGVuPXg2zCc_GZjj_nrPWJZZP8Q5xbHBuxCx9o1vhNl9mhcIZNm_m8GYsVmZjSOnQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 5712,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116307339304959791257\">J. C.</a>"
+        ],
+        "photo_reference": "AeeoHcI-CnbG3c7XbMAqW4h2lrzMKemchLlfi0CS4hTHGd1D4Lj85eGf8kI1YqfsD_SrGfHQjJJDntlIHsq2fyvJOOc87vkFkHV7vr-IlGHY7oLjMyN0VUvjg5Mt8smlD92VOK8zYKtaCxF0aJsp-ogyPJqW_wwYTD_9ZWeR14zDvHasIPblFmVtB8iorPP7wJiprcvQtIYs5EspOov0AaiJ0eZ4V3lzNFU6NTlp3ZijtUU3CSCm-kuHTKF0ODmVVujROv33mnn5Q-ZdJxzB5HEq7JARIsVPg6XiRW0ZmRi_CWmbKiHNkXFd3JByhebrDqhmHahyEgmC6QyX070vZgDlfaGwhX6--0MoGfmBX0iXDD6FO6p3P_EVFOASM_mdr7mZwa71hhBKJyIYuf1jCUDKGcZZ3p8Q3qRo3qog93nomNiEmxKnJlrQUyA4dC-yJ5-cd4u_R3WTiOsfJyI4hxowvq3Nl5Rsv4DmtmXs-58isTYSKKHbAK3olss5pzyMKRiVEtaRzUnZ-idxLMfrnTOAJaRzsDiovu3HqgJdfU29dq8iCMOWkslOCBg4vdXj-aonEJokkr4Dr6o8luoSV1eZrDo6xcbsMDeSNBEkuYA2WAFlk2_p39V_kmHcc-y5cVevWlbb_g",
+        "width": 4284,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcI-CnbG3c7XbMAqW4h2lrzMKemchLlfi0CS4hTHGd1D4Lj85eGf8kI1YqfsD_SrGfHQjJJDntlIHsq2fyvJOOc87vkFkHV7vr-IlGHY7oLjMyN0VUvjg5Mt8smlD92VOK8zYKtaCxF0aJsp-ogyPJqW_wwYTD_9ZWeR14zDvHasIPblFmVtB8iorPP7wJiprcvQtIYs5EspOov0AaiJ0eZ4V3lzNFU6NTlp3ZijtUU3CSCm-kuHTKF0ODmVVujROv33mnn5Q-ZdJxzB5HEq7JARIsVPg6XiRW0ZmRi_CWmbKiHNkXFd3JByhebrDqhmHahyEgmC6QyX070vZgDlfaGwhX6--0MoGfmBX0iXDD6FO6p3P_EVFOASM_mdr7mZwa71hhBKJyIYuf1jCUDKGcZZ3p8Q3qRo3qog93nomNiEmxKnJlrQUyA4dC-yJ5-cd4u_R3WTiOsfJyI4hxowvq3Nl5Rsv4DmtmXs-58isTYSKKHbAK3olss5pzyMKRiVEtaRzUnZ-idxLMfrnTOAJaRzsDiovu3HqgJdfU29dq8iCMOWkslOCBg4vdXj-aonEJokkr4Dr6o8luoSV1eZrDo6xcbsMDeSNBEkuYA2WAFlk2_p39V_kmHcc-y5cVevWlbb_g&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111622379216004267348\">011林宗欽</a>"
+        ],
+        "photo_reference": "AeeoHcLYzW6fr7UMPbQ-gsaq3oiEo8c0dRc0jtBs3VYX3_PAhtV42yfDRfN4uushp_YaEGb2hoTl-8CbLagt0hba4Hdv5YnHQlhGHYgXqEiOZls5nJonBT3qm6VEsX1TBNj0-pf7eFtauOWfBPXoCiVsHT8UHV7_D0do6_4dZVNy1VuWerNAU30Cas-yWwSWTMWS3zFBnOBNLooDpL4X2xvZvPKYnKpYHMAUVcpgy0rwFYS_Qh6-1a-Bl_iyvXRENb5NNxLcrEEM3uKbmzXH5CYBiB2jmMaGsVPHwCfLj1R5NwbqrFL5vS_eOuhCZxVstRdZDwoCZYamZFAdOcPHykONblblMG6NQzU10L7XtKqJ5yR5dQM2Ha8cM1ITyQAUPyFYAf0gg83fPuLLnFUNrsUYFNhimVPQSkYQH1aLtHVJrOVpYQLG_mlkLrkixyNRJlLvFsTRtynJ_jnUsZGuJ2cwQPJ85Gt-RMTuDdGQSFE85iWu_EqME0SZLoUEnwA0lCzEVFFDtoRKktag9uBiBhIgSpOY7Q2uHxgChn-h2ZyD7brnxIN42xh667cu3_QoUmfRwwuxtohi5YclNe6ZLqg5ooraNTG2i8GPnLgu5fh6w2nJUdEQaiEPgQPiiORFTHuGxjhDKw",
+        "width": 1536,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLYzW6fr7UMPbQ-gsaq3oiEo8c0dRc0jtBs3VYX3_PAhtV42yfDRfN4uushp_YaEGb2hoTl-8CbLagt0hba4Hdv5YnHQlhGHYgXqEiOZls5nJonBT3qm6VEsX1TBNj0-pf7eFtauOWfBPXoCiVsHT8UHV7_D0do6_4dZVNy1VuWerNAU30Cas-yWwSWTMWS3zFBnOBNLooDpL4X2xvZvPKYnKpYHMAUVcpgy0rwFYS_Qh6-1a-Bl_iyvXRENb5NNxLcrEEM3uKbmzXH5CYBiB2jmMaGsVPHwCfLj1R5NwbqrFL5vS_eOuhCZxVstRdZDwoCZYamZFAdOcPHykONblblMG6NQzU10L7XtKqJ5yR5dQM2Ha8cM1ITyQAUPyFYAf0gg83fPuLLnFUNrsUYFNhimVPQSkYQH1aLtHVJrOVpYQLG_mlkLrkixyNRJlLvFsTRtynJ_jnUsZGuJ2cwQPJ85Gt-RMTuDdGQSFE85iWu_EqME0SZLoUEnwA0lCzEVFFDtoRKktag9uBiBhIgSpOY7Q2uHxgChn-h2ZyD7brnxIN42xh667cu3_QoUmfRwwuxtohi5YclNe6ZLqg5ooraNTG2i8GPnLgu5fh6w2nJUdEQaiEPgQPiiORFTHuGxjhDKw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104019558399382853802\">Juliet for OnlyOnwards</a>"
+        ],
+        "photo_reference": "AeeoHcLGGVrXGe-6Sv3eWQ2f5Ts5YnNBnMI_9Z7yTK_U7hpmKARGTXdLcoWzUYQoJ09oBucPOf2rpdXwMt2bIsrlbE4YmxZxMy1CL1Z_M54YgsyhzFeyJAmLjQOyPTrdmAXlDXmMs5S-z9sh0emLzFJMMyfeOBsmnsZ1-TVicw0IGMXU-NGnDhL7MbtS5By-bNIEZrwutF1Uc8sx3t-kqLxKTzeVsPoKIYSUQfoN_7BWTPJnTaxSfYWMcKVDbzSz9n82K4FzronkrH56CbFcHVXUwejuExFuAJ_nFwapBkfbLtj4b3rc80pp3DhEijeJ4X59x4BT3prFxyn7tPzSAvZWRufT6RtiYYFe_CffPXJI3qBgrs16Wli4D2k68n_qImqotlbYzCB4FQZ8clckgYIjcVkCRV0dDVWIPjl9Iw1yriXiRZsD6ku_3JkSc8XSulIlW_u90l-oEfR8_kr4c9LWyYGp5b2Sbm7aoSVZmeVZxLs_gVShUEym7o4c5oC-wWRi5FJeDuDI84jnNYUIjq2Nd18Kg1jk7XMZw6IRck6b6NwahE1cRh7CnPXKGyBRJujwmuKMKoWfoSWk5Iz8sFZKIIsj6qY8Oq_pzOyk9ZiqDuKVmOGbhWk-cVbFt6w0AmexRWtjkA",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLGGVrXGe-6Sv3eWQ2f5Ts5YnNBnMI_9Z7yTK_U7hpmKARGTXdLcoWzUYQoJ09oBucPOf2rpdXwMt2bIsrlbE4YmxZxMy1CL1Z_M54YgsyhzFeyJAmLjQOyPTrdmAXlDXmMs5S-z9sh0emLzFJMMyfeOBsmnsZ1-TVicw0IGMXU-NGnDhL7MbtS5By-bNIEZrwutF1Uc8sx3t-kqLxKTzeVsPoKIYSUQfoN_7BWTPJnTaxSfYWMcKVDbzSz9n82K4FzronkrH56CbFcHVXUwejuExFuAJ_nFwapBkfbLtj4b3rc80pp3DhEijeJ4X59x4BT3prFxyn7tPzSAvZWRufT6RtiYYFe_CffPXJI3qBgrs16Wli4D2k68n_qImqotlbYzCB4FQZ8clckgYIjcVkCRV0dDVWIPjl9Iw1yriXiRZsD6ku_3JkSc8XSulIlW_u90l-oEfR8_kr4c9LWyYGp5b2Sbm7aoSVZmeVZxLs_gVShUEym7o4c5oC-wWRi5FJeDuDI84jnNYUIjq2Nd18Kg1jk7XMZw6IRck6b6NwahE1cRh7CnPXKGyBRJujwmuKMKoWfoSWk5Iz8sFZKIIsj6qY8Oq_pzOyk9ZiqDuKVmOGbhWk-cVbFt6w0AmexRWtjkA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108127348002486711836\">吳念珈</a>"
+        ],
+        "photo_reference": "AeeoHcKImJ4UINUhLxnvuBLPxZF5qcuvi84p0ZpTZyIc_ynPk7tXwI2coF_VjEkTb1SOyCpo9e6ddDRys8FPyLdd2fPd2s6I54tZhbfTvUIYTo5AYyzIfv2B1KRzoYABVj2cWUwZEbfBc5OzNjbTVvuWs8BYXQAvADE8dIBxHKmyggXK8V4fQTXFODW1cabmh4JaxVgfafsmgBbNW8FDawVR1FrUEuWBN5SrWCAHmBCHBpvHOkiBMUragieu_XK44LdcIob0YHr51O5c6je3crUw16n-7argETyaKnF_zvw_YFUSboPIxjQVvjtAfuTExpSiZKyTjdArToilTh3mG_M_ZQx1oVUouSW5GnZUbe9LPI7atNTGAPUj-6_o_J4PhMIvhq-1aZQKuQfj-ihLdGu7nFFbObfeGwfUJuu1JqOX6Ni-FoQJY0YY6FMDDrjy3RTNtZHOodIQXupo8b7mYpdWhsomdHA9aZkD_I9gyC-J745BZYOd5J_Tzjka0bv2DtMm_-7eSKit37zn9VWReYHsaLgrkSJbERqQQMKPvJW8NcVCnrd0lWTq7ZjR2mkv2ld1H7ihjyV8Yvm-kHKVexame6DREk40gnYa7VYb_TW9pXfHwWyYEuTO4munDPq6T1Rc3GM2bThZ",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKImJ4UINUhLxnvuBLPxZF5qcuvi84p0ZpTZyIc_ynPk7tXwI2coF_VjEkTb1SOyCpo9e6ddDRys8FPyLdd2fPd2s6I54tZhbfTvUIYTo5AYyzIfv2B1KRzoYABVj2cWUwZEbfBc5OzNjbTVvuWs8BYXQAvADE8dIBxHKmyggXK8V4fQTXFODW1cabmh4JaxVgfafsmgBbNW8FDawVR1FrUEuWBN5SrWCAHmBCHBpvHOkiBMUragieu_XK44LdcIob0YHr51O5c6je3crUw16n-7argETyaKnF_zvw_YFUSboPIxjQVvjtAfuTExpSiZKyTjdArToilTh3mG_M_ZQx1oVUouSW5GnZUbe9LPI7atNTGAPUj-6_o_J4PhMIvhq-1aZQKuQfj-ihLdGu7nFFbObfeGwfUJuu1JqOX6Ni-FoQJY0YY6FMDDrjy3RTNtZHOodIQXupo8b7mYpdWhsomdHA9aZkD_I9gyC-J745BZYOd5J_Tzjka0bv2DtMm_-7eSKit37zn9VWReYHsaLgrkSJbERqQQMKPvJW8NcVCnrd0lWTq7ZjR2mkv2ld1H7ihjyV8Yvm-kHKVexame6DREk40gnYa7VYb_TW9pXfHwWyYEuTO4munDPq6T1Rc3GM2bThZ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116502683398043778029\">Echo Lin</a>"
+        ],
+        "photo_reference": "AeeoHcIH39QiZIZlb-CU1eViSUqiieSipZAfsPi37584AdWGRgPcLQalOD9ROzfRyOWy5iYWSie0T19TdsrJKwjaLnabaGhH8wBZl-EPt_J5PLBbZi_rbduPnSF-Wv7a0h0B6oLo42fxAus929EnfCrNJ7KQxZLA3pBftTL0GvPGSJx03xUAL1yE9sZkcTfq4BGi_xKgvmns8WXvwYp0GiGj3ihaPJ7fyU0e0kQIM9jamcDPQqnmnJ8xUqq7O1shGmnNM6tDdwJcBZqQvcHVe5agM2GaXMmNP3wZlxg-iCv1JM5iPJT7m2UaYhc07UFARKYQS1vE6SL4wdscscQIU2hzt32NKLry-jBiTo_tHrEJtYLB-V5wiwl3AlNz6mYDjw6FxkFqDemwNmkKHVLLRKUaZg78pH6dbSqBvVTtwTgQz5l1qwepk0oNH1m-Pdz-VPtW3fo4GWJ0CJbCTzU8HlR4R6XARRuIZ1SHEO96AWP0DRBbSk6girSnWNro2_bc_NloAqM-vdQg-BuQ64nNcUGQPZpm47sVSMVYt8SknDLgEg9xfO1uUhnce-JH8HZ3tIdPmp2hwwaaSnyhG8Cq4fxYSaaR1xjYNuvsykqcvWLSqX6AYYoHQgYbNZsvDYRCBB3zRBZ6RQ",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIH39QiZIZlb-CU1eViSUqiieSipZAfsPi37584AdWGRgPcLQalOD9ROzfRyOWy5iYWSie0T19TdsrJKwjaLnabaGhH8wBZl-EPt_J5PLBbZi_rbduPnSF-Wv7a0h0B6oLo42fxAus929EnfCrNJ7KQxZLA3pBftTL0GvPGSJx03xUAL1yE9sZkcTfq4BGi_xKgvmns8WXvwYp0GiGj3ihaPJ7fyU0e0kQIM9jamcDPQqnmnJ8xUqq7O1shGmnNM6tDdwJcBZqQvcHVe5agM2GaXMmNP3wZlxg-iCv1JM5iPJT7m2UaYhc07UFARKYQS1vE6SL4wdscscQIU2hzt32NKLry-jBiTo_tHrEJtYLB-V5wiwl3AlNz6mYDjw6FxkFqDemwNmkKHVLLRKUaZg78pH6dbSqBvVTtwTgQz5l1qwepk0oNH1m-Pdz-VPtW3fo4GWJ0CJbCTzU8HlR4R6XARRuIZ1SHEO96AWP0DRBbSk6girSnWNro2_bc_NloAqM-vdQg-BuQ64nNcUGQPZpm47sVSMVYt8SknDLgEg9xfO1uUhnce-JH8HZ3tIdPmp2hwwaaSnyhG8Cq4fxYSaaR1xjYNuvsykqcvWLSqX6AYYoHQgYbNZsvDYRCBB3zRBZ6RQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110315342732289420713\">Anna Wu</a>"
+        ],
+        "photo_reference": "AeeoHcLnuqOsPNKPZX5x2ynlnOMUHJ3fQoVBidu1ybyddlloAn5_r1sU2S1JSjSxT3L9jAZtWYq47xfEbOf98SI3h3bdqQZjS_HGFyhGH99rigkrWkUe_bexnS_dSDjCD2u0c-d7qX-hIsuxC1Y-YjTjM7N3uPa9aPxlhdrjHxX0PhIxF726ouz4MuBy6rkzzoh6YZLPzSPvmFF-ni3TpW9JWoloVN409-q2Yz-9aDwhNGcCrE6oMcCBJe4yFoFYM34JS1CKg9dG54Sh5y--h9_bMYdQJUt49EeEuYldJIK2yRGtDFUC3iLUlibWrnEEK804UqmCkrer_K5EvfjoOwIcE096TSvgz-J5sGuZ8Qd5K0ZQ2oQat7V-GBRTcStoOHcWCFdH6DLTVunvk6MGTR8XL20ahvc0BJholp88a8w8y71WftRB1Y1cdswj3xxDKiiDLTOiPoB4pt5xpHusYT5m-1Tl7sSkNAMAVGpAjPMl1L7a5_ec48Hv5mKg4K35DVARaUrtjD30u9p15t3v_cp9RxVlMny08RfWzKY2EB1RrHRg1HIR93EBsqQNbQA18Qnu91-ZGbGxyVV6MzXlYbn1ErCSyG7oFRnzDYRsXmBZFXZ7CwBNmkIs9AixFTAH5pwCNMvbLw",
+        "width": 2160,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLnuqOsPNKPZX5x2ynlnOMUHJ3fQoVBidu1ybyddlloAn5_r1sU2S1JSjSxT3L9jAZtWYq47xfEbOf98SI3h3bdqQZjS_HGFyhGH99rigkrWkUe_bexnS_dSDjCD2u0c-d7qX-hIsuxC1Y-YjTjM7N3uPa9aPxlhdrjHxX0PhIxF726ouz4MuBy6rkzzoh6YZLPzSPvmFF-ni3TpW9JWoloVN409-q2Yz-9aDwhNGcCrE6oMcCBJe4yFoFYM34JS1CKg9dG54Sh5y--h9_bMYdQJUt49EeEuYldJIK2yRGtDFUC3iLUlibWrnEEK804UqmCkrer_K5EvfjoOwIcE096TSvgz-J5sGuZ8Qd5K0ZQ2oQat7V-GBRTcStoOHcWCFdH6DLTVunvk6MGTR8XL20ahvc0BJholp88a8w8y71WftRB1Y1cdswj3xxDKiiDLTOiPoB4pt5xpHusYT5m-1Tl7sSkNAMAVGpAjPMl1L7a5_ec48Hv5mKg4K35DVARaUrtjD30u9p15t3v_cp9RxVlMny08RfWzKY2EB1RrHRg1HIR93EBsqQNbQA18Qnu91-ZGbGxyVV6MzXlYbn1ErCSyG7oFRnzDYRsXmBZFXZ7CwBNmkIs9AixFTAH5pwCNMvbLw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJOdr16XuqQjQR9DtwP0olppQ",
+    "plus_code": {
+      "compound_code": "XHQG+35 台灣台北市文山區萬興里",
+      "global_code": "7QP3XHQG+35"
+    },
+    "rating": 4.3,
+    "reviews": [
+      {
+        "author_name": "011林宗欽",
+        "author_url": "https://www.google.com/maps/contrib/111622379216004267348/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXTYqpJL2AkrXWwhFlWw876PGXJiYLWtCJbeNx_nYFP_qSDIdOQxA=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "小公寓最近換了精選咖啡豆及咖啡機之後，泡出的咖啡很順口，不苦澀 、香醇又好喝，點了印度咖哩燉牛肉、辣味起司牛肉薄餅🍕、蜂蜜檸檬鬆餅🧇，都很好吃，有可愛的貓咪走動，室內燈光美，氣氛佳，有家的溫度，喝下午茶的好地方，值得推薦。",
+        "time": 1740575211,
+        "translated": false
+      },
+      {
+        "author_name": "FC Yang",
+        "author_url": "https://www.google.com/maps/contrib/117960386711576417138/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXIwgJEMlWQ0Qm77oxTBzHsu5py2K3PBRX_5Y7MkaatOxVDhO_3mw=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 5,
+        "relative_time_description": "6 個月前",
+        "text": "這間是有貓咪的咖啡館。點了咖啡. 巨峰葡萄烏龍茶和北海道冰淇淋🍦覺得很不錯耶！ 本來120元冰淇淋覺得小貴，來了發現還加了小心機細節，除了兩球北海道冰淇淋外，還有放上奶油、穀片、糖漿，非常好吃，120元覺得超值👍👍👍\n\n巨峰葡萄烏龍茶口感香醇，味道融合，彷彿在喝新鮮果汁🍹 水果控可以考慮👌 店貓很多隻，大多可摸可親近🐱 推薦給大家🥰",
+        "time": 1728223322,
+        "translated": false
+      },
+      {
+        "author_name": "Echo Lin",
+        "author_url": "https://www.google.com/maps/contrib/116502683398043778029/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX78WJiHQ_mtTz1ByBySJaW4O0w0juaDThOPPdnmzB5jA_i6js2Yw=s128-c0x00000000-cc-rp-mo-ba5",
+        "rating": 5,
+        "relative_time_description": "7 個月前",
+        "text": "政大附近的貓咖（在二樓）\n餐點不錯，燈光很有氛圍\n有wi-fi ，低消一杯飲品\n檸檬塔、洋甘菊茶都不錯\n店內有許多慵懶貓咪\n開會或聊天放鬆都適合",
+        "time": 1723889207,
+        "translated": false
+      },
+      {
+        "author_name": "J. C.",
+        "author_url": "https://www.google.com/maps/contrib/116307339304959791257/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUvBeoexTHKepCXm0MV7-B5dtGeCHFGXXUPLHVjrSCf1RCNW7fvTA=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 4,
+        "relative_time_description": "3 個月前",
+        "text": "隱身隱身於公寓二樓、有一隻很可愛的貓,",
+        "time": 1733559790,
+        "translated": false
+      },
+      {
+        "author_name": "火人13",
+        "author_url": "https://www.google.com/maps/contrib/106971822623700051859/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVC9LfxRmXFX6JaYck3gJOSmljjqDOKhw8ct8V-q4_LNVfSeXe1=s128-c0x00000000-cc-rp-mo-ba5",
+        "rating": 5,
+        "relative_time_description": "1 年前",
+        "text": "餐點普通，但氣氛不錯。\n燈光有點昏黃，想要近視可以來這邊讀書打電腦。\n有好幾隻貓可以擼這點相當不錯。",
+        "time": 1711623721,
+        "translated": false
+      }
+    ],
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=10711289764569431028",
+    "user_ratings_total": 653,
+    "utc_offset": 480,
+    "vicinity": "2樓, No. 56號, 指南路二段, 文山區",
+    "website": "https://m.facebook.com/%E5%B0%8F%E5%85%AC%E5%AF%93-153345818089728/",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLqtFL5GqK6D_fJgz5B8y3_O1hZMekUcptvQUGj5-Lyx8Y643h293vMx2fiXBOTTW1-49wiYbMfVNlWDxSAowiZ_KUEwcGF1rxcdJznosvfoaHUuS2V4zFxPlsP_PibD9rnUGxWIzH9hUPAqN20nRG5-I9Sr7VZDio95fsuFNJS9Fb3-L69ys7XrrGXsGXFNR6dFOGZ6LvWPQnmxbWePnDjfHXp52UD5295GtrU4QKE4xcFclRf6UectGbklMhru8buvrWQzP37xBsv44_ZPniu1V_8_8KLxHhlo2Foud6rNvOvjIBByLyP9cOPuAkUuPhZiFWL6L0xSuj-xEp5x7Bzm3s14-13XPLV46BT_Uc9NzjdLMc2tNr80jv0uIb2g_UF3panWIcf8BiQioIt_y0koNVUzDy0c7h84VvQMcwB8LwPEXFa9U8jjfcKMMZOMG8oa0mwU5Xsg6anWI12em898lnMvhkAgcKLStrhFf7y_4b8wUccPQ8HAPUrn0J4VqzNcTDc6YSK9BRK1_PXEF05lPCvpkJrt3fLiHfjQUo7ao0RPw4lJynScuMrDrECemU4PkykcCL7Z81t4wYHz-_GQok0iJbW2EreTUezDaOfzqDv9LHOwos0eI9afZ-pLZixfUMv&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "1.3 公里",
+    "distance_value": 1304,
+    "duration_text": "18 分鐘",
+    "duration_value": 1066
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "17號",
+        "short_name": "17號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "指南路二段",
+        "short_name": "指南路二段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "萬興里",
+        "short_name": "萬興里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">萬興里指南路二段17號</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區指南路二段17號",
+    "formatted_phone_number": "02 2937 6848",
+    "geometry": {
+      "location": {
+        "lat": 24.9883096,
+        "lng": 121.5735047
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9896014802915,
+          "lng": 121.5748402802915
+        },
+        "southwest": {
+          "lat": 24.9869035197085,
+          "lng": 121.5721423197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "international_phone_number": "+886 2 2937 6848",
+    "name": "老味道鍋物",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1400"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1400"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1400"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1400"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1400"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:30 – 14:00, 17:00 – 22:00",
+        "星期二: 休息",
+        "星期三: 11:30 – 14:00, 17:00 – 22:00",
+        "星期四: 11:30 – 14:00, 17:00 – 22:00",
+        "星期五: 11:30 – 14:00, 17:00 – 22:00",
+        "星期六: 11:30 – 14:00, 17:00 – 22:00",
+        "星期日: 11:30 – 14:00, 17:00 – 22:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115592119388816184288\">老味道鍋物</a>"
+        ],
+        "photo_reference": "AeeoHcJeRKuWedYoBUbUgSQRDqT-MiLcaKXZPkeL7lBEuQKknA427BY7_1FPAehu7mFk2JD5XrTFWiMP3rLlBBcrfhkDdOSy51slA8dl3s2NL1pPaGCiS25wTvrlQsKXFZvDuQh1FTV-8YVMZ0BP8ncaOUgLdwbSvgJq13h4043ip8JCkTqTgKerkql8uIxr5PLGJLaT_EunMkPZQbfIU9qEmuExLhVk6VOudKVktajR2rCQiw_CXM_WOFlgsSs-gzFeW_gWFREq5XYcmDPYd1a00mONeW-wHBjtAMhS458dKxNUA4FR1oKSiaFPXCeHdIFccAMLT1dErCg",
+        "width": 3072,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJeRKuWedYoBUbUgSQRDqT-MiLcaKXZPkeL7lBEuQKknA427BY7_1FPAehu7mFk2JD5XrTFWiMP3rLlBBcrfhkDdOSy51slA8dl3s2NL1pPaGCiS25wTvrlQsKXFZvDuQh1FTV-8YVMZ0BP8ncaOUgLdwbSvgJq13h4043ip8JCkTqTgKerkql8uIxr5PLGJLaT_EunMkPZQbfIU9qEmuExLhVk6VOudKVktajR2rCQiw_CXM_WOFlgsSs-gzFeW_gWFREq5XYcmDPYd1a00mONeW-wHBjtAMhS458dKxNUA4FR1oKSiaFPXCeHdIFccAMLT1dErCg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 5712,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106628570409312169436\">楊雅雯</a>"
+        ],
+        "photo_reference": "AeeoHcJ3tqEoE7xGqhhO3fCHxa-8aoXjsTQgouwKwshmAoFtekLrw2Mj1wY7nHJ88AOgPB59xWmgfJh7yKeT0yQab5ypiQhZUhkMK32_k00DoipAxlE8gpISc4ZLmOm39jh4m_mC2m7vW-pN_5-XS_1R_CeOCRTELgheQKF_A6SlZVFQc2xdOx1BPCXEHO_COzbJF1PVM1IQLfpqscf-jA6FIh12M4Nd7qFVVC9bT9MD4JdLo0Trm3GVaj0GRl3v-idHJu_9byL5KEq1ifeXyg_7sck8dSeK1wpyxbJtFudHH-LP3LSx2DvmPQWwCFZwW-ihkEJgySTSpYTOKQRCp7ZVhkIJqXTlruwJcWA8-kaNUVrBPsyVweb_eMZzfqnns4cJIIxouTepF6xieH5w4ci1jwfNPu5j7F0raSUF8Ujy3-kxea4cIpC8PbhlMJFgeM7WfLjnoKrYOB3HT9cElvym-I8z0NYv3iVG5JLyWnhhr2v1Zx3sMsoM4GmBOhY8Svfiqp_hw68Ro07JVf6cxC28ntJi76Qqo6R8mKWB7A1dsW2OBBRGhnlD2zmAaE9DO-bf2dsex_XZAQ_UweVHm2U8ZY2-fRdpZ2DHUlA5yp5FlfV_lx3UpoYB2N9JZiUrb8b8K-kWaA",
+        "width": 4284,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJ3tqEoE7xGqhhO3fCHxa-8aoXjsTQgouwKwshmAoFtekLrw2Mj1wY7nHJ88AOgPB59xWmgfJh7yKeT0yQab5ypiQhZUhkMK32_k00DoipAxlE8gpISc4ZLmOm39jh4m_mC2m7vW-pN_5-XS_1R_CeOCRTELgheQKF_A6SlZVFQc2xdOx1BPCXEHO_COzbJF1PVM1IQLfpqscf-jA6FIh12M4Nd7qFVVC9bT9MD4JdLo0Trm3GVaj0GRl3v-idHJu_9byL5KEq1ifeXyg_7sck8dSeK1wpyxbJtFudHH-LP3LSx2DvmPQWwCFZwW-ihkEJgySTSpYTOKQRCp7ZVhkIJqXTlruwJcWA8-kaNUVrBPsyVweb_eMZzfqnns4cJIIxouTepF6xieH5w4ci1jwfNPu5j7F0raSUF8Ujy3-kxea4cIpC8PbhlMJFgeM7WfLjnoKrYOB3HT9cElvym-I8z0NYv3iVG5JLyWnhhr2v1Zx3sMsoM4GmBOhY8Svfiqp_hw68Ro07JVf6cxC28ntJi76Qqo6R8mKWB7A1dsW2OBBRGhnlD2zmAaE9DO-bf2dsex_XZAQ_UweVHm2U8ZY2-fRdpZ2DHUlA5yp5FlfV_lx3UpoYB2N9JZiUrb8b8K-kWaA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2613,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105111306863369322264\">Elsa Ko</a>"
+        ],
+        "photo_reference": "AeeoHcLDsT8xP-I0yfbz0eow1rALeOa-PbeQNrftU4p5hSwnUSipWYoQcExQy5iLuTSgTodXXCpxti9ahAjh2TadylAdYhYqlOSfFM69FCnVD-0TjHf20Vz4DQWj4CAnlGMGOlf7kxOaOlgwuX__AE08pKDLZYF-d3PsyeCMSGUozPcniuu5kN1G8NmDT8_EVZbPFTO4lwIe0WcVOH1CUKLrgehK593zApNfq_SDb5SMe8m452rHFaKCzbWFdd-WrDArJmGuUcIa67g-i0o9lG3ZfmKyY7-mxwXnw9mvo3gVYqW3Grnru7KsilSqPZShsq3KvIlJWyTbfPgfgM5Nh4a5ER6bF6ff5stkIhB8uWcsCm5FdvHhBtdfYdvcMBqaKlTPM6T6PPA_gsSx0qkxMD1v-vTCBO5iclVB1EJ9mi8mLd8i6XKopIP2QOBkNOR6F06WaLE8nJ-4asavbRtYk_GQ9M3My_HYPTbyRWmkRvIbt93LJ2m6k47Vw8fhNONn-dB_IPtIUkHn9oD_9dGsFOh-Y9g3QqTcD3B6SOpl98si4zthzZVDN16vpMRb-5hGdOYp1taE43_GKvnNJ6DKx6fNMYoe74uZ1XYb-jzZvNAb5ZAt1Ez2nF8aG6kU-Dg3_LL99q4FbVtp",
+        "width": 3072,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLDsT8xP-I0yfbz0eow1rALeOa-PbeQNrftU4p5hSwnUSipWYoQcExQy5iLuTSgTodXXCpxti9ahAjh2TadylAdYhYqlOSfFM69FCnVD-0TjHf20Vz4DQWj4CAnlGMGOlf7kxOaOlgwuX__AE08pKDLZYF-d3PsyeCMSGUozPcniuu5kN1G8NmDT8_EVZbPFTO4lwIe0WcVOH1CUKLrgehK593zApNfq_SDb5SMe8m452rHFaKCzbWFdd-WrDArJmGuUcIa67g-i0o9lG3ZfmKyY7-mxwXnw9mvo3gVYqW3Grnru7KsilSqPZShsq3KvIlJWyTbfPgfgM5Nh4a5ER6bF6ff5stkIhB8uWcsCm5FdvHhBtdfYdvcMBqaKlTPM6T6PPA_gsSx0qkxMD1v-vTCBO5iclVB1EJ9mi8mLd8i6XKopIP2QOBkNOR6F06WaLE8nJ-4asavbRtYk_GQ9M3My_HYPTbyRWmkRvIbt93LJ2m6k47Vw8fhNONn-dB_IPtIUkHn9oD_9dGsFOh-Y9g3QqTcD3B6SOpl98si4zthzZVDN16vpMRb-5hGdOYp1taE43_GKvnNJ6DKx6fNMYoe74uZ1XYb-jzZvNAb5ZAt1Ez2nF8aG6kU-Dg3_LL99q4FbVtp&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116033472548020426027\">洪子淳</a>"
+        ],
+        "photo_reference": "AeeoHcKw5nn_VwVFGV6B3sxGMG7AQ-OSQCxLxhPNVgvKPOfOyElQxBB_p2vjRmTEaPWu9gdWcp2HCUT2craRjML2If28GFnXUP4Xxl53awzVBck-8eaKpys4-b78dNf55xcglxUVUwoqPwwYfQbAx4nM1y6k0BBGhygSFGLnaThO0SNBqHq_N_6rPT3QS8EorSYstBb_DnzH1viJUSqZIHCifjUVE4Mv3ci9wvd-ZiNpKOgu7ugGMAcE0WaWOauUncK92yMbzgGy6Hg9uYZ76bNMtu7JN2d3DeXfNbzThDO72JbQm9jLWBg-nwzBmz0ORWdALj7LTduIKOIKfmV4VpG5alkXzVvOGHnWEKa-2IVqoaBOLz24pN_oJHJ5oBqSVsUl3SEzJhw7Utj988VIlkOrTj1ZUBeLD-HibADV4mMblR7WPO77iliRXhPrSIJ_1eUmy6rCp3vHa5VvSyCh7yOE57dUOucHckRnwlhAErzGe50SJXIC5wE5tATJqHZlJoL9e5Gqfn7VsQuQjcBXNtG5hHyT06s8PCsjSCAApniYW1LJTX54JqGrtLfcqfA9-8_lDGW_ocLMBRvpQgtuLKVWQaLj6kE-QJeg8NWe5K0lGImPO7G2c2_a3-wx5khP-gsCDXj_Nw",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKw5nn_VwVFGV6B3sxGMG7AQ-OSQCxLxhPNVgvKPOfOyElQxBB_p2vjRmTEaPWu9gdWcp2HCUT2craRjML2If28GFnXUP4Xxl53awzVBck-8eaKpys4-b78dNf55xcglxUVUwoqPwwYfQbAx4nM1y6k0BBGhygSFGLnaThO0SNBqHq_N_6rPT3QS8EorSYstBb_DnzH1viJUSqZIHCifjUVE4Mv3ci9wvd-ZiNpKOgu7ugGMAcE0WaWOauUncK92yMbzgGy6Hg9uYZ76bNMtu7JN2d3DeXfNbzThDO72JbQm9jLWBg-nwzBmz0ORWdALj7LTduIKOIKfmV4VpG5alkXzVvOGHnWEKa-2IVqoaBOLz24pN_oJHJ5oBqSVsUl3SEzJhw7Utj988VIlkOrTj1ZUBeLD-HibADV4mMblR7WPO77iliRXhPrSIJ_1eUmy6rCp3vHa5VvSyCh7yOE57dUOucHckRnwlhAErzGe50SJXIC5wE5tATJqHZlJoL9e5Gqfn7VsQuQjcBXNtG5hHyT06s8PCsjSCAApniYW1LJTX54JqGrtLfcqfA9-8_lDGW_ocLMBRvpQgtuLKVWQaLj6kE-QJeg8NWe5K0lGImPO7G2c2_a3-wx5khP-gsCDXj_Nw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113001513877019618011\">檸</a>"
+        ],
+        "photo_reference": "AeeoHcIDMyAzUuoJINUk5GxeC4p9FJ2f-7eu_54PCEAELNHi4x2ND_oiSiQ5WqxFuPUNKOx_2kIrn0MyRAi4e2b0EQ-2oapu5ZD4MXkqZZwI1KDcAanvuMXAue5I8dRKuCV8bp_eno7E4gpCftObV21YEqsEOmhPDnMHDiCVjbqpKonT03vDVvn8nRaIMeEhVGZ0WAWa6fAJJfxhvRNcHQ3nTSOEc1TD2tyQ6TQZlL9cVu_ZZTIXdthPPinu836nPopnb2GU9YVbuqCOSvBSN-63y3dtk-s3V7GdalOXX3x1SO3p0YHpZTJGdY68VuMAqjJWdlTxveJfSH0W8sPv060FMtvCWnwH4j56-BchWYMYcXn6IvxH2ztf4jLYQTDs2PwDX9Ek_9PpMBWxTo_aFeHlBKmejrEAbm__RksbPyX5pQ4doS8mFrNqTke54WTqd-TvhuIkGJyU_6bCFKXMdaytHJAwIge84N0SGYZTbvsbkLgDEjyna4kM2BaZhlgOZGBYrut0u29mxqnBMGmLPxKLvn3vsT4ruBEjb5TBruQ_By3dtlmofiBmzOqXi9RbgiBKdT0YemydEva9qafLx1JPIhagv1HamVsEuOhW4q6JEIoqjytMve69ewArMwYoooTDTPsAwZ3h",
+        "width": 3024,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIDMyAzUuoJINUk5GxeC4p9FJ2f-7eu_54PCEAELNHi4x2ND_oiSiQ5WqxFuPUNKOx_2kIrn0MyRAi4e2b0EQ-2oapu5ZD4MXkqZZwI1KDcAanvuMXAue5I8dRKuCV8bp_eno7E4gpCftObV21YEqsEOmhPDnMHDiCVjbqpKonT03vDVvn8nRaIMeEhVGZ0WAWa6fAJJfxhvRNcHQ3nTSOEc1TD2tyQ6TQZlL9cVu_ZZTIXdthPPinu836nPopnb2GU9YVbuqCOSvBSN-63y3dtk-s3V7GdalOXX3x1SO3p0YHpZTJGdY68VuMAqjJWdlTxveJfSH0W8sPv060FMtvCWnwH4j56-BchWYMYcXn6IvxH2ztf4jLYQTDs2PwDX9Ek_9PpMBWxTo_aFeHlBKmejrEAbm__RksbPyX5pQ4doS8mFrNqTke54WTqd-TvhuIkGJyU_6bCFKXMdaytHJAwIge84N0SGYZTbvsbkLgDEjyna4kM2BaZhlgOZGBYrut0u29mxqnBMGmLPxKLvn3vsT4ruBEjb5TBruQ_By3dtlmofiBmzOqXi9RbgiBKdT0YemydEva9qafLx1JPIhagv1HamVsEuOhW4q6JEIoqjytMve69ewArMwYoooTDTPsAwZ3h&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114875921730523192845\">KunTa Tsai</a>"
+        ],
+        "photo_reference": "AeeoHcKNmdf9lwuZJcgtL5Zi8VLqxYtf-idN03PEBBz6T042njvZEoZW8MFTjFJDBA40r0eWayNsJ0nN82S9Io3s099EPqzFFeW9aH4rYLWGD1z_rH2qFpYWYOs0s28TdfKXVLg5ECb9RUyLzhp000pfCBsNqWxsW1vE1b232MNO0CDoq02CxZERPRovTGrZFE60vZCilTCO908IY0tKvRu3rgFjORvDT_aeDyVnxDVXO3aP8NGRXBJHDTLkUFiCRlcMdUqIBarbfF9L7B_Lf0ygLA6460tOF5_oDiffknUe3LXg02nP645JYCaph0Fgf5nor8GpmGb-gWhwmr-ATZ1WNM4tIvy6guqbO2W1Fj0JyONi0VuZJWrCswF1zeiHwqAUzxGoTCeRzvXGjMOMkxadaXjHqZ-8G9yAOlupnxfdE3C0OI6HQ7f4yOo1uO4aWaVmbUgDsfst5QH7Z_vJHW0lBazCKBUcX7yyYrIZyGm3WPA_mBIYXcDufIsKSEEkBgxhLP-Mkl4M8kZhyK7FqAiGT-kwbNysEzzQU5zoyEpVsQ8zjHKvFXC-n3KMNFuwb9lvTl1OL1Bq9KiNvAbjz5ElWpRqtLzcNxWrDsc8dfd-8_ZhVGti82tCe9z3QoXQwfvm2be5LQ",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKNmdf9lwuZJcgtL5Zi8VLqxYtf-idN03PEBBz6T042njvZEoZW8MFTjFJDBA40r0eWayNsJ0nN82S9Io3s099EPqzFFeW9aH4rYLWGD1z_rH2qFpYWYOs0s28TdfKXVLg5ECb9RUyLzhp000pfCBsNqWxsW1vE1b232MNO0CDoq02CxZERPRovTGrZFE60vZCilTCO908IY0tKvRu3rgFjORvDT_aeDyVnxDVXO3aP8NGRXBJHDTLkUFiCRlcMdUqIBarbfF9L7B_Lf0ygLA6460tOF5_oDiffknUe3LXg02nP645JYCaph0Fgf5nor8GpmGb-gWhwmr-ATZ1WNM4tIvy6guqbO2W1Fj0JyONi0VuZJWrCswF1zeiHwqAUzxGoTCeRzvXGjMOMkxadaXjHqZ-8G9yAOlupnxfdE3C0OI6HQ7f4yOo1uO4aWaVmbUgDsfst5QH7Z_vJHW0lBazCKBUcX7yyYrIZyGm3WPA_mBIYXcDufIsKSEEkBgxhLP-Mkl4M8kZhyK7FqAiGT-kwbNysEzzQU5zoyEpVsQ8zjHKvFXC-n3KMNFuwb9lvTl1OL1Bq9KiNvAbjz5ElWpRqtLzcNxWrDsc8dfd-8_ZhVGti82tCe9z3QoXQwfvm2be5LQ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 5760,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113127609479931548640\">陳美芳</a>"
+        ],
+        "photo_reference": "AeeoHcK1Esv3W-LH23FvgReidE242m2-0WYJLzXVRaO6nyOfbRkumbIDluO_ndpmfzkO84CYrL-MShxfeAvXW-UNsUUqkhHZtLa2zkZXiS9d-QSLjHa5-eadN7A40fog7jipXwLpfNlCfFYH5oQd819EKGuQ-bGU_y6BXWLattSX5CUXTx67bzJ48juvzQtFs6sKBAEBu2LiohISfBozLtittEJ5RatCDJHux3jjCZrAMB94t0pm_5zBEDo0kh9LKzmXqPxs3Yxyyhkg8QAu0fx0dNMs0UFonT3tWxi5XP0LuHzbPkGR2A8Z0tjnPFJK6gEmPaDqCitt69g-WsDoE0N4ErjOpjjEFFqv146dVD_ST0K_D11zuSgZClJSSvSpIkiqY5Lc79hVQw2hMpRkThpJmOFtfDMSk-loDx4xB5GAXRASCgE1YTOqpEyWiNODSq2oqCKMfRW1JeSg5XbG69JicfGHRxT2AYJElZDUgL0_WQBKetS-hVRSjA89SRS21NaT6TuR0IofybfIxXahtEFYy43lDxzXv3kDUtCL06ugS2b5hh5YgAxBrZCnzBej81HVT2iKB_FCmWCHicAUDwqJCPE7UBpGHt2dCvLDA4MOqJCGw3ZGWD_uK0x2gFGbLkLnRCMABw",
+        "width": 4312,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcK1Esv3W-LH23FvgReidE242m2-0WYJLzXVRaO6nyOfbRkumbIDluO_ndpmfzkO84CYrL-MShxfeAvXW-UNsUUqkhHZtLa2zkZXiS9d-QSLjHa5-eadN7A40fog7jipXwLpfNlCfFYH5oQd819EKGuQ-bGU_y6BXWLattSX5CUXTx67bzJ48juvzQtFs6sKBAEBu2LiohISfBozLtittEJ5RatCDJHux3jjCZrAMB94t0pm_5zBEDo0kh9LKzmXqPxs3Yxyyhkg8QAu0fx0dNMs0UFonT3tWxi5XP0LuHzbPkGR2A8Z0tjnPFJK6gEmPaDqCitt69g-WsDoE0N4ErjOpjjEFFqv146dVD_ST0K_D11zuSgZClJSSvSpIkiqY5Lc79hVQw2hMpRkThpJmOFtfDMSk-loDx4xB5GAXRASCgE1YTOqpEyWiNODSq2oqCKMfRW1JeSg5XbG69JicfGHRxT2AYJElZDUgL0_WQBKetS-hVRSjA89SRS21NaT6TuR0IofybfIxXahtEFYy43lDxzXv3kDUtCL06ugS2b5hh5YgAxBrZCnzBej81HVT2iKB_FCmWCHicAUDwqJCPE7UBpGHt2dCvLDA4MOqJCGw3ZGWD_uK0x2gFGbLkLnRCMABw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116014383828171259796\">Fu Lai</a>"
+        ],
+        "photo_reference": "AeeoHcKwPf6bCZ6YxPOo35lC-eXH-DZvKlrouszemnqulJyK8x0IY63rGhza7J0I5sxAGrUdoOhL1vDIraPu6UBUtzbznDKr3TJs6n5_q2bf6Uv72X8hYwNv634MShNXkRfStlJoRyvOeZ2ZGjB4-BkO_qRon5YzTYVfSCcWyqhOYwC1VlIECh_bNWE4rPFf3wbQOA9VEOqg_jmwaOdAUNq-mmAsODqo5rwkZEz6oB1cxsLwnEUAO_-6G3ga6A2GRYRHYSyTISLjNE_cmiJEWulWaiKXlKwMD3NHp4m5zfEDnWeUo7BuHZgK4ubIyBAVpfsvSwR6ExsPxAP2VoPPCHTZeWZF8P9X50duTf-4KQtQGoE8YL5M7Hw3qydRjKvcQWYtlHbAdsapyv2xnrPygA1Jdx1WPjxQi9e5ZfAfoD2JpvwoPaAbbUFZgw0FjxpdHEhvEI1oLLlgkTuSm0HgYzLBuDPiklxQ0PebJHy3nE_Pp8FYGD3cnMVWtOfQtcH6Q0zWTGW-fL5hFeJpeuP-Gv3JVVi5ay0E1jtKuGBvuA6sfw3cT66RcPOAgrRLds20Iqx-q8UuVRWzIlu9ylw_x4JP73oXRIPB6n2ndpoxzeWiBFBNY9_w8Y0IYK1MYdkjWMAdsP8nYje5",
+        "width": 3456,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKwPf6bCZ6YxPOo35lC-eXH-DZvKlrouszemnqulJyK8x0IY63rGhza7J0I5sxAGrUdoOhL1vDIraPu6UBUtzbznDKr3TJs6n5_q2bf6Uv72X8hYwNv634MShNXkRfStlJoRyvOeZ2ZGjB4-BkO_qRon5YzTYVfSCcWyqhOYwC1VlIECh_bNWE4rPFf3wbQOA9VEOqg_jmwaOdAUNq-mmAsODqo5rwkZEz6oB1cxsLwnEUAO_-6G3ga6A2GRYRHYSyTISLjNE_cmiJEWulWaiKXlKwMD3NHp4m5zfEDnWeUo7BuHZgK4ubIyBAVpfsvSwR6ExsPxAP2VoPPCHTZeWZF8P9X50duTf-4KQtQGoE8YL5M7Hw3qydRjKvcQWYtlHbAdsapyv2xnrPygA1Jdx1WPjxQi9e5ZfAfoD2JpvwoPaAbbUFZgw0FjxpdHEhvEI1oLLlgkTuSm0HgYzLBuDPiklxQ0PebJHy3nE_Pp8FYGD3cnMVWtOfQtcH6Q0zWTGW-fL5hFeJpeuP-Gv3JVVi5ay0E1jtKuGBvuA6sfw3cT66RcPOAgrRLds20Iqx-q8UuVRWzIlu9ylw_x4JP73oXRIPB6n2ndpoxzeWiBFBNY9_w8Y0IYK1MYdkjWMAdsP8nYje5&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102043420953647934253\">Jane Yang</a>"
+        ],
+        "photo_reference": "AeeoHcKkYGfjzWo2iKoAaUC9osqkbJFbc7K0cvhcOBTVR5IvtklXwX-Am7LxXIuYz1MWqXQ0VFpq0ALineDo8IvKiZKX1-6MQKjzaIMmgYXCuFq1hr3bip6zB1bDpJa7SxGIX1FsO4_upYYCnVgBwnYPRAoynbYiRnB0St5RVkcJ11UnUizcOc6_RvUXFvc5k3sbn90oVabboSo8Cx64iiBi-1mezMruoXrJmkDjiJbIbOeSWGtqchn5mF6IUcjTEOOdIjebk7rTs3d91G_qgizqM2MQSCZUnzai_HbCOph1lvpec_U_d_rW9Iv-fUqaSWn_7pmij_Vqt5xNd6tFcJTQorY8winKMPjm2YZgdsvXte_iQ4JwNl-uvMNNLJ_WZTTfRVKMW91GMllE2nZHtm8wB--mFOuZm9uqXW0tESHiicNYJ8x6q2rhGG4ZQQxMe8iOUceG230BBLeoxvwVbWg0GTVQxjwgOJnYHETSwM1DbXps8oDcWl7QXOUDjmcdR4vIaQ843ITwq3IqNpbgT9jDW4iL5j5XTjGMlYMpe8XRlhihZgTIZnbXYzlpNf2BwI3rWVQjqT0Q_nACElbbAciH7mUUoRHHVV7cd30vJglU9tWc0c0Al81MVl8mv29hK2JWeTmgvA",
+        "width": 4096,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKkYGfjzWo2iKoAaUC9osqkbJFbc7K0cvhcOBTVR5IvtklXwX-Am7LxXIuYz1MWqXQ0VFpq0ALineDo8IvKiZKX1-6MQKjzaIMmgYXCuFq1hr3bip6zB1bDpJa7SxGIX1FsO4_upYYCnVgBwnYPRAoynbYiRnB0St5RVkcJ11UnUizcOc6_RvUXFvc5k3sbn90oVabboSo8Cx64iiBi-1mezMruoXrJmkDjiJbIbOeSWGtqchn5mF6IUcjTEOOdIjebk7rTs3d91G_qgizqM2MQSCZUnzai_HbCOph1lvpec_U_d_rW9Iv-fUqaSWn_7pmij_Vqt5xNd6tFcJTQorY8winKMPjm2YZgdsvXte_iQ4JwNl-uvMNNLJ_WZTTfRVKMW91GMllE2nZHtm8wB--mFOuZm9uqXW0tESHiicNYJ8x6q2rhGG4ZQQxMe8iOUceG230BBLeoxvwVbWg0GTVQxjwgOJnYHETSwM1DbXps8oDcWl7QXOUDjmcdR4vIaQ843ITwq3IqNpbgT9jDW4iL5j5XTjGMlYMpe8XRlhihZgTIZnbXYzlpNf2BwI3rWVQjqT0Q_nACElbbAciH7mUUoRHHVV7cd30vJglU9tWc0c0Al81MVl8mv29hK2JWeTmgvA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100752241385449196187\">王天祺</a>"
+        ],
+        "photo_reference": "AeeoHcKlG6mTPKUS7LxZF24DgzUcKsO5oiXMFWn2t6eUh22EaO_JOcVx6mebaaDcOEfbuVW9EfJvuFKgy2EHw0NXwLoFe1PphZE8dxICH48odhptgdb-68wlov0NZWSsB_xgHR8PYz5oHLrpQ7FsFl9FK8QlljFiqPTM5sO5yFeJf3WHvj5xYV5vnErXLnR3Kyz70q86M-W_qZ6U-IGKBC2Q30LA2NnA4vDoawQX9zxtwxFM6LsF2rwUtj0I2VCucDUzGEy14Bso6cmeXpLtazoxjfKmAU8oz8El4GxmdWL0Nh4tz5O3nfcOhtwEECBnWLhv3KQuhEgKTwzd-fx0PCTWNZ21pmb1ypeRNUm4cyOi6AB3hGSOtFfqiobXwiYGigVPeAUqqHk98tAdqbnsdSgYuL70CDgc3p9vhZNWDMO_ZBibsewQfv7eYgIT1IMaCJAjVyGJ1o2a0WY-PGnk96xxV02yAelpq7fbfK9Fdb_JD1M6rE9JH5eNS5akEvJP3SxBfBTj-VkcgAGzsR5mQw7eZm9-LCbiCQ1S0lCsE-NxF1eGBI8vkqROUKImsEj9iqGzoQ11z1GKQ6bVWp6Ya8Kckzxz4Qdd_oXTeO7BT3w4RJ-wlQ0ySy_NoYBD1LsXFhFsqJPRHbW2",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKlG6mTPKUS7LxZF24DgzUcKsO5oiXMFWn2t6eUh22EaO_JOcVx6mebaaDcOEfbuVW9EfJvuFKgy2EHw0NXwLoFe1PphZE8dxICH48odhptgdb-68wlov0NZWSsB_xgHR8PYz5oHLrpQ7FsFl9FK8QlljFiqPTM5sO5yFeJf3WHvj5xYV5vnErXLnR3Kyz70q86M-W_qZ6U-IGKBC2Q30LA2NnA4vDoawQX9zxtwxFM6LsF2rwUtj0I2VCucDUzGEy14Bso6cmeXpLtazoxjfKmAU8oz8El4GxmdWL0Nh4tz5O3nfcOhtwEECBnWLhv3KQuhEgKTwzd-fx0PCTWNZ21pmb1ypeRNUm4cyOi6AB3hGSOtFfqiobXwiYGigVPeAUqqHk98tAdqbnsdSgYuL70CDgc3p9vhZNWDMO_ZBibsewQfv7eYgIT1IMaCJAjVyGJ1o2a0WY-PGnk96xxV02yAelpq7fbfK9Fdb_JD1M6rE9JH5eNS5akEvJP3SxBfBTj-VkcgAGzsR5mQw7eZm9-LCbiCQ1S0lCsE-NxF1eGBI8vkqROUKImsEj9iqGzoQ11z1GKQ6bVWp6Ya8Kckzxz4Qdd_oXTeO7BT3w4RJ-wlQ0ySy_NoYBD1LsXFhFsqJPRHbW2&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJ6auMULWrQjQRlOlffzkGWxU",
+    "plus_code": {
+      "compound_code": "XHQF+8C 台灣台北市文山區萬興里",
+      "global_code": "7QP3XHQF+8C"
+    },
+    "rating": 4.6,
+    "reviews": [
+      {
+        "author_name": "楊佳欣",
+        "author_url": "https://www.google.com/maps/contrib/109406435602748433646/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWKQZ4bzE26FLFFuUGMSVmW4v0YU9XDwPkS-FBaypCMYtJZSDjE=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 1,
+        "relative_time_description": "3 週前",
+        "text": "😡今天是你收服務費加湯還慢，說我們燒焦也不想想是你加湯速度很慢，不要模糊焦點欸，而且你當場大聲嚷嚷用諷刺的語氣嘴顧客，回應避重就輕，燒焦的問題我們也有回覆，我們早就關火了，只有老闆在那邊聊天不來加湯還怪別人，甚至玻璃心碎不敢回覆，說話前後不一，漏洞一堆，還誇大其詞，狀況根本沒有像老闆回覆那樣，而且看老闆過往對於負評，趁顧客留言有一點疏漏就嘴個不停，甚至還有人身攻擊，對我們這則抓燒焦的點，我們也已經做回覆，老闆對於不利自己的地方什麼都不回，這就是收服務費的態度，我吃上百次火鍋，也是第一次遇到火鍋的鍋子會燒焦，你希望我們不要再來，你給我們錢我們也不會再來啊好好笑🙂‍↔️。真心希望大家讓這種極其惡劣態度的店消失。各位這家真的讓我大開眼界，讓這種店生存以後甚至會進階到收服務費，服務員在旁邊聊天，然後不來處理，出包了大聲羞辱顧客，還是老闆這間店已經超前部署了呢？\n\nRe:老話一句，老闆回應避重就輕，開始緊張到要威脅人了呢☺️老闆現在被留負評已經玻璃心到準備提告了，以後留評論都不能講實話了，會被老闆提告，老闆收服務費服務沒做好，被評一星剛剛好而已，自己這種態度被留負評還要牽扯我們，我們才沒有那麼無聊，還想要用法律威脅消費者，這就是作賊心虛，看老闆的評論就知道到底是誰急了，因為評論店家沒辦法自行刪除，開始怕了，建議老闆先去找他所謂的律師了解一下因為負評提告成功的成立要件到底是什麼，上述本來就是事實，我也為自己在網路上的言論負責，不需要老闆恐嚇提醒，所以老闆這種惡劣態度勢必需要揭露給眾人知道，之前留言也說過可以調監視器看老闆加湯多慢才來，也可以知道我們到底有沒有如老闆所指控的乾燒鍋子，而且看老闆新留言甚至還恐嚇其他顧客說什麼不要以為他找不到我們，現在是怎樣？老闆是黑社會是嗎？留負評就講的一副要打人了？開店犯錯還承受不了負評？好怕欸☺️敢留言就不怕被找，我們行得正坐得直，本來就是真話，更不需要懼怕老闆的恐嚇以及威脅😌\n\nRe:老闆現在已經語無倫次到噎到都可以拿出來比喻了，我不理解這兩者有何可比之處？老闆邏輯整個死亡，我們針對的是老闆加湯慢導致燒焦的部分，老闆覺得是我們沒關火，那又請問今天我們判斷可以加湯會是在最後一刻嗎？大家都肚子餓了，沒時間在那邊跟你製造燒焦導致我們吃飯的進度被拖慢，也不會在當下沒湯的狀況下加麵，我不懂為什麼你要誇大其詞，說什麼乾燒/燒鍋，早就提出加湯的需求，不然為什麼你後面會來？就沒湯可以自助加你又動作慢吞吞這也不能怪餐廳？我們能做什麼？一聞到味道也關掉了啊？更何況你還有收服務費😌沒本事把服務做好，不針對重點問題回覆，還有臉收服務費？還有資格來罵顧客？最後回到噎到的問題，一個是身為顧客能做的都做了，另一個你提到的噎到怪餐廳，完全是自己個人所為，老闆不要再邏輯死亡了，要不要幫你畫個流程圖？\n\n我們加麵—看湯底有點被麵稀釋（水位約開始要蓋不住麵）—詢問加湯—經過4-5分鐘（甚至更久）—我們聞到燒焦味—關火（又過了一會）—老闆才來—開始諷刺一直不處理—問我們怎麼辦—終於處理\n\nP.S.你在跟後面第二桌穿藍色背心的女士聊什麼景美女中什麼的 您對升學也是挺關心的☺️\n\nRe:所以燒乾的鍋子到底在哪？老闆說鍋子燒乾燒焦，這麼誇張的情況會出現應該是我們直接沒水加下去吧？但是我們原本準備加麵下去，如果沒有水我們怎麼還會加？我不懂欸？我們眼睛也沒問題啊，沒有一個顧客願意讓自己的火鍋燒焦欸，我們即時關火，還要被嘴，老闆甚至誇大其詞，我們在你去處理的時候有翻過，食物還是可以翻啊，也沒有看到有東西黏在鍋底，也已經在第一時刻聞到味道把火關掉了，不然還想要怎樣，你來之前火也早就關掉了，我不理解關掉火為什麼還會把店燒掉？而且這更側面證明你讓我們等很久才來加湯。\n另外服務費的問題，老闆真的邏輯很差，從頭到尾，我們說的不是覺得服務費怎樣，我們是覺得付了服務費就應該得到相應的服務，2025年老闆覺得服務費出現是很理所當然的不需付出，就將成本轉嫁消費者，這就是現在的生態，小尚品及附近的火鍋店也沒有收服務費啊？現在連不收服務費都要心懷感恩的說謝謝嗎？\n\nRe:呦呦呦老闆回覆挺快的喔☺️有時間回這個，然後跟別人聊天還可以收服務費呢！老闆對自己的言語很不負責任，當下我們全部聽到他說連續兩天都有發生這樣的狀況，而且是在店裡大聲嚷嚷，現在又改口說做那麼久火鍋，第一次看到火鍋燒到乾掉，重點是我們聞到味道就已經關火了，他緩緩來加湯的時候，火也不是他關的，因為那個時候根本就已經關火了，還在嘴客人？就不懂欸？我們能做什麼？聞到就關掉了啊？更何況看看老闆的回覆他說我們嘴他加湯久，那不就是也代表他真的就沒來嗎，為什麼不敢針對這點做回覆。\n\n這是第一次來覺得環境不錯，餐點也不錯，但老闆的態度極度差，我們很早就說過要加湯了，老闆大概過4-5分鐘才來，一來就說鍋底都要燒焦了為什麼還不關火，一聞到味道就已經關火了，眼睛是有問題嗎？而且加湯也過了很久才來，我在其他火鍋店鍋子都不會那麼輕易燒焦，而且鍋底也被麵蓋住，還問我們說你們都沒有聞到味道嗎？我才想說你們鍋子怎麼爛成這樣，還問我們怎麼辦，你來加湯會發生這種事嗎？什麼東西啊？當我火鍋店店員？聞到又怎樣，聞到關掉了就已經燒焦了啊，講這些有什麼幫助嗎，不如趕快處理，還在那邊大聲嚷嚷說什麼沒想到會遇到兩天都有把鍋子燒焦的客人，那不就是證明你們鍋子有問題嗎？那麼容易燒焦，而且老闆是有收服務費的🙂‍↕️🙂‍↕️🙂‍↕️🙂‍↕️到底？收服務費不用把工作做好嗎？店又沒有多大，沒收還可以說你們賣的是食材不是服務，顧著在後面那幾桌聊天，仗著自己在學區就這種態度，不就是位置比較好嗎？這種服務態度真的令人不敢恭維，老闆結帳的時候態度是最好的時候，大家可以去看其他評論，老闆也是很玻璃心，沒講具體的硬要追問，講具體的又要辯解，怎麼樣都有他的理由，老闆如果有什麼問題，可以調監視器看我們到底等了多久，不要再玻璃心😡重點就是態度非常差！！！還收服務費😡",
+        "time": 1741448050,
+        "translated": false
+      },
+      {
+        "author_name": "Rach",
+        "author_url": "https://www.google.com/maps/contrib/105751515819292284530/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX1TVgt9X8qz5RlJQhC8FYlxrEKYRhwQfv2k3AbjmLKNBBQpbV8=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "1 個月前",
+        "text": "價錢和三媽差不多，品質卻好太多了！\n湯底喝起來真材實料，裡面的料也都是食物原型，沾料區的蔥蒜也是，太喜歡了！",
+        "time": 1741160573,
+        "translated": false
+      },
+      {
+        "author_name": "Candy Hsieh",
+        "author_url": "https://www.google.com/maps/contrib/100107685478893628834/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUvjCkwXIGt6z6pwmomz7XYv4gTmuWQlNswMTDUUQQrsa8m-Wq5=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "3 週前",
+        "text": "老闆很親切，會細心介紹火鍋，我來吃三次了，每次都吃酸菜白肉鍋，好好吃，一生推！店裡播的都是我的歌單，跟朋友猜歌猜不出來，老闆在旁邊直接說出答案哈哈哈，老闆好可愛人好好🥹",
+        "time": 1741871274,
+        "translated": false
+      },
+      {
+        "author_name": "Fu Lai",
+        "author_url": "https://www.google.com/maps/contrib/116014383828171259796/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXVcJDLwHyF4tMjndd-sqbBrSRMS8vaog46nfdypOJnquXhC-eS=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "4 個月前",
+        "text": "老闆很可愛 對自己產品很有自信\n從介紹原物料、湯頭熬煮 肉品選用  剝皮辣椒哪家好吃等😂 都讓我們感覺到滿滿熱忱\n\n檯面上附餐很多選擇有白飯、王子麵、細麵、波浪刀削麵\n竟然還有韓國拉麵！一包買快20元欸 超佛心不怕客人吃\n還有粗細冬粉 有需要可以跟老闆拿\n飲料有可樂機、咖啡機 冬瓜茶和無糖烏龍茶(是好喝的)\n冰淇淋也不是客x您 是小美！\n醬料區還有一個特別又貴桑桑的 \"香菜\" 可以夾取\n\n這次點是剝皮辣椒雞鍋 湯頭喝的出來是老闆所說自己熬的雞湯 喝的不會口乾舌燥\n微辣整個很開胃 雞肉也不會很柴 完全吃光光",
+        "time": 1732114021,
+        "translated": false
+      },
+      {
+        "author_name": "shiowwen W",
+        "author_url": "https://www.google.com/maps/contrib/115399944190702929676/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVpyrCNRF1Ie0JVRGCqd-nNRzapL_RJtnAwFNbqxsqib4oUXbxAIQ=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "3 週前",
+        "text": "今天經過第一次進去消費。\n這個店感覺就是社區裡的一個小店面，\n但內外打理得非常清爽整潔～\n桌椅、餐具一點點的油膩黏手感都沒有￼，\n店主一定是非常愛乾淨才做得到這程度￼。\n\n除了主鍋之外其他都是自助式可以隨意拿\n飲料有我喜歡的冬瓜茶和另一種無糖茶，\n而且還有汽水機、熱咖啡機和冰淇淋喔￼，\n附餐的白飯、寬麵、細麵、王子麵、韓國拉麵一應俱全，\n然後還有好吃的寬冬粉和細粉絲可以￼點！\n\n紅燒牛腩鍋才賣359牛肉有八、九塊！\n鍋裡的高麗菜好多、湯頭也是￼又濃又香，\n完全吃的出用心慢火熬煮的好味道，\n醬料區有翠綠的新鮮香菜，\n覺得搭配湯頭吃起來又另是一番風味。\n小火鍋的狀態就是湯頭會越煮越濃郁，\n吃到後來確實變得略有點香鹹，\n但可以請店員加些清湯調整就又能大口喝湯了～\n最後把剩下的肉和湯頭打包準備熬粥，\n我有預感那個粥一定會非～常的好吃￼！\n\n兩位年輕店員都很客氣勤快，\n結帳時要加一成服務費我真是付的心甘情願。\n\n結帳方式很多元可以刷載具、用Apple Pay！\n比起很多只能付現、不開發票的火鍋店真的棒～\n\n我對魚頭鍋、酸菜鍋也超有興趣，\n下次還要再來吃其他的口味！\n\n喜歡喝湯又有去政大拜訪的朋友不要錯過這家寶藏￼店啊～\n(但是政大附近真的連機車都超級難停的￼)",
+        "time": 1741450236,
+        "translated": false
+      }
+    ],
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=1538830541697051028",
+    "user_ratings_total": 292,
+    "utc_offset": 480,
+    "vicinity": "文山區指南路二段17號",
+    "website": "https://www.facebook.com/%E8%80%81%E5%91%B3%E9%81%93%E5%80%8B%E4%BA%BA%E9%8D%8B%E7%89%A9-101196392499056/",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJeRKuWedYoBUbUgSQRDqT-MiLcaKXZPkeL7lBEuQKknA427BY7_1FPAehu7mFk2JD5XrTFWiMP3rLlBBcrfhkDdOSy51slA8dl3s2NL1pPaGCiS25wTvrlQsKXFZvDuQh1FTV-8YVMZ0BP8ncaOUgLdwbSvgJq13h4043ip8JCkTqTgKerkql8uIxr5PLGJLaT_EunMkPZQbfIU9qEmuExLhVk6VOudKVktajR2rCQiw_CXM_WOFlgsSs-gzFeW_gWFREq5XYcmDPYd1a00mONeW-wHBjtAMhS458dKxNUA4FR1oKSiaFPXCeHdIFccAMLT1dErCg&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "1.1 公里",
+    "distance_value": 1106,
+    "duration_text": "15 分鐘",
+    "duration_value": 908
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "104號",
+        "short_name": "104號",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "新光路一段",
+        "short_name": "新光路一段",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "木柵",
+        "short_name": "木柵",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "萬興里",
+        "short_name": "萬興里",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "文山區",
+        "short_name": "文山區",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台北市",
+        "short_name": "台北市",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "台灣",
+        "short_name": "TW",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "116",
+        "short_name": "116",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"postal-code\">116</span><span class=\"country-name\">台灣</span><span class=\"region\">台北市</span><span class=\"locality\">文山區</span><span class=\"street-address\">萬興里新光路一段104號</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區新光路一段104號",
+    "formatted_phone_number": "02 2939 7290",
+    "geometry": {
+      "location": {
+        "lat": 24.9914219,
+        "lng": 121.57353
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9927722302915,
+          "lng": 121.5749541802915
+        },
+        "southwest": {
+          "lat": 24.9900742697085,
+          "lng": 121.5722562197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "international_phone_number": "+886 2 2939 7290",
+    "name": "李氏兄弟44號餐酒館(李氏餐坊)",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1430"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1430"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1430"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1430"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1430"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1430"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:30 – 14:30, 17:30 – 21:00",
+        "星期二: 11:30 – 14:30, 17:30 – 21:00",
+        "星期三: 休息",
+        "星期四: 11:30 – 14:30, 17:30 – 21:00",
+        "星期五: 11:30 – 14:30, 17:30 – 21:00",
+        "星期六: 11:30 – 14:30, 17:30 – 21:00",
+        "星期日: 11:30 – 14:30, 17:30 – 21:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 464,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113226136112234210718\">李氏兄弟44號餐酒館(李氏餐坊)</a>"
+        ],
+        "photo_reference": "AeeoHcJRMDsZf2fy1fr8Qjy_UNlxTX4WxLxR80O7_Kx9U67DXT8YQI0Ths6tQaWdz5gxTffWdxGyUJwUsz_w_lTYOciBBPSkoeHddDxjv4pl843RhLvOkHS0mCJ4v7Dfpy0P0ZoomnAB8f7d-FRMIGjUGmpyxo1lx34mSrJTNsO5Ps6tAXp8bkO4t4lzTKqRcZr9diKpeD3VKrCvVPzs0lhHyYyDSPoz6QxYI09IA0QcmYeo7FaHi_ljvWnZo7QfXHCx95zzYXSoiktzn0Gl89aPFvnhZ3u_R6zV9tXV2izuoewUwmMaXl_6z6MT9xtvmlyrOCaI0advuf4",
+        "width": 824,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJRMDsZf2fy1fr8Qjy_UNlxTX4WxLxR80O7_Kx9U67DXT8YQI0Ths6tQaWdz5gxTffWdxGyUJwUsz_w_lTYOciBBPSkoeHddDxjv4pl843RhLvOkHS0mCJ4v7Dfpy0P0ZoomnAB8f7d-FRMIGjUGmpyxo1lx34mSrJTNsO5Ps6tAXp8bkO4t4lzTKqRcZr9diKpeD3VKrCvVPzs0lhHyYyDSPoz6QxYI09IA0QcmYeo7FaHi_ljvWnZo7QfXHCx95zzYXSoiktzn0Gl89aPFvnhZ3u_R6zV9tXV2izuoewUwmMaXl_6z6MT9xtvmlyrOCaI0advuf4&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113226136112234210718\">李氏兄弟44號餐酒館(李氏餐坊)</a>"
+        ],
+        "photo_reference": "AeeoHcLMNcBhSykhT8COlyPUvEIj6gD2W9FmyckW9AzaQdOTaJAD6EipBwTjRml2DODJGERlwcnwW4SjJ5LlW0MQuWvxuObO7TeEEguTM1SmEB1nvbtDfAtJYNcMfviPwEM7UW-qDe0yPKpAdu6TxTjbg-gvvHxiErpiQqv68lsOpUvgFbTAPn_tbgMbNBz-Idt8313t8r1EhHuMolmjGFXbGY5deq7CWwn-lCp9tDY-PUJLMGKqdFdXJ8xJjXA8ZRxEothjYHeSTL6EpHi3Xnz02doe2Y5k0Low5vSCKiksJojqaIgZgxPUCiDZP__tSQhtzQmPv4MGRYw",
+        "width": 550,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLMNcBhSykhT8COlyPUvEIj6gD2W9FmyckW9AzaQdOTaJAD6EipBwTjRml2DODJGERlwcnwW4SjJ5LlW0MQuWvxuObO7TeEEguTM1SmEB1nvbtDfAtJYNcMfviPwEM7UW-qDe0yPKpAdu6TxTjbg-gvvHxiErpiQqv68lsOpUvgFbTAPn_tbgMbNBz-Idt8313t8r1EhHuMolmjGFXbGY5deq7CWwn-lCp9tDY-PUJLMGKqdFdXJ8xJjXA8ZRxEothjYHeSTL6EpHi3Xnz02doe2Y5k0Low5vSCKiksJojqaIgZgxPUCiDZP__tSQhtzQmPv4MGRYw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104954743491963568112\">Angela Lin</a>"
+        ],
+        "photo_reference": "AeeoHcJH5vepcsvPNcYMkpF3pysLEOYRhkMIJoMEn_VkWRTCDzWxYfwDHcExaaly4_dnDkv8kIAp6X2wkng-KUaCdKwVaMU2jXvmQ0PWrGZpaMhwpUzSL4_qy-mSpozSLLPG7G0m8FOu-xaiFNSQIhFgVYhSZbJi1JJBrccuqWOqIZFhBMlXMYlOi-7zd7ey8gvBG5ggkev7n4tS09WGppwwu7QiFVRhy9l56YM6TLAHnf2Y5ZSaKxDfHYcU1lru7LlmYFWImMFjZ6mCjBTIhaE5_jQUpfcirGlfdHQvFhixs5VLelOUYsnoQWn2cPkkcr-DVsIjc0rGIW60RPdiXYD1hPAVskhySTPhpRgCa-6WLb_ZF9XKbkprZ5xkT32gePfhBVDAexa8yh_p_jrcDs9oWKD983Ao85JXJf4PBarhZleMdY6Udkx8rMvqfR1TwXImQkuPU1CTxkESiqfYl_bIYEw3l6L4ZTDGd5KflO4ZdC6nZyweBe6zZn-poqEmvTC7xgsqVgFUnecwlD7c7ypH0leTWp0q7H-wLxDx9sQpx3GN36A6U0zA_PG1LBrLnNnIgjkevlCg8dM6Gxdgdx04jXxqzxzd5icU7wAjt7jGHMFVE-qX74YmUwXg_bx5i2poE5vfcA",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJH5vepcsvPNcYMkpF3pysLEOYRhkMIJoMEn_VkWRTCDzWxYfwDHcExaaly4_dnDkv8kIAp6X2wkng-KUaCdKwVaMU2jXvmQ0PWrGZpaMhwpUzSL4_qy-mSpozSLLPG7G0m8FOu-xaiFNSQIhFgVYhSZbJi1JJBrccuqWOqIZFhBMlXMYlOi-7zd7ey8gvBG5ggkev7n4tS09WGppwwu7QiFVRhy9l56YM6TLAHnf2Y5ZSaKxDfHYcU1lru7LlmYFWImMFjZ6mCjBTIhaE5_jQUpfcirGlfdHQvFhixs5VLelOUYsnoQWn2cPkkcr-DVsIjc0rGIW60RPdiXYD1hPAVskhySTPhpRgCa-6WLb_ZF9XKbkprZ5xkT32gePfhBVDAexa8yh_p_jrcDs9oWKD983Ao85JXJf4PBarhZleMdY6Udkx8rMvqfR1TwXImQkuPU1CTxkESiqfYl_bIYEw3l6L4ZTDGd5KflO4ZdC6nZyweBe6zZn-poqEmvTC7xgsqVgFUnecwlD7c7ypH0leTWp0q7H-wLxDx9sQpx3GN36A6U0zA_PG1LBrLnNnIgjkevlCg8dM6Gxdgdx04jXxqzxzd5icU7wAjt7jGHMFVE-qX74YmUwXg_bx5i2poE5vfcA&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 2220,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113226136112234210718\">李氏兄弟44號餐酒館(李氏餐坊)</a>"
+        ],
+        "photo_reference": "AeeoHcJhjSGErn__ISzwdripR45i2TA6WAMia0breOZPIUnQjbJCBd-bNvdj-JRTc69Iy34zgVxTi-e_DQf8aPXTd_qN4Y4cRv3Zsp04QfGSe8J1URQjo4qL5U719Ps9dgD3gNb2VsTeYkRewVOoJG1-3RaTTLYNzghyHx4G9IGtgfAEoFvpm4ZYydm4wMUESb3uL1wg8lfTnpMqP85TGCGGNE2K7Sjvxjx5vxMCKFAqldxNwDy4-xzLQs_iyKwo26NKbxpgBgEQUZvSaEtQb5yb44Y5RcDTBg5e-IxcgNIgt_y7BHAnkGsvKUL4w1uoRxXgSZkoHxaxhjc",
+        "width": 1080,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJhjSGErn__ISzwdripR45i2TA6WAMia0breOZPIUnQjbJCBd-bNvdj-JRTc69Iy34zgVxTi-e_DQf8aPXTd_qN4Y4cRv3Zsp04QfGSe8J1URQjo4qL5U719Ps9dgD3gNb2VsTeYkRewVOoJG1-3RaTTLYNzghyHx4G9IGtgfAEoFvpm4ZYydm4wMUESb3uL1wg8lfTnpMqP85TGCGGNE2K7Sjvxjx5vxMCKFAqldxNwDy4-xzLQs_iyKwo26NKbxpgBgEQUZvSaEtQb5yb44Y5RcDTBg5e-IxcgNIgt_y7BHAnkGsvKUL4w1uoRxXgSZkoHxaxhjc&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104954743491963568112\">Angela Lin</a>"
+        ],
+        "photo_reference": "AeeoHcIgK4OuwxJbPfdkQ14Rc6ox9IyX1F9zTJFA7PW39b1d_VrDpUAguQJhxSJCNTZW0BcID6_q5jdiLuuXWkBvAy0an0jpty6XosEoYgaM5_Fj-LSt_AEydDPBsNqiKcipgSKLrI9GDtynWV37oVsKiJpN3hLQz48Ij_eZwiW6opqajMNJTyjujxNxP4obOWi7OR9Dud73xqPrLNt85c2-KQOKJC6pOTjNTsKTZ1gY1tSmajPZyLipbDdJFKWUPrbj3PRwcGmkB3Apiolmmuu_snGQieL4Ln-Rcrvl47jy2umJpCD4ZAaQhnlHms_9r_9mFyaZYxp0hd5AqrT5mw-iKowVy2RFtPZQdFRNigOCMShiQ2Q8_mdE_uiIfFwksI8RN9nMI2Bbxxb6ODMQazQCv15qHTYPz_ieTqN2u3rNHtnGru0HzCT5uO3qr6NIQqDiCvdLdvz3wdmYk86YQD-chAQexAi3iVnWnNI3DlZSzOhVvQ0WdUvx_jqqtk_iyLC1X79PvfSufXzoSXY2tXyOiDaXpD06Pu8kczZXB8w_8NgqzO4NcnAWXE5SdX9aRkebJLwmRgn6a4kE5n7SJpM81m1G9f70nh3iww-RtlDqq-bnIf_Yda9LyoqfcOBoQ42l",
+        "width": 4032,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIgK4OuwxJbPfdkQ14Rc6ox9IyX1F9zTJFA7PW39b1d_VrDpUAguQJhxSJCNTZW0BcID6_q5jdiLuuXWkBvAy0an0jpty6XosEoYgaM5_Fj-LSt_AEydDPBsNqiKcipgSKLrI9GDtynWV37oVsKiJpN3hLQz48Ij_eZwiW6opqajMNJTyjujxNxP4obOWi7OR9Dud73xqPrLNt85c2-KQOKJC6pOTjNTsKTZ1gY1tSmajPZyLipbDdJFKWUPrbj3PRwcGmkB3Apiolmmuu_snGQieL4Ln-Rcrvl47jy2umJpCD4ZAaQhnlHms_9r_9mFyaZYxp0hd5AqrT5mw-iKowVy2RFtPZQdFRNigOCMShiQ2Q8_mdE_uiIfFwksI8RN9nMI2Bbxxb6ODMQazQCv15qHTYPz_ieTqN2u3rNHtnGru0HzCT5uO3qr6NIQqDiCvdLdvz3wdmYk86YQD-chAQexAi3iVnWnNI3DlZSzOhVvQ0WdUvx_jqqtk_iyLC1X79PvfSufXzoSXY2tXyOiDaXpD06Pu8kczZXB8w_8NgqzO4NcnAWXE5SdX9aRkebJLwmRgn6a4kE5n7SJpM81m1G9f70nh3iww-RtlDqq-bnIf_Yda9LyoqfcOBoQ42l&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106383312837648237678\">TONY</a>"
+        ],
+        "photo_reference": "AeeoHcIYaoAdqOf0AvWBw-zYUDdjusrh0uaEaKcCJzdh03Xdq1_JPKl_1sZABBInj3i1Wb7dyA5RB4_ehtkGkrlmqmVzBqRLROfSccbG6Dt_4r836PJ2y6yOhGv3gQSIgM5u6D0_KM3_DvUL59_bM3ALvY4Vx-E1giBHkXgWyUzlhc9gQOAk83j1kobrmTM5YI8_aDikf6x5xepsbQRLrFgd7PdLWTTbTz3m_Z0TZPYbTo3EyF1_MpUWSvPQxwxvf6s-5XvH1QgnpAagbuN3gffkUFc9IJ3b6zL_DnvSWHwjJsNLmNqvHE3-cLsGHC4c5aYZoBl81UPmtnmodmtFB6ttnqpUe9EnDQla5ad0t2PI_xz-i5TFO36JxsyL44G49FHpjDCY_OyXALAsi6gYK-7C8uB_EZa00kMu5oFrM8GuNjgtkGSndCSy1wrprL-hmjWZ-NAZSeAIW09TDO3uKQi4ylZtusBo8DqdRUxN96VenT5xz8JBzEYdoRLzx9V_vCasuquPa49bvAWe4tXE2Vh1UoOzU81bAuVk0ADFjfGLXCUnmHorN0AxR_Mbu6Iwry_5BBAi0r_QqohSntz1ooSqz0ycptb3venBj8Ksvp2R2PFZdy2RBfHvjRlb_ueulY3l",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIYaoAdqOf0AvWBw-zYUDdjusrh0uaEaKcCJzdh03Xdq1_JPKl_1sZABBInj3i1Wb7dyA5RB4_ehtkGkrlmqmVzBqRLROfSccbG6Dt_4r836PJ2y6yOhGv3gQSIgM5u6D0_KM3_DvUL59_bM3ALvY4Vx-E1giBHkXgWyUzlhc9gQOAk83j1kobrmTM5YI8_aDikf6x5xepsbQRLrFgd7PdLWTTbTz3m_Z0TZPYbTo3EyF1_MpUWSvPQxwxvf6s-5XvH1QgnpAagbuN3gffkUFc9IJ3b6zL_DnvSWHwjJsNLmNqvHE3-cLsGHC4c5aYZoBl81UPmtnmodmtFB6ttnqpUe9EnDQla5ad0t2PI_xz-i5TFO36JxsyL44G49FHpjDCY_OyXALAsi6gYK-7C8uB_EZa00kMu5oFrM8GuNjgtkGSndCSy1wrprL-hmjWZ-NAZSeAIW09TDO3uKQi4ylZtusBo8DqdRUxN96VenT5xz8JBzEYdoRLzx9V_vCasuquPa49bvAWe4tXE2Vh1UoOzU81bAuVk0ADFjfGLXCUnmHorN0AxR_Mbu6Iwry_5BBAi0r_QqohSntz1ooSqz0ycptb3venBj8Ksvp2R2PFZdy2RBfHvjRlb_ueulY3l&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100673821950642161960\">Noëlle Carmina</a>"
+        ],
+        "photo_reference": "AeeoHcKefYpOAwgNGYKvU_bqyZecSKEoTuaEoZGYMpZ7j299gDbIUA5nz_xlE1pOhMzFbopgHx2T4xGa4V8K2F7JX-f3nQS9nWzjvI6G5wSQiZTULGuRGMUvnOWfE1ZxvuLuY7pG10aohTJ76fb8yqWqDTQge6tAY0vRbj8E-5hF3ywHsR6wwSa6H06BkaHvyGM-a3RSuT5DRLqGR7DSzRr4DergBs2hmgpYqoMRZKw8Po4qDRqH8rb8JcIuTcKfaxsbShsS0-ObrcwSENUhgVNksUugkuXY1Y3XrDq0cjZriq1M3iAOtAcpQhnEwSVKM4kwGGLSNpaC_7-JSRTXZLuef3wSAJ60TYTgXt35U8lQPg5fQKWVryrWu5wVHTv17L7FqYeC2Ofasur7ycXEGXgayl6EZSHcjyVzvtMBdRj0qnrJUILPNhebR1Mg6xTjCPau5CsFnWYFTwZd0WAfIAc0HOHf74YBMDs8glTe1PE7QMC6j6CeoRBJd-bBFyNr6VLj3Y-odkJ_F_O3mBAtJDiYmAIghAEnZGZajmsQcqMfp1ag-1dgh6IrMHa2sb5LPVDbqBe9u9SXXs00jmLkeDNnSD1W9D9yeEOFRSxw44aS_PRPq0_yZut7Fra_0GTn51OYJVGjzw",
+        "width": 4576,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcKefYpOAwgNGYKvU_bqyZecSKEoTuaEoZGYMpZ7j299gDbIUA5nz_xlE1pOhMzFbopgHx2T4xGa4V8K2F7JX-f3nQS9nWzjvI6G5wSQiZTULGuRGMUvnOWfE1ZxvuLuY7pG10aohTJ76fb8yqWqDTQge6tAY0vRbj8E-5hF3ywHsR6wwSa6H06BkaHvyGM-a3RSuT5DRLqGR7DSzRr4DergBs2hmgpYqoMRZKw8Po4qDRqH8rb8JcIuTcKfaxsbShsS0-ObrcwSENUhgVNksUugkuXY1Y3XrDq0cjZriq1M3iAOtAcpQhnEwSVKM4kwGGLSNpaC_7-JSRTXZLuef3wSAJ60TYTgXt35U8lQPg5fQKWVryrWu5wVHTv17L7FqYeC2Ofasur7ycXEGXgayl6EZSHcjyVzvtMBdRj0qnrJUILPNhebR1Mg6xTjCPau5CsFnWYFTwZd0WAfIAc0HOHf74YBMDs8glTe1PE7QMC6j6CeoRBJd-bBFyNr6VLj3Y-odkJ_F_O3mBAtJDiYmAIghAEnZGZajmsQcqMfp1ag-1dgh6IrMHa2sb5LPVDbqBe9u9SXXs00jmLkeDNnSD1W9D9yeEOFRSxw44aS_PRPq0_yZut7Fra_0GTn51OYJVGjzw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 5712,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104051757484602005283\">cncn</a>"
+        ],
+        "photo_reference": "AeeoHcLYJ-NSo0ZVhOmyMX41oiQEVDkZzHNpElLmLnCNzeQxyGlRNScLqFymYwy05mJWU-1cGZL7tPFO2YhEwhxIFw6FoPi28s2LiBjNous741TvGyEezEZDjrIIMWlE6HJ5L_WtBMzNfZU5bq-_efBX5jvzxeYRWCzvPRpGvhVo8raaq_XaYrQ8GG_CmYyApdpX0t91-eE9SySXpOd8xrhdoqxfktJUfC1z7u0kzpAPNxylwXqfctk9AMkGp6U_ysgJCGaOEDZCnP0AwqJbWLHS7oXC6NB1n7xwPPbPVegLyfUbBof0jw1RJQ_etAFvBAus4ekKsUDqW7giw_Jopqs-XDm1ipOTMEu8_AQLpiBVpbUhdsHQBoMYBv53okyWq2z7LlQ74Dp98ikA5-NAt_RK9e4kKsnwxwCS1Azzn9ThTmAQ0DRJ5gmey_1ZruNL_MA1DqyvEv5OryiU7h9K7eFThm4-ocqj7nq2xc--Dqd7ad1r4rpu7N5SX1kC7V0XvpCvphTZ6KEWVtbmdYmlg9CdgUPIZxEh0Wj5nZ1YSusl9kVEJ0Fi3qT40N8ltpnPfpPkaTohdReLNeuoMlE1C950GrcsqYH6CDpV39v6-SL1JAYfOGK5E63ubVrSmDLGMtknZRBeCw",
+        "width": 4284,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcLYJ-NSo0ZVhOmyMX41oiQEVDkZzHNpElLmLnCNzeQxyGlRNScLqFymYwy05mJWU-1cGZL7tPFO2YhEwhxIFw6FoPi28s2LiBjNous741TvGyEezEZDjrIIMWlE6HJ5L_WtBMzNfZU5bq-_efBX5jvzxeYRWCzvPRpGvhVo8raaq_XaYrQ8GG_CmYyApdpX0t91-eE9SySXpOd8xrhdoqxfktJUfC1z7u0kzpAPNxylwXqfctk9AMkGp6U_ysgJCGaOEDZCnP0AwqJbWLHS7oXC6NB1n7xwPPbPVegLyfUbBof0jw1RJQ_etAFvBAus4ekKsUDqW7giw_Jopqs-XDm1ipOTMEu8_AQLpiBVpbUhdsHQBoMYBv53okyWq2z7LlQ74Dp98ikA5-NAt_RK9e4kKsnwxwCS1Azzn9ThTmAQ0DRJ5gmey_1ZruNL_MA1DqyvEv5OryiU7h9K7eFThm4-ocqj7nq2xc--Dqd7ad1r4rpu7N5SX1kC7V0XvpCvphTZ6KEWVtbmdYmlg9CdgUPIZxEh0Wj5nZ1YSusl9kVEJ0Fi3qT40N8ltpnPfpPkaTohdReLNeuoMlE1C950GrcsqYH6CDpV39v6-SL1JAYfOGK5E63ubVrSmDLGMtknZRBeCw&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106383312837648237678\">TONY</a>"
+        ],
+        "photo_reference": "AeeoHcIVre4luvU4At666rQWOgf6CZlgYAdZOwC-9R15mYx1xiZ_iIFGEq--Jj6gcM_RxCxg5Yhip929_XbEgWiDiTDx1fVWZhJnIytvjoCGFVpOxuPlms7-fx0COMVzt6MwVldPscjLHuOPYwmq9XhukzkrlDQKwNlK-vG3UofK6zs_iiXyNGUP1zGe7WpDqlLZBxXQY5gmvf-7a9_pY4lHbrSxaiAZbIbFABKyRHQw7CBik18aMICW5jsMps7xdhuJFZVg_zIQECG0RP6aW61laIJ8JQWKYnZqZ7G-66oBnWU2iVSN5Hynx4pCmIFIK0iWE2P6mwTGIyac7XFUlVDStgPO8p8hSnDZoX4hzzrFGIsclPM81txBo6OrNY_4IAPxHGwm8tTEirJx7L2YThDUWgip72KbEsoO2Abp0NyADvc8aUZlyRFt29Ko1D2fHbmHmOaIq7wCFmnXbwJ5MdWSZi95kkroWsFSDWVkSHwNoRLYOx1OOC-fWjZ8STMVcW2P11z1EQuoklMsv2b5x8U04D__fopOkZA4DfOBs2y7fGaQBtOfvQzIvlIcw4rUNw5aLrFDOP58QofNrWIPnE79NMHuZ2Hyxcodreid5-ThT6jL7tyy5ekFwXVaJP1NHh1S_RvnT0Jv",
+        "width": 4000,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcIVre4luvU4At666rQWOgf6CZlgYAdZOwC-9R15mYx1xiZ_iIFGEq--Jj6gcM_RxCxg5Yhip929_XbEgWiDiTDx1fVWZhJnIytvjoCGFVpOxuPlms7-fx0COMVzt6MwVldPscjLHuOPYwmq9XhukzkrlDQKwNlK-vG3UofK6zs_iiXyNGUP1zGe7WpDqlLZBxXQY5gmvf-7a9_pY4lHbrSxaiAZbIbFABKyRHQw7CBik18aMICW5jsMps7xdhuJFZVg_zIQECG0RP6aW61laIJ8JQWKYnZqZ7G-66oBnWU2iVSN5Hynx4pCmIFIK0iWE2P6mwTGIyac7XFUlVDStgPO8p8hSnDZoX4hzzrFGIsclPM81txBo6OrNY_4IAPxHGwm8tTEirJx7L2YThDUWgip72KbEsoO2Abp0NyADvc8aUZlyRFt29Ko1D2fHbmHmOaIq7wCFmnXbwJ5MdWSZi95kkroWsFSDWVkSHwNoRLYOx1OOC-fWjZ8STMVcW2P11z1EQuoklMsv2b5x8U04D__fopOkZA4DfOBs2y7fGaQBtOfvQzIvlIcw4rUNw5aLrFDOP58QofNrWIPnE79NMHuZ2Hyxcodreid5-ThT6jL7tyy5ekFwXVaJP1NHh1S_RvnT0Jv&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      },
+      {
+        "height": 3432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109295957637108740472\">N</a>"
+        ],
+        "photo_reference": "AeeoHcITzNf5Dpx1wT4kDPRW4MbBVDwyB0Wl3n4MHViRqgLCOzr9Tlv6PiSlMoSpkzv_8IEQPnbqVHkW2GkKMQLG6jYd6lIN7TFaZJQkzRyZxHYAmKemoJEkZ4BI038Lorgq9h4qWDsKgVrsVMK9jz4yEWYwgdhbvUSXsNpM3SVxYHPy-f2aXWJOE4gKeswMlts9AAqhWE2iv_k_G6otNjl4vJbLMoE9invF6Uk_lHO4462WY3Mm9gIsBLvUIfF9Ur2d4EaXaJbDQU76y--ZW_IkmHz0U4rq_4H8EKaMWPYSPzOGt5AMK1yldankJeTa74XePW7BDFrjgFGALiv-BwAgDAGDPBiP0C0jmIZLJTp72ZHLTChx5sWPHEvm1ltmyOM5FxNWhc3Ma16lleSz7FplThPwtMn4yqNwCzzUOWv5SHbheP4F4qGXTI7II4jfTlrRd3eLr4S2gud79hL2034LT1Uck2kWa3ozRBMBUvxt629a0Ppxit0A9LxJ8hPNksdnGtDWS-eKug09zbW2QTuk2ZajQhE3l2QmeGFtfJKtRMLPJef2TEGuI73LG31ojuMIWkdypOD0oC_2kWfSbmYMPHdLIlLTbzFjSxy8x64b5MP6H_wVdwdgKEa6noeYzWCENnUbV5ZJ",
+        "width": 4576,
+        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcITzNf5Dpx1wT4kDPRW4MbBVDwyB0Wl3n4MHViRqgLCOzr9Tlv6PiSlMoSpkzv_8IEQPnbqVHkW2GkKMQLG6jYd6lIN7TFaZJQkzRyZxHYAmKemoJEkZ4BI038Lorgq9h4qWDsKgVrsVMK9jz4yEWYwgdhbvUSXsNpM3SVxYHPy-f2aXWJOE4gKeswMlts9AAqhWE2iv_k_G6otNjl4vJbLMoE9invF6Uk_lHO4462WY3Mm9gIsBLvUIfF9Ur2d4EaXaJbDQU76y--ZW_IkmHz0U4rq_4H8EKaMWPYSPzOGt5AMK1yldankJeTa74XePW7BDFrjgFGALiv-BwAgDAGDPBiP0C0jmIZLJTp72ZHLTChx5sWPHEvm1ltmyOM5FxNWhc3Ma16lleSz7FplThPwtMn4yqNwCzzUOWv5SHbheP4F4qGXTI7II4jfTlrRd3eLr4S2gud79hL2034LT1Uck2kWa3ozRBMBUvxt629a0Ppxit0A9LxJ8hPNksdnGtDWS-eKug09zbW2QTuk2ZajQhE3l2QmeGFtfJKtRMLPJef2TEGuI73LG31ojuMIWkdypOD0oC_2kWfSbmYMPHdLIlLTbzFjSxy8x64b5MP6H_wVdwdgKEa6noeYzWCENnUbV5ZJ&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ"
+      }
+    ],
+    "place_id": "ChIJIRtle5WfaDQR8lGiMHxFVMA",
+    "plus_code": {
+      "compound_code": "XHRF+HC 台灣台北市文山區萬興里",
+      "global_code": "7QP3XHRF+HC"
+    },
+    "rating": 4.8,
+    "reviews": [
+      {
+        "author_name": "Kattie",
+        "author_url": "https://www.google.com/maps/contrib/110113693400509175951/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX_rK0nv_Qfk9WGtrWb7c7WKSGoMV3ksURmwcKW36WnVREBCfFxEg=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 4,
+        "relative_time_description": "2 週前",
+        "text": "2025/03/22\n中規中矩的店，政大附近算是中上的店（標準很低但期望不要太高就不會失望🤣）\n比較靠近秀明路口，不用坐車到政大那邊去，從政大走也不會太遠，算好抵達\n店家座位不多，空間不大但不擁擠，方正的規劃坐起來算舒服，只是我們的位置跟鄰桌有點近\n只能用現金跟行動支付，不收信用卡。點完之後要去櫃檯結帳==\n沒拍到菜單，但有排餐（豬、雞、牛）還有很多種類的義大利麵，都是細扁麵！有的可以做成燉飯。\n小點就是一些炸物，有提供酒精飲料與一些氣泡水特調\n清炒雞柳義大利麵還不錯👌是我喜歡的味道，不會太辣但又有辣（我不太吃辣）雞肉很大塊！麵有點煮太久但可以接受～湯汁多，好吃！唯一就是量有點少。\n燉飯好像也不錯（朋友點的\n飲料喝起來很像養樂多，應該是可爾必思的味道\n套餐的話麵包+沙拉+優格150覺得還不錯，很有性價比，果然是開在大學附近（？但覺得這個價位還是偏高，但CP值也不錯👌\n不限時，可以喝水聊天～店員也不錯😌下次想點小點試試看，但前提是我要回來政大",
+        "time": 1742650314,
+        "translated": false
+      },
+      {
+        "author_name": "蔡秀宜",
+        "author_url": "https://www.google.com/maps/contrib/100757044796691218417/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLkx6_ISfhYRxU30h-BsGWEOyi4K5je07bLixm1hnAml5R2gw=s128-c0x00000000-cc-rp-mo",
+        "rating": 2,
+        "relative_time_description": "1 個月前",
+        "text": "1. 服務人員很和善\n2. 出餐速度調配不佳：套餐的沙拉和麵包上桌之後，我才吃兩口，義大利麵就緊接上來了，放在一旁變涼……\n3. 另外點的熱紅酒，的確很‘’熱‘’，再加上只有半杯滿，要喝到酒之前，就會被杯中的熱氣嗆到，正想著：既然給的量是如此，為何不用淺一點的杯時，看到隔壁桌客人點的熱紅酒也上桌了……她的熱紅酒有3/4杯滿～🥵🥵🥵\n# 出餐的tempo和飲料的量，都是如此地隨興，實在不專業。。。",
+        "time": 1740158411,
+        "translated": false
+      },
+      {
+        "author_name": "rabbit彤彤",
+        "author_url": "https://www.google.com/maps/contrib/100562393205570889480/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVGdPVWB0xWk1OwFw6NTyvg2s67g7y6rfmvITSI7S76BwP_acDo=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "2 週前",
+        "text": "｜沒有收取服務費，但是店員哥哥非常親切服務非常優💙💙🐰✨\n｜奶油松露義大利麵非常美味🖤🖤\n｜中午加$99就能享有套餐（沙拉、麵包、優格、飲品）個人覺得cp值高🥹❤️\n｜店內氛圍非常適合與朋友聚會✨✨",
+        "time": 1742565586,
+        "translated": false
+      },
+      {
+        "author_name": "Angela Lin",
+        "author_url": "https://www.google.com/maps/contrib/104954743491963568112/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLL51oI-VJXVrphe9UQQ4XGgrXucxH4Ntakt-pX5t5SGBrgRw=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "3 週前",
+        "text": "升級套餐cp值很高\n飲料選擇滿多的\n清炒香辣海鮮麵的海鮮份量比想像中豐富，調味適當蠻喜歡",
+        "time": 1741530513,
+        "translated": false
+      },
+      {
+        "author_name": "Noëlle Carmina",
+        "author_url": "https://www.google.com/maps/contrib/100673821950642161960/reviews",
+        "language": "zh-Hant",
+        "original_language": "zh-Hant",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWe_91G1ShkJeFQLtMznh_Bg2vggWEYn3De3rvNbA8WPF9_ReI=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 2,
+        "relative_time_description": "7 個月前",
+        "text": "不少人在評論中有提到義大利麵太軟的問題，點餐時有請服務人員幫忙調整硬一點，不過麵條還是軟到捲一捲自動斷掉，整個碎碎地不方便食用的程度。這點老實說滿扣分的，沒奢望彈牙但不能過軟應該是基礎工。培根蛋黃麵的蛋黃沒什麼存在感，培根味倒是很重，調味平衡上差強人意。\n奶油燻鮭選擇燉飯的確算是安全牌，口感上好很多，意外地清淡。如果是在意口感的客人，理論上燉飯應該比義大利麵好入口。\n\n套餐午餐是+99元，晚餐+150元\n麵包和黑糖優格沒什麼特色，沙拉倒是菜葉塞得很滿，食用時會掉落到盤子那種。沒特別想吃沙拉的話不特別要點。\n\n原本想說店名叫餐酒館，但飲料單壓倒性多數的無酒精飲料，好妙。隨性點了兩款，有點微妙，果汁mix的還可以，加了氣泡水的特調就不怎麼順口。選擇雖多但感覺還不到完成品的協調性。\n\n不過這天用餐體驗真正的困境在於：店家接了幼兒數量達二位數的大型聚餐訂位\n而且是入席點餐後一陣子才陸續出現，說真的我也很希望入店時服務人員可以據實以告，我一定三秒內消失。隔壁桌訂位的兩位先生也覺得吵到不行，一直拿手機錄影那團人的失控狀態。其實不用多加描述大家也可以想像十來個幼兒會是怎樣的阿鼻叫喚，拍打尖叫大喊翻滾，這種聚餐通常都是家長放風放空讓半獸人互相交流的，而且還為了併桌，有兩位成人直接佔用中央走道坐著不動，想去洗手間、加水還是結帳都有勉強擠過。\n覺得店家要走親子友善路線是OK的，但是請標明事先告知清楚，對於我們這種不需要的會自己迴避地遠遠的，而且看店名「餐酒館」真的料想不到會變成育兒場所。接這麼大訂位不如請他們包場比較實際，不要傷害其他客人，從他們入席開始一直思考是否要改打包，但老實說吃一半被中斷感覺真的很差.....\n\n女性外場態度非常良好，辛苦她了。\n\n義大利麵不OK，但燉飯真的還可以，只是被吵到暫時沒有回訪的勇氣\n整體2.5星",
+        "time": 1723699384,
+        "translated": false
+      }
+    ],
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=13858778353020064242",
+    "user_ratings_total": 727,
+    "utc_offset": 480,
+    "vicinity": "文山區新光路一段104號",
+    "website": "https://www.facebook.com/richsktn",
+    "cover_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AeeoHcJRMDsZf2fy1fr8Qjy_UNlxTX4WxLxR80O7_Kx9U67DXT8YQI0Ths6tQaWdz5gxTffWdxGyUJwUsz_w_lTYOciBBPSkoeHddDxjv4pl843RhLvOkHS0mCJ4v7Dfpy0P0ZoomnAB8f7d-FRMIGjUGmpyxo1lx34mSrJTNsO5Ps6tAXp8bkO4t4lzTKqRcZr9diKpeD3VKrCvVPzs0lhHyYyDSPoz6QxYI09IA0QcmYeo7FaHi_ljvWnZo7QfXHCx95zzYXSoiktzn0Gl89aPFvnhZ3u_R6zV9tXV2izuoewUwmMaXl_6z6MT9xtvmlyrOCaI0advuf4&key=AIzaSyAIqFFoZeA89of3iFIERvubMIBj7fCOPKQ",
+    "distance_text": "0.7 公里",
+    "distance_value": 702,
+    "duration_text": "10 分鐘",
+    "duration_value": 589
+  }
+]
