@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fooder/function/define_restaurant.dart';
 import 'photo_container.dart'; // Import the PhotoContainer component
 import 'package:fooder/constants.dart';
+import 'package:fooder/function/link_icon.dart';
 
 class FullScreenCard extends StatelessWidget {
   final Restaurant restaurant;
@@ -112,19 +113,18 @@ class FullScreenCard extends StatelessWidget {
                               ],
                             ),
                           SizedBox(height: 16),
-                          if (restaurant.types.isNotEmpty)
-                            Wrap(
-                              spacing: 8,
-                              children: restaurant.types.map((type) {
-                                return Chip(
-                                  label: Text(
-                                    type,
-                                    style: TextStyle(color: AppColors.chipTextColor, fontFamily: 'GenSenRounded'),
+                          if (restaurant.url != null)
+                            Row(
+                              children: [
+                                Text(
+                                  '相關資訊 ：',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: AppColors.linkTextColor,
                                   ),
-                                  labelPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 0), // 縮小內邊距
-                                  backgroundColor: AppColors.chipBackgroundColor,
-                                );
-                              }).toList(),
+                                ),
+                                LinkIconButton(url: restaurant.url)
+                              ],
                             ),
                           SizedBox(height: 12),
                           if (restaurant.formattedPhoneNumber.isNotEmpty)
@@ -154,6 +154,7 @@ class FullScreenCard extends StatelessWidget {
                                     color: AppColors.textColor,
                                   ),
                                 ),
+                                SizedBox(height: 10),
                                 Text(
                                   restaurant.weekdayText.first,
                                   style: TextStyle(

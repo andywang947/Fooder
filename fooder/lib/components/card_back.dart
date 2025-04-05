@@ -7,8 +7,8 @@ class CardBack extends StatelessWidget {
 
   const CardBack({
     Key? key,
-    this.width = 250,
-    this.height = 350,
+    this.width = 300,
+    this.height = 400,
   }) : super(key: key);
 
   @override

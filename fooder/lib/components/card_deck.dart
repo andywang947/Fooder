@@ -34,45 +34,42 @@ class CardDeck extends StatelessWidget {
           Container(
             height: 40,
             color: AppColors.cardDeckTop,
-            child: Center(
-              child: Text(
-                "神秘卡匣",
-                style: TextStyle(
-                  color: AppColors.textColor,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                ),
-              ),
-            ),
           ),
           Expanded(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // 卡匣中的卡片堆
                 Stack(
                   children: List.generate(5, (index) {
                     return Padding(
-                      padding: EdgeInsets.only(left: index * 2.0, top: index * 2.0),
+                      padding: EdgeInsets.only(left: index * 3.0, top: index * 1.0),
                       child: CardBack(width: 80, height: 110),
                     );
                   }),
                 ),
+                SizedBox(width: 50,),
                 // 抽卡按鈕
                 ElevatedButton(
-                  onPressed: isDrawing ? null : onDrawCard,
+                  onPressed: isDrawing
+                      ? () {} // 空函式，按下沒事發生，但保留樣式
+                      : onDrawCard,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColors.cardBorder,
                     padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
+                      borderRadius: BorderRadius.circular(20),
                     ),
                   ),
                   child: Text(
-                    "推薦！",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: AppColors.buttonTextColor),
+                    "推 薦",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: AppColors.buttonTextColor,
+                    ),
                   ),
-                ),
+                )
               ],
             ),
           ),

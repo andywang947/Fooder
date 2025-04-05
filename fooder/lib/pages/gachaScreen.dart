@@ -95,8 +95,8 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
   // 卡片正面
   Widget _buildCardFront() {
     return Container(
-      width: 250,
-      height: 350,
+      width: 300,
+      height: 400,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
@@ -147,10 +147,6 @@ class _GachaScreenState extends State<GachaScreen> with SingleTickerProviderStat
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    "推薦的餐廳：",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: AppColors.secondaryTextColor),
-                  ),
                   SizedBox(height: 45),
                   // 顯示抽到的餐廳卡片
                   AnimatedBuilder(

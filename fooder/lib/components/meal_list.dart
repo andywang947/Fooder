@@ -149,9 +149,9 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       CircularProgressIndicator(),
-                      SizedBox(height: 16),
+                      SizedBox(height: 18),
                       Text(
-                        '視覺模型處理中，請稍候...',
+                        '生成式AI處理中，請稍候...',
                         style: TextStyle(color: AppColors.secondaryTextColor, fontSize: 16, fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -161,7 +161,7 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
             },
           );
 
-          await Future.delayed(const Duration(seconds: 2));
+          await Future.delayed(const Duration(seconds: 3));
 
           final newMeal = Meal(
             id: DateTime.now().millisecondsSinceEpoch,
