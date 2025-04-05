@@ -32,6 +32,7 @@ flutter:
   uses-material-design: true
 
 flutter_native_splash:
+  # # https://www.youtube.com/watch?v=U1BErwaE3zo #
   # This package generates native code to customize Flutter's default white native splash screen
   # with background color and splash image.
   # Customize the parameters below, and run the following command in the terminal:
