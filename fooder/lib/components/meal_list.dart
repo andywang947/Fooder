@@ -249,7 +249,7 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
                             ),
                             SizedBox(height: 8),
                             Text(
-                              '新增相片',
+                              '上傳照片',
                               style: TextStyle(
                                 color: AppColors.uploadButtonIconColor, // Set text color
                               ),

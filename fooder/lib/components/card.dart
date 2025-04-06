@@ -148,7 +148,7 @@ class FullScreenCard extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  '相關資訊 ：',
+                                  '相關資訊',
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: AppColors.linkTextColor,

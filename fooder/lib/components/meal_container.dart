@@ -68,7 +68,7 @@ class MealContainer extends StatelessWidget {
                 children: [
                   // 卡路里等級 (Chip)
                   Text(
-                    '卡路里等級：',
+                    '熱量等級：',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                   ),
                   Chip(
@@ -79,10 +79,10 @@ class MealContainer extends StatelessWidget {
                     visualDensity: VisualDensity(horizontal: -2, vertical: -2), // 調整緊湊度
                     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap, // 讓 Chip 更小
                   ),
-                  SizedBox(width: 20,),
+                  SizedBox(width: 40,),
                   // 預測卡路里
                   Text(
-                    '預測卡路里：${meal.calorieEstimation}',
+                    '預測熱量：${meal.calorieEstimation}',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                   ),
                   Text(
@@ -94,7 +94,7 @@ class MealContainer extends StatelessWidget {
               SizedBox(height: 8),
               // 營養建議
               Text(
-                '營養建議：',
+                '營養分析：',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 5,),
