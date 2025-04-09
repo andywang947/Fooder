@@ -4,6 +4,8 @@ import shutil
 import uuid
 import sys
 import os
+import json
+
 sys.path.append(os.path.abspath("src"))
 
 from food_analyzer.food_description import describe_food_image
@@ -32,3 +34,19 @@ async def predict_food(file: UploadFile = File(...)):
     os.remove(temp_filename)
 
     return {"description": description}
+
+@app.post("/predict_new")
+async def predict_food(file: UploadFile = File(...)):
+    temp_filename = f"temp_{uuid.uuid4().hex}.jpg"
+    with open(temp_filename, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+
+    # 原本的回傳是一個包起來的 JSON 字串（含 markdown 格式）
+    raw = describe_food_image(temp_filename)
+
+    # 假設回傳格式是：```json\n{...}\n```
+    cleaned = raw.strip("` \n").replace("json\n", "")
+    parsed = json.loads(cleaned)  # 轉成 dict
+
+    os.remove(temp_filename)
+    return parsed  # ✅ 回傳乾淨 dict 給前端
