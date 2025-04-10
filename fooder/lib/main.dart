@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'pages/retro.dart';
 import 'pages/tinder.dart';
 import 'pages/gachaScreen.dart';
+import 'pages/upload_img.dart';
 import 'function/navigation_bar.dart'; // Import the bottom navigation component
 
 void main() {
@@ -36,6 +37,7 @@ class _MainScreenState extends State<MainScreen> {
     Retro(),
     Tinder(),
     GachaScreen(),
+    // UploadPredictScreen(),
   ];
 
   void _onItemTapped(int index) {

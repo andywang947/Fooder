@@ -34,6 +34,10 @@ class BottomNavBar extends StatelessWidget {
             icon: Icon(Icons.content_copy_outlined),
             label: "想吃的",
           ),
+            BottomNavigationBarItem(
+            icon: Icon(Icons.upload), // 或改你喜歡的 icon
+            label: "辨識",
+          ),
         ],
         currentIndex: selectedIndex,
         selectedItemColor: AppColors.textColor, // 選中的項目顏色

@@ -3,6 +3,9 @@ import 'package:image_picker/image_picker.dart'; // Import image picker
 import 'package:fooder/function/define_meal.dart';
 import 'meal_container.dart'; // Import the PhotoContainer component
 import 'package:fooder/constants.dart'; // Import the colors definition
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+
 
 class HorizontalPhotoList extends StatefulWidget {
   final List<Meal> meals;
@@ -163,21 +166,58 @@ class _HorizontalPhotoListState extends State<HorizontalPhotoList> {
 
           await Future.delayed(const Duration(seconds: 3));
 
+
+          final uri = Uri.parse('http://10.0.2.2:8000/predict_new'); // 模擬器使用 10.0.2.2
+          final request = http.MultipartRequest('POST', uri)
+            ..files.add(await http.MultipartFile.fromPath('file', pickedFile.path));
+
+          final response = await request.send();
+          final respStr = await response.stream.bytesToString();
+
+          // 印出回傳看看
+          print('🔁 FastAPI 回傳：$respStr');
+
+          Map<String, dynamic> result = {};
+
+          if (response.statusCode == 200) {
+            try {
+              final decoded = json.decode(respStr);
+              if (decoded is Map<String, dynamic>) {
+                result = decoded;
+              } else {
+                throw FormatException('回傳的不是 JSON 物件');
+              }
+            } catch (e) {
+              Navigator.of(context).pop(); // 關 loading dialog
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(content: Text('❌ JSON 格式解析錯誤：$e')),
+              );
+              return;
+            }
+          } else {
+            Navigator.of(context).pop(); // 關 loading dialog
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('❌ API 呼叫失敗（${response.statusCode}）')),
+            );
+            return;
+          }
+
           final newMeal = Meal(
             id: DateTime.now().millisecondsSinceEpoch,
             timestamp: DateTime.now(),
-            latitude: 25.0338,
-            longitude: 121.5645,
-            restaurant: "Mr. light 輕食先生",
+            latitude: 0.00, // 尚未完成
+            longitude: 0.00, // 尚未完成
+            restaurant: result['type'], // 這邊應該要是商店店家名稱
             feedback: feedback, // 來自使用者選擇
             imageFile: pickedFile.path,
-            type: '健康餐盒',
-            description: '這是一個包含雞肉、秋葵、花椰菜、甜地瓜、毛豆和半顆水煮蛋的健康餐盒，淋上泰式風味的醬汁，搭配白飯。',
-            feedback_description: '餐盒配色豐富，雞肉鮮嫩、醬汁酸辣開胃，整體清爽又有飽足感，吃起來很清爽無負擔。',
-            calorieEstimation: 550,
-            calorieLevel: '中',
+            type: result['type'], 
+            description: result['description'], // 這點和底下的 feedback_description 要分開
+            feedback_description: result['description'], // 這點和上頭的要分開
+            calorieEstimation: result['calorie_estimation'],
+            calorieLevel: result['calorie_level'],
+            // tags: result['tags'],
             tags: ["健康餐盒", "雞肉", "秋葵", "花椰菜", "甜地瓜", "毛豆", "水煮蛋", "泰式", "低脂"],
-            suggestion: '這份餐盒營養均衡，富含蛋白質和膳食纖維，是很好的選擇。建議可以增加一些好的油脂，例如酪梨或堅果，讓營養更完整。',
+            suggestion: '營養 suggestion 還沒有建立。',
           );
 
           setState(() {
